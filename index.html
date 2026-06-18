@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gov News Briefing — ข่าวภาครัฐไทย</title>
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div>
+    <h1>🏛️ Gov News Briefing</h1>
+    <div class="meta" id="headerMeta">ข่าวภาครัฐไทย | gov-news-thailand.github.io</div>
+  </div>
+  <div class="stats" id="headerStats">
+    <div class="stat-pill" id="statTotal">📰 0 ข่าว</div>
+    <div class="stat-pill" id="statAgencies">🏢 0 หน่วยงาน</div>
+    <div class="stat-pill" id="statBD">🟢 0 โอกาส BD</div>
+  </div>
+</header>
+<nav class="tab-bar">
+  <button class="tab-btn active" data-tab="all">🗞️ ทั้งหมด</button>
+  <button class="tab-btn" data-tab="bd">🟢 โอกาส BD</button>
+  <button class="tab-btn" data-tab="policy">📋 นโยบาย/กฎหมาย</button>
+  <button class="tab-btn" data-tab="economy">📊 เศรษฐกิจ</button>
+  <button class="tab-btn" data-tab="special">⭐ พิเศษ</button>
+</nav>
+<div class="filter-bar" id="filterBar">
+  <div class="filter-group" id="catFilters">
+    <button class="filter-btn active" data-cat="ALL">ทั้งหมด</button>
+    <button class="filter-btn" data-cat="ECONOMY">เศรษฐกิจ</button>
+    <button class="filter-btn" data-cat="POLICY">นโยบาย</button>
+    <button class="filter-btn" data-cat="INFRA">โครงสร้าง</button>
+    <button class="filter-btn" data-cat="HEALTH">สาธารณสุข</button>
+    <button class="filter-btn" data-cat="TRADE">การค้า</button>
+    <button class="filter-btn" data-cat="DIGITAL">ดิจิทัล</button>
+  </div>
+  <div class="filter-sep"></div>
+  <select class="agency-filter" id="agencyFilter">
+    <option value="">ทุกหน่วยงาน</option>
+  </select>
+  <select class="days-filter" id="daysFilter">
+    <option value="1">วันนี้</option>
+    <option value="3">3 วัน</option>
+    <option value="7" selected>7 วัน</option>
+    <option value="all">ทั้งหมด</option>
+  </select>
+  <input class="search-box" id="searchInput" placeholder="🔍 ค้นหาข่าว...">
+</div>
+<div class="main" id="mainContent">
+  <div class="section-label" id="sectionLabel">กำลังโหลด...</div>
+  <div class="card-grid" id="cardGrid"></div>
+  <div class="empty-msg" id="emptyMsg" style="display:none">ไม่พบข่าว</div>
+</div>
+<div class="special-page" id="specialPage">
+  <div class="special-tabs">
+    <button class="special-tab-btn active" data-stab="proc">📦 จัดซื้อจัดจ้าง</button>
+    <button class="special-tab-btn" data-stab="tax">💰 ภาษี</button>
+    <button class="special-tab-btn" data-stab="labor">👷 แรงงาน</button>
+  </div>
+  <div class="card-area" id="specialContent"></div>
+</div>
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box" id="modalBox"></div>
+</div>
+<footer><p>Gov News Thailand — Pipeline v8</p></footer>
+<script src="./js/app.js"></script>
+</body>
+</html>
