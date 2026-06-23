@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T22:30:00+07:00",
+  "stats": {
+    "total": 6,
+    "direct": 6,
+    "indirect": 0,
+    "priority_A": 0,
+    "priority_B": 6,
+    "priority_C": 0
+  },
+  "posts": [
+    {
+      "id": "c69a2f5d4b3e7c0a9f2e1d8b5c7a4f6e",
+      "slug": "agricultural-ministry-policy",
+      "title": "Dep. Minister Piyarat presents Agriculture Ministry policy to enhance farmers and increase efficiency",
+      "topic": "นโยบายเกษตร",
+      "agency": "พรรค > เพื่อไทย",
+      "origin": "direct",
+      "priority": "B",
+      "urgency": "high",
+      "content": "รมช.ปิยะรัฐชย์ มอบนโยบายกรมส่งเสริมการเกษตร เพื่อเร่งยกระดับเกษตรกร เพิ่มประสิทธิภาพ และสร้างมูลค่าอย่างยั่งยืน นโยบายนี้เน้นการพัฒนาความสามารถของเกษตรกรผ่านการฝึกอบรมและการถ่ายทำความรู้ สนับสนุนการใช้เทคโนโลยีสมัยใหม่ในการเกษตร และเพิ่มความร่วมมือระหว่างเกษตรกรกับตลาด",
+      "source_url": "https://www.ptp.or.th/archives/50829",
+      "bd_opportunity": "Agricultural tech providers and training consultants can access new market opportunities through ministry partnerships with farmer groups",
+      "tags": [
+        "เกษตร",
+        "นโยบาย",
+        "ราษฎร"
+      ],
+      "category_label": "นโยบายเกษตร",
+      "published_at": "2026-06-23T12:51"
+    },
+    {
+      "id": "a47e8f3d2b1c5a9e7f2d8c1a4b6e9f2d",
+      "slug": "anutin-thailand-fastpass-investment",
+      "title": "Anutin launches Thailand FastPass to push real investment past Bt700bn",
+      "topic": "นโยบายรัฐบาล",
+      "agency": "สื่อ > Nation Thailand",
+      "origin": "direct",
+      "priority": "B",
+      "urgency": "high",
+      "content": "นายอนุทิน ชาญวีรกูล รองนายกรัฐมนตรี ประกาศเปิดตัว 'Thailand FastPass' โครงการใหม่เพื่อเพิ่มการลงทุนจริงให้เกินกว่า 7,000 ล้านบาท โดยมีเป้าหมายให้เศรษฐกิจไทยเติบโตอย่างยั่งยืน และสร้างโอกาสในการจ้างงานใหม่ๆ โครงการนี้จะมีการอำนวยความสะดวกในการจดทะเบียนและการอนุมัติต่างๆ เพื่อให้นักลงทุนสามารถดำเนินการได้อย่างรวดเร็ว",
+      "source_url": "https://www.nationthailand.com/business/economy/40067780",
+      "bd_opportunity": "Businesses can leverage streamlined investment processes to expand operations or establish new ventures in Thailand with faster approval times",
+      "tags": [
+        "ลงทุน",
+        "เศรษฐกิจ",
+        "ผู้ว่าการ"
+      ],
+      "category_label": "นโยบายรัฐบาล",
+      "published_at": "2026-06-23T00:00:00+07:00"
+    },
+    {
+      "id": "d7ab3c2e5f1a8b4c9e3d6f7a2b5c8e1f",
+      "slug": "southern-border-phone-tapping-investigation",
+      "title": "Sihasak-Adul urge fact-checking on southern border phone tapping of 2,000 citizens",
+      "topic": "การสอบสวนและดำเนินการ",
+      "agency": "สื่อ > The Standard",
+      "origin": "direct",
+      "priority": "B",
+      "urgency": "high",
+      "content": "สีหศักดิ์ พวงเกตุแก้ว และ พล.ท. อดุลย์ บุญธรรมเจริญ เร่งตรวจสอบข้อเท็จจริงปมดักฟังโทรศัพท์ประชาชนชายแดนใต้ 2,000 ราย เพื่อให้ความชัดเจนต่อสาธารณชน และสร้างความมั่นใจในเรื่องการคุ้มครองสิทธิขั้นพื้นฐาน ตัวแทนรัฐแถลงยืนมั่นว่าจะไม่ทำให้ใคร \"หายตัว\" หรือได้รับอันตรายจากการเปิดเผยข้อมูล",
+      "source_url": "https://thestandard.co/sihasak-adul-probe-southern-phone-tapping/",
+      "bd_opportunity": "Cybersecurity and compliance consulting firms can assist government agencies in establishing proper surveillance oversight frameworks",
+      "tags": [
+        "ภาคใต้",
+        "ความปลอดภัย",
+        "สอบสวน"
+      ],
+      "category_label": "การสอบสวนและดำเนินการ",
+      "published_at": "2026-06-23T00:00:00+07:00"
+    },
+    {
+      "id": "moac_foodsafety_20260622_001",
+      "slug": "world-food-safety-day-2026",
+      "title": "รมช.ปิยะรัฐชย์ เปิดงาน World Food Safety Day 2026 แสดงจุดยืนยกระดับมาตรฐานอาหารปลอดภัย",
+      "topic": "ข่าวเกษตร",
+      "agency": "เกษตรฯ > กระทรวงเกษตรและสหกรณ์",
+      "origin": "direct",
+      "priority": "B",
+      "urgency": "high",
+      "content": "กระทรวงเกษตรและสหกรณ์ได้เปิดงาน World Food Safety Day 2026 โดยรองนายกรัฐมนตรีเป็นประธาน เพื่อแสดงจุดยืนของประเทศไทยในการยกระดับมาตรฐานอาหารปลอดภัย และสร้างความเชื่อมั่นให้ผู้บริโภคทั้งในและต่างประเทศ งานนี้เป็นส่วนหนึ่งของการส่งเสริมการปฏิบัติตามมาตรฐานความปลอดภัยอาหารของทั่วโลก",
+      "source_url": "https://www.moac.go.th/news-preview-481391792373",
+      "bd_opportunity": "โอกาสในการพัฒนามาตรฐานความปลอดภัยอาหารและเพิ่มมูลค่าสินค้าเกษตรไทย",
+      "tags": [
+        "ความปลอดภัยอาหาร",
+        "มาตรฐาน",
+        "อาหารปลอดภัย"
+      ],
+      "category_label": "ข่าวเกษตร",
+      "published_at": "2026-06-22T00:00:00+07:00"
+    },
+    {
+      "id": "doh_highway_20260622_001",
+      "slug": "highway-department-rubber-pole-quality",
+      "title": "กรมทางหลวงชี้แจง เรื่องเสาหลักนำทางยางพาราของกรมทางหลวงชำรุดแตกหัก",
+      "topic": "ข่าวคมนาคม",
+      "agency": "คมนาคม > กรมทางหลวง",
+      "origin": "direct",
+      "priority": "B",
+      "urgency": "medium",
+      "content": "กรมทางหลวงได้ออกมาชี้แจงเกี่ยวกับเหตุการณ์ที่มีการเผยแพร่คลิปวิดีโอในสื่อสังคมออนไลน์เรื่องเสาหลักนำทางยางพาราของกรมทางหลวงชำรุดแตกหัก ยืนยันว่าการออกแบบเสาหลักนำทางนั้นเป็นไปตามหลักวิศวกรรมและมาตรฐานความปลอดภัยที่กำหนด",
+      "source_url": "https://www.doh.go.th/content/1640",
+      "bd_opportunity": "โอกาสในการพัฒนามาตรฐานและคุณภาพโครงสร้างพื้นฐาน",
+      "tags": [
+        "ทางหลวง",
+        "มาตรฐานโยธา",
+        "ความปลอดภัย"
+      ],
+      "category_label": "ข่าวคมนาคม",
+      "published_at": "2026-06-22T00:00:00+07:00"
+    },
+    {
+      "id": "moc_coconut_20260618_001",
+      "slug": "commerce-ministry-coconut-water-counterfeit",
+      "title": "กระทรวงพาณิชย์แถลงข่าว การป้องกันและปราบปรามการปลอมปนน้ำมะพร้าว",
+      "topic": "ข่าวการพาณิชย์",
+      "agency": "พาณิชย์ > กระทรวงพาณิชย์",
+      "origin": "direct",
+      "priority": "B",
+      "urgency": "medium",
+      "content": "กระทรวงพาณิชย์ได้จัดการแถลงข่าวเรื่องการป้องกันและปราบปรามการปลอมปนน้ำมะพร้าว ซึ่งเป็นสินค้าส่งออกสำคัญของไทย โดยรองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงพาณิชย์เป็นประธาน ร่วมกับสภาอุตสาหกรรมจังหวัดราชบุรีและสมาคมมะพร้าวน้ำหอมไทย เพื่อเพิ่มมาตรการป้องกันและตรวจสอบผลิตภัณฑ์",
+      "source_url": "https://www.moc.go.th/th/content/category/detail/id/4/iid/10194",
+      "bd_opportunity": "โอกาสสำหรับผู้ประกอบการในการรักษามาตรฐานผลิตภัณฑ์",
+      "tags": [
+        "ความปลอดภัยผลิตภัณฑ์",
+        "น้ำมะพร้าว",
+        "การปลอมปน"
+      ],
+      "category_label": "ข่าวการพาณิชย์",
+      "published_at": "2026-06-19T00:00:00+07:00"
+    }
+  ]
+}
