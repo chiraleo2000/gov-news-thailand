@@ -1,0 +1,233 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T19:00:00+07:00",
+  "stats": {
+    "total": 10,
+    "direct": 0,
+    "indirect": 10,
+    "priority_A": 10,
+    "priority_B": 0,
+    "priority_C": 0
+  },
+  "posts": [
+    {
+      "id": "gov-2026-07-02-property-transfer-fee-reduction",
+      "slug": "thailand-cuts-property-transfer-mortgage-fees",
+      "title": "Thailand cuts property transfer and mortgage registration fees to 0.01%",
+      "topic": "นโยบายการคลังและอสังหาริมทรัพย์",
+      "agency": "การคลัง > กระทรวงการคลัง / กระทรวงมหาดไทย",
+      "origin": "indirect",
+      "priority": "A",
+      "urgency": "high",
+      "content": "ราชกิจจานุเบกษาเมื่อวันที่ 1 กรกฎาคม 2569 ได้เผยแพร่ประกาศกระทรวงมหาดไทย 2 ฉบับ ลดค่าธรรมเนียมการโอนและจดจำนองอสังหาริมทรัพย์เหลือ 0.01% สำหรับผู้ซื้อบ้านเดี่ยว บ้านแฝด ทาวน์เฮาส์ อาคารพาณิชย์ ที่ดินพร้อมสิ่งปลูกสร้าง และห้องชุดในอาคารชุดที่จดทะเบียนถูกต้อง โดยมีเงื่อนไขว่าราคาซื้อขาย ราคาประเมิน และวงเงินจำนองต้องไม่เกิน 7 ล้านบาท และผู้ซื้อต้องเป็นบุคคลธรรมดาที่มีสัญชาติไทย มาตรการนี้มีผลบังคับใช้ตั้งแต่วันที่ประกาศในราชกิจจานุเบกษา (1 ก.ค. 2569) จนถึงวันที่ 30 มิถุนายน 2570 ตามมติ ครม. เมื่อวันที่ 30 มิถุนายน 2569 เพื่อลดภาระผู้ซื้อบ้านและกระตุ้นตลาดอสังหาริมทรัพย์\n\nCabinet approved June 30, 2026. Royal Gazette published July 1, 2026. Transfer fee: 0.01% (normally 2%). Mortgage fee: 0.01% (normally 1%). Applies to: homes, commercial buildings, condos. Conditions: sale price ≤ 7M THB, valuation ≤ 7M THB, mortgage ≤ 7M THB, Thai national individual buyer only. Valid: July 1, 2026 – June 30, 2027.",
+      "source_url": "https://www.nationthailand.com/news/general/40068133",
+      "bd_opportunity": "ค่าธรรมเนียมลดจาก 2%+1% เหลือ 0.01%+0.01% ประหยัดได้สูงสุด ~210,000 บาทต่อยูนิต (บ้าน 7 ล้านบาท) เป็นโอกาสดีสำหรับนักพัฒนาอสังหาฯ ระดับ Mass-Affordable และ Fintech สินเชื่อที่อยู่อาศัย",
+      "tags": [
+        "ค่าธรรมเนียมโอนที่ดิน",
+        "อสังหาริมทรัพย์",
+        "ราชกิจจานุเบกษา",
+        "ลดค่าธรรมเนียม"
+      ],
+      "category_label": "นโยบายการคลังและอสังหาริมทรัพย์",
+      "published_at": "2026-07-02T07:48:00+07:00"
+    },
+    {
+      "id": "gov-2026-07-02-budget-bill-2027-first-reading",
+      "slug": "house-approves-2027-budget-bill-first-reading",
+      "title": "House approves 2027 budget bill in first reading after three-day debate",
+      "topic": "นโยบายการคลังและงบประมาณ",
+      "agency": "สำนักนายกรัฐมนตรี > GovChannel / กระทรวงการคลัง",
+      "origin": "indirect",
+      "priority": "A",
+      "urgency": "high",
+      "content": "สภาผู้แทนราษฎรลงมติเมื่อคืนวันที่ 1 กรกฎาคม 2569 รับหลักการร่าง พ.ร.บ. งบประมาณรายจ่ายประจำปีงบประมาณ พ.ศ. 2570 วาระแรก ด้วยคะแนน 288 ต่อ 119 เสียง งดออกเสียง 86 เสียง จากสมาชิก 493 คน นายเอกนิติ นิติทัณฑ์ประภาส รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง แถลงปิดอภิปรายว่ารัฐบาลตั้งใจปรับรูปแบบงบประมาณให้โปร่งใสขึ้น โดยรวมรายจ่ายประจำและสวัสดิการซ้ำซ้อนเข้ามาในงบหลัก ทำให้งบลงทุนดูเหมือนลดลงราว 70,000 ล้านบาท แต่แท้จริงเป็นการแก้ไขข้อมูลให้สอดคล้องวินัยการคลัง รัฐบาลวางแผนลดขาดดุลจาก 4.4% ของ GDP ในปี 2569 เหลือ 3.9% ในปี 2570 และตั้งเป้าลดให้ต่ำกว่า 3% ภายในปี 2572 พร้อมใช้เครื่องมือนอกงบประมาณ เช่น งบลงทุนรัฐวิสาหกิจ 270,000 ล้านบาท PPP และ BOI มูลค่ากว่า 900,000 ล้านบาท เพื่อขับเคลื่อนเศรษฐกิจ\n\nวันที่ 1 กรกฎาคม 2569 สภาผู้แทนราษฎรลงมติรับหลักการงบประมาณ 2570 วาระแรก 288:119 รัฐบาลเน้นความโปร่งใสทางการคลัง ลดขาดดุลเหลือต่ำกว่า 3% ของ GDP ภายในปี 2572 ใช้ Off-budget tools: งบ SOE 270,000 ล้านบาท + BOI 900,000 ล้านบาท หลังการลงมติ สภาตั้งคณะกรรมาธิการพิจารณาร่าง พ.ร.บ.",
+      "source_url": "https://www.nationthailand.com/news/politics/40068134",
+      "bd_opportunity": "งบประมาณ 2570 เน้น Smart Grid, Clean Energy, Data Center, Semiconductor — โอกาส SI/Tech ที่จะได้รับการสนับสนุน BOI และ PPP มูลค่ารวมกว่า 900,000+ ล้านบาท",
+      "tags": [
+        "งบประมาณ 2027",
+        "สภาผู้แทนราษฎร",
+        "การคลัง",
+        "เอกนิติ นิติทัณฑ์ประภาส"
+      ],
+      "category_label": "นโยบายการคลังและงบประมาณ",
+      "published_at": "2026-07-02T08:37:00+07:00"
+    },
+    {
+      "id": "a7-tari-mhesi-20260702",
+      "slug": "thailand-ai-readiness-index-tari-launched",
+      "title": "Thailand Launches First National AI Readiness Index to Boost Business Competitiveness",
+      "topic": "ดิจิทัลและนวัตกรรม",
+      "agency": "อว. > NXPO (สอวช.) / MHESI",
+      "origin": "indirect",
+      "priority": "A",
+      "urgency": "high",
+      "content": "กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม (อว.) ผ่าน NXPO ร่วมกับ AIS Academy และ IRIS Consulting เปิดตัว Thailand AI Readiness Index (TARI) ดัชนีประเมินความพร้อมด้าน AI ระดับชาติฉบับแรกของประเทศไทย เมื่อวันพฤหัสบดีที่ 2 กรกฎาคม 2569 กรอบ TARI ประเมินองค์กรใน 8 มิติ ได้แก่ กลยุทธ์และการนำ, การจัดการข้อมูล, เทคโนโลยีและโครงสร้างพื้นฐาน, บุคลากรและทักษะ AI, ธรรมาภิบาลและความเสี่ยง, กรณีการใช้งาน, วัฒนธรรมองค์กร และผลกระทบจากการนำ AI ไปใช้ รองนายกฯ ศ.ดร.ยศชนัน วงษ์สวัสดิ์ เน้นวิสัยทัศน์ AI for All โดยต้องการให้ไทยเปลี่ยนจาก 'ผู้ซื้อเทคโนโลยี' เป็น 'ผู้สร้างเทคโนโลยี' กำหนดสำรวจองค์กรแห่งแรกทั่วประเทศในเดือนธันวาคม 2569 โดยมีเป้าหมายองค์กรเข้าร่วม 5,000 แห่งในปีแรก\n\nNXPO ทำหน้าที่เป็น 'Data Governor' ดูแลข้อมูลที่รวบรวมได้ เพื่อกำหนดนโยบาย AI ระดับชาติ เฟสแรก: Measure → Benchmark → Activate มีองค์กรชั้นนำกว่า 40 แห่งแสดงความสนใจเข้าร่วมกลุ่มนำร่อง สมัครได้ที่ thailand-tari.ai",
+      "source_url": "https://www.nationthailand.com/business/tech/40068164",
+      "bd_opportunity": "TARI สร้างโอกาสให้บริษัท AI Consulting, Training และ Technology เข้าไปช่วยองค์กรไทยยกระดับ AI Readiness ตาม 8 มิติ โดยมีตลาด 5,000 องค์กรในปีแรก",
+      "tags": [
+        "AI",
+        "TARI",
+        "MHESI",
+        "NXPO",
+        "digital economy",
+        "AI readiness"
+      ],
+      "category_label": "ดิจิทัลและนวัตกรรม",
+      "published_at": "2026-07-02T16:12:00+07:00"
+    },
+    {
+      "id": "gov-2026-07-02-eeco-cp-high-speed-rail-contract",
+      "slug": "eeco-decides-cp-high-speed-rail-contract-july15",
+      "title": "Five conditions for terminating high-speed train contract as EECO to decide CP's fate on July 15",
+      "topic": "โครงสร้างพื้นฐานและคมนาคม",
+      "agency": "คมนาคม > EEC / การรถไฟแห่งประเทศไทย (รฟท.)",
+      "origin": "indirect",
+      "priority": "A",
+      "urgency": "high",
+      "content": "สำนักงานคณะกรรมการนโยบายเขตพัฒนาพิเศษภาคตะวันออก (EECO) กำหนดประชุมคณะกรรมการบริหารสัญญาร่วมลงทุนในวันที่ 15 กรกฎาคม 2569 เพื่อพิจารณา 2 แนวทาง คือแก้ไขสัญญาตามมติ EEC Policy Committee เดิม หรือยกเลิกสัญญากับ Asia Era One (CP Group) ซึ่งมีมูลค่าสัญญา 117,226 ล้านบาท โดยสัญญากำหนด 5 เงื่อนไขยกเลิก ได้แก่ ครบกำหนดสัมปทาน 50 ปี, รฟท.ไม่ส่งมอบพื้นที่, เหตุสุดวิสัย, ผิดสัญญาโดยฝ่ายใดฝ่ายหนึ่ง และการเปลี่ยนนโยบายรัฐ ด้าน EECO เสนอทางเลือกพัฒนาระบบรางคู่ความเร็ว 160 กม./ชม. แทน ขณะที่ CP ยืนยันลงทุนไปแล้ว 12,000 ล้านบาทและพร้อมเจรจาต่อ ผลการตัดสินใจของ EEC Policy Committee จะนำเสนอต่อ ครม. ในเดือนสิงหาคม 2569\n\nEECO meeting July 15 to decide: amend or terminate HSR contract with CP Group (Asia Era One). Contract value 117.226B THB signed Oct 2019. 5 termination grounds in contract. If terminated: new bidding needed (2 years), BSR (BTS+Sino-Thai+Ratchaburi) cannot be recalled. EECO proposes double-track 160km/h as alternative. CP invested 12B THB so far.",
+      "source_url": "https://www.nationthailand.com/business/corporate/40068131",
+      "bd_opportunity": "หากยกเลิกสัญญาและประมูลใหม่ จะเปิดโอกาสสำหรับผู้รับเหมาก่อสร้างรายใหม่และ Rolling Stock suppliers รายใหม่ — ควรจับตา TOR ที่จะออกปลายปี 2569/ต้นปี 2570; ทางเลือก Double-Track เปิดโอกาส Track Access / Open Access operators",
+      "tags": [
+        "รถไฟความเร็วสูง 3 สนามบิน",
+        "EEC",
+        "CP Group",
+        "EECO",
+        "PPP",
+        "U-Tapao"
+      ],
+      "category_label": "โครงสร้างพื้นฐานและคมนาคม",
+      "published_at": "2026-07-02T07:57:00+07:00"
+    },
+    {
+      "id": "a10-budget-committee-20260702",
+      "slug": "house-2027-budget-committee-72-members",
+      "title": "Dr Joe, Madam Dear join 2027 budget committee",
+      "topic": "การเมืองและนิติบัญญัติ",
+      "agency": "สำนักนายกรัฐมนตรี > สภาผู้แทนราษฎร",
+      "origin": "indirect",
+      "priority": "A",
+      "urgency": "medium",
+      "content": "สภาผู้แทนราษฎรแต่งตั้งคณะกรรมการพิเศษพิจารณาร่างพระราชบัญญัติงบประมาณรายจ่ายประจำปีงบประมาณ พ.ศ. 2570 จำนวน 72 คน หลังร่าง พ.ร.บ. งบประมาณผ่านการพิจารณาวาระแรก โดยประกอบด้วยโควตาคณะรัฐมนตรี 18 คน พรรคภูมิใจไทย 21 คน พรรคประชาชน 13 คน พรรคเพื่อไทย 8 คน พรรคกล้าธรรม 6 คน และพรรคอื่นๆ รวม 6 คน บุคคลที่ได้รับความสนใจ ได้แก่ นายไชยวัฒน์ สถาวรวิจิตร (ดร.โจ) จากโควตาพรรคประชาชน และนางสาววทันยา บุนนาค (มาดามแดร์) จากโควตาพรรคประชาธิปัตย์ งบประมาณปี 2570 มีวงเงิน 3.788 ล้านล้านบาท ขาดดุล 7.88 แสนล้านบาท\n\nคณะกรรมการชุดนี้จะทำหน้าที่ตรวจสอบและพิจารณาร่าง พ.ร.บ. งบประมาณรายจ่ายประจำปี 2570 ก่อนนำกลับมาพิจารณาวาระ 2 และ 3 ในสภาผู้แทนราษฎร",
+      "source_url": "https://www.nationthailand.com/news/politics/40068130",
+      "bd_opportunity": "กระบวนการพิจารณางบประมาณ 3.788 ล้านล้านบาท เป็นโอกาสสำคัญสำหรับผู้ประกอบการที่ติดตามงบประมาณรายกระทรวง เพื่อวางแผนการขายและ Bid งานภาครัฐ",
+      "tags": [
+        "budget 2027",
+        "house committee",
+        "parliament",
+        "political parties"
+      ],
+      "category_label": "การเมืองและนิติบัญญัติ",
+      "published_at": "2026-07-02T07:13:00+07:00"
+    },
+    {
+      "id": "a6-future-fund-pdmo-20260702",
+      "slug": "thailand-future-fund-revival-infrastructure",
+      "title": "Thailand eyes Future Fund revival to finance infrastructure as debt room tightens",
+      "topic": "การคลังและงบประมาณ",
+      "agency": "การคลัง > PDMO (สำนักงานบริหารหนี้สาธารณะ)",
+      "origin": "indirect",
+      "priority": "A",
+      "urgency": "medium",
+      "content": "ประเทศไทยเตรียมฟื้นโครงการ Thailand Future Fund ในรูปแบบ Infrastructure Fund เพื่อเป็นช่องทางระดมทุนนอกงบประมาณ โดยสำนักงานบริหารหนี้สาธารณะ (PDMO) กำลังพิจารณาใช้สินทรัพย์ Brownfield ที่มีกระแสรายได้ชัดเจน เช่น โครงข่ายถนนและทางด่วน เป็นสินทรัพย์อ้างอิงในการระดมทุน เพื่อนำเงินไปลงทุนในโครงสร้างพื้นฐานใหม่ (Greenfield) แนวทางนี้มาจากข้อจำกัดด้านงบประมาณที่เพิ่มขึ้น เนื่องจากหนี้สาธารณะขณะนี้อยู่ที่ 66.82% ของ GDP (พ.ค. 2569) และคาดว่าจะแตะ 69.36% ภายในสิ้นปีงบประมาณ 2570 ซึ่งใกล้เพดานกฎหมาย 70% ของ GDP คณะอนุกรรมการระดมทุนจะประชุมพิจารณาข้อเสนอในเดือนนี้ และคาดว่าจะได้ข้อสรุปโครงสร้างกองทุนในปีงบประมาณ 2570\n\nPDMO อยู่ระหว่างหารือกับสำนักงานคณะกรรมการนโยบายรัฐวิสาหกิจ (SEPO) เพื่อคัดกรองโครงการของรัฐที่เหมาะสม กระบวนการ Asset Recycling จะใช้สินทรัพย์ที่มีอยู่แล้วมาระดมทุน แทนการกู้โดยตรง PPP ยังคงเป็นช่องทางหลักสำหรับโครงการขนาดใหญ่ที่ดึงดูดนักลงทุนเอกชนได้",
+      "source_url": "https://www.nationthailand.com/business/economy/40068166",
+      "bd_opportunity": "Infrastructure fund จะเปิดช่องให้ Fund Manager, ที่ปรึกษาการเงิน และนักลงทุนสถาบันเข้าร่วมโครงสร้างพื้นฐานของรัฐ ผ่านกลไก Asset Recycling โดยไม่ต้องเป็น PPP เต็มรูปแบบ",
+      "tags": [
+        "infrastructure fund",
+        "public debt",
+        "PDMO",
+        "Thailand Future Fund",
+        "fiscal policy"
+      ],
+      "category_label": "การคลังและงบประมาณ",
+      "published_at": "2026-07-02T16:27:00+07:00"
+    },
+    {
+      "id": "a8-durian-export-agri-20260702",
+      "slug": "thai-durian-exports-china-thb100bn-first-half",
+      "title": "Thai fresh durian exports to China exceed THB100bn in first half",
+      "topic": "เกษตรกรรมและส่งออก",
+      "agency": "เกษตรฯ > กระทรวงเกษตรและสหกรณ์",
+      "origin": "indirect",
+      "priority": "A",
+      "urgency": "medium",
+      "content": "การส่งออกทุเรียนสดของไทยไปยังประเทศจีนในช่วงครึ่งแรกของปี 2569 สร้างสถิติใหม่ครั้งแรก โดยมีมูลค่าเกิน 1 แสนล้านบาท (100,079.92 ล้านบาท) และปริมาณ 872,237 ตัน จากจำนวน 53,665 ตู้คอนเทนเนอร์ ณ วันที่ 30 มิถุนายน 2569 รัฐมนตรีว่าการกระทรวงเกษตรและสหกรณ์ นายสุริยา จึงรุ่งเรืองกิจ เปิดเผยว่าความสำเร็จนี้มาจากการปรับระบบบริหารจัดการส่งออกทุเรียนแบบ Whole-Chain Quality Management ผ่านมาตรการ 'Four Nos' (ไม่มีทุเรียนดิบ ไม่มีสิ่งปนเปื้อน ไม่มีการอ้างแหล่งกำเนิดเท็จ ไม่มี BY2) พร้อมระบบ e-Phyto และการตรวจสอบย้อนกลับตลอดห่วงโซ่อุปทาน ทำให้ลดขั้นตอนการตรวจสอบและเพิ่มเวลาการอำนวยความสะดวกทางการค้า เป้าหมายทั้งปีอยู่ที่ 150,000 ล้านบาท\n\nกรมวิชาการเกษตรทำหน้าที่เป็น Smart Regulator เชื่อมข้อมูลจากแหล่งผลิต โรงคัดบรรจุ และห้องปฏิบัติการกับการออกใบรับรองสุขอนามัยพืชอิเล็กทรอนิกส์ (e-Phyto) ทำให้การกำกับดูแลมีประสิทธิภาพมากขึ้น",
+      "source_url": "https://www.nationthailand.com/business/economy/40068168",
+      "bd_opportunity": "ความสำเร็จในการส่งออกทุเรียนสร้างโอกาสสำหรับผู้ให้บริการ Cold Chain Logistics, TraceabilitySystem และ e-Phyto Integration ในภาคเกษตร ส่งออก",
+      "tags": [
+        "durian",
+        "export",
+        "China",
+        "agriculture",
+        "trade"
+      ],
+      "category_label": "เกษตรกรรมและส่งออก",
+      "published_at": "2026-07-02T16:30:00+07:00"
+    },
+    {
+      "id": "gov-2026-07-02-anutin-dla-exam-fraud",
+      "slug": "anutin-local-civil-service-exam-fraud-probe",
+      "title": "Anutin reveals local civil-service exam fraud probe: 4 groups implicated, 5 DLA officials face discipline",
+      "topic": "ธรรมาภิบาลและการป้องกันการทุจริต",
+      "agency": "มหาดไทย > กรมการปกครอง (DLA) / กระทรวงมหาดไทย",
+      "origin": "indirect",
+      "priority": "A",
+      "urgency": "medium",
+      "content": "นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย นายอนุทิน ชาญวีรกูล แถลงเมื่อวันที่ 2 กรกฎาคม 2569 ถึงผลการสอบข้อเท็จจริงกรณีทุจริตการสอบคัดเลือกข้าราชการส่วนท้องถิ่น พบ 4 กลุ่มเกี่ยวข้อง ได้แก่ เจ้าหน้าที่กรมส่งเสริมการปกครองท้องถิ่น (สถ./DLA) ผู้รับจ้างจัดสอบ บริษัทเอกชนภายนอก และกลุ่มบุคคลที่ยังไม่ระบุตัวตน คณะสอบสวนพบว่าจากการสุ่มตรวจ 79 ราย มีถึง 48 รายที่คะแนนในไฟล์ประมวลผลไม่ตรงกับสำเนาใบตอบ ทั้ง Part A และ Part B ถูกแก้ไขให้สูงผิดปกติ โดย Part B บางรายสูงถึง 90% นอกจากนี้ยังพบว่าข้อมูลผู้มีสิทธิ์สอบ Part C ถูกแก้ไขหลังจากประกาศแล้ว ในเบื้องต้นมีข้าราชการกรม สถ. 5 รายถูกกล่าวหาทางวินัย\n\nFact-finding probe revealed: 4 groups implicated (DLA officials, contractor, external private company, unidentified persons). Of 79 randomly checked candidates, 48 had score mismatches between answer sheet images and processed results. Part B scores artificially inflated to up to 90%. Post-announcement editing of Part C candidate list found. 5 DLA civil servants face preliminary disciplinary proceedings.",
+      "source_url": "https://www.nationthailand.com/news/politics/40068162",
+      "bd_opportunity": "N/A — เหตุการณ์นี้เป็นคดีทุจริตที่อาจนำไปสู่การปฏิรูปกระบวนการสอบออนไลน์/Digital Exam และ Blockchain-based certification ซึ่งเปิดโอกาสธุรกิจ GovTech",
+      "tags": [
+        "ทุจริตสอบ",
+        "กรมการปกครอง",
+        "อนุทิน",
+        "ข้าราชการส่วนท้องถิ่น",
+        "DLA"
+      ],
+      "category_label": "ธรรมาภิบาลและการป้องกันการทุจริต",
+      "published_at": "2026-07-02T15:51:00+07:00"
+    },
+    {
+      "id": "gov-2026-07-02-oncb-heroin-transit-australia",
+      "slug": "thailand-heroin-transit-australia-oncb",
+      "title": "Thailand examined as heroin parcel transit point to Australia: ONCB confirms foreign source",
+      "topic": "ความมั่นคงและยาเสพติด",
+      "agency": "ยุติธรรม > สำนักงาน ป.ป.ส. (ONCB)",
+      "origin": "indirect",
+      "priority": "A",
+      "urgency": "low",
+      "content": "สำนักงานคณะกรรมการป้องกันและปราบปรามยาเสพติด (ป.ป.ส.) เปิดเผยเมื่อวันที่ 2 กรกฎาคม 2569 ว่าได้ยืนยันแหล่งที่มาของเฮโรอีนในคดีพนักงานต้อนรับ 'มินา' ว่ามาจากต่างประเทศ โดยไทยถูกใช้เป็นจุดพักสินค้าและแพ็กยาก่อนส่งออก ไม่ใช่แหล่งผลิต เจ้าหน้าที่เชื่อมโยงเครือข่ายกับสามเหลี่ยมทองคำและจังหวัดกาญจนบุรี ขณะนี้กำลังสืบสาวถึงบัญชี Facebook ชื่อ 'Rose Rose' ที่ใช้ติดต่อมินา และบุคคลที่รอรับพัสดุในออสเตรเลียซึ่งใช้ชื่อว่า 'เดียร์' นอกจากนี้ยังมีการตรวจสอบรถยนต์ที่ต้องสงสัยในกรุงเทพฯ โดยวันที่ 3 กรกฎาคม 2569 จะมีการประชุมร่วมกับตัวแทนออสเตรเลียเพื่อเสริมความร่วมมือและปิดช่องโหว่การใช้ไทยเป็นจุดผ่านยาเสพติดข้ามชาติ\n\nONCB confirmed heroin sourced outside Thailand (Golden Triangle/Kanchanaburi links). Thailand used as packing/transit hub. Network linked to Facebook account 'Rose Rose'. Recipient in Australia nicknamed 'Dear'. Suspicious Bangkok vehicle under investigation. July 3 meeting with Australian AFP to strengthen cooperation. Nationwide overnight raids conducted.",
+      "source_url": "https://www.nationthailand.com/news/general/40068159",
+      "bd_opportunity": "N/A",
+      "tags": [
+        "ป.ป.ส.",
+        "เฮโรอีน",
+        "ออสเตรเลีย",
+        "สามเหลี่ยมทองคำ",
+        "พนักงานต้อนรับบนเครื่องบิน"
+      ],
+      "category_label": "ความมั่นคงและยาเสพติด",
+      "published_at": "2026-07-02T14:50:00+07:00"
+    },
+    {
+      "id": "a9-rain-ddpm-20260702",
+      "slug": "thailand-rain-alert-depression-ddpm-july2-6",
+      "title": "Thailand on alert for heavier rain as depression strengthens",
+      "topic": "ภัยพิบัติและความปลอดภัย",
+      "agency": "มหาดไทย > กรม ปภ. (DDPM)",
+      "origin": "indirect",
+      "priority": "A",
+      "urgency": "low",
+      "content": "กรมป้องกันและบรรเทาสาธารณภัย (ปภ.) ผ่านศูนย์เตือนภัยพิบัติแห่งชาติ ออกประกาศเมื่อวันที่ 2 กรกฎาคม 2569 เฝ้าระวังพายุดีเปรสชันบริเวณทะเลจีนใต้ตอนกลาง ซึ่งเคลื่อนตัวไปทางทิศตะวันตกเฉียงเหนือและคาดว่าจะทวีกำลังแรงขึ้นเป็นพายุโซนร้อนระหว่างวันที่ 4-6 กรกฎาคม ก่อนขึ้นฝั่งทางตอนใต้ของจีน แม้พายุจะไม่ส่งผลกระทบโดยตรงต่อไทย แต่จะทำให้ฝนเพิ่มมากขึ้นในภาคเหนือ ภาคตะวันออกเฉียงเหนือตอนบน และภาคกลาง ช่วงวันที่ 2-6 กรกฎาคม ขณะที่ชายฝั่งอันดามันตอนล่างมีฝนตกหนักต่อเนื่องจากมรสุมตะวันตกเฉียงใต้ กรมอุตุนิยมวิทยาเตือนคลื่นทะเลสูงในทะเลอันดามันตอนบนช่วง 2-3 กรกฎาคม กรม ปภ. ขอให้ประชาชนติดตามข้อมูลอย่างใกล้ชิด และแจ้งเหตุภัยพิบัติได้ที่สายด่วน 1784 ตลอด 24 ชั่วโมง\n\nTMD เตือนฝนตกหนักถึงหนักมากบางพื้นที่ของไทย ช่วง 2-3 ก.ค. จากร่องมรสุมพาดผ่านภาคเหนือและภาคตะวันออกเฉียงเหนือตอนบน ประกอบกับมรสุมตะวันตกเฉียงใต้ที่มีกำลังค่อนข้างแรงปกคลุมทะเลอันดามัน ประเทศไทย และอ่าวไทย",
+      "source_url": "https://www.nationthailand.com/news/general/40068167",
+      "bd_opportunity": "N/A",
+      "tags": [
+        "DDPM",
+        "rain",
+        "disaster",
+        "tropical depression",
+        "weather"
+      ],
+      "category_label": "ภัยพิบัติและความปลอดภัย",
+      "published_at": "2026-07-02T16:27:00+07:00"
+    }
+  ]
+}
