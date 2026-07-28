@@ -1,0 +1,127 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T17:51:32+07:00",
+  "stats": {
+    "total": 5,
+    "direct": 0,
+    "indirect": 5,
+    "priority_A": 0,
+    "priority_B": 5,
+    "priority_C": 0,
+    "high_urgency": 4
+  },
+  "posts": [
+    {
+      "id": "a1b2c3d4-imf-wb-anutin-20260728",
+      "slug": "imf-world-bank-anutin-final-push",
+      "title": "Anutin orders final push for IMF-World Bank meetings",
+      "topic": "นโยบายรัฐบาล",
+      "agency": "สำนักนายกรัฐมนตรี > สำนักโฆษกรัฐบาล",
+      "origin": "indirect",
+      "priority": "B",
+      "urgency": "high",
+      "content": "นายกรัฐมนตรีอนุทิน ชาญวีรกูล สั่งการให้ทุกหน่วยงานเร่งเตรียมความพร้อมรับการประชุมประจำปีของคณะกรรมการผู้ว่าการ IMF และกลุ่มธนาคารโลก ที่กรุงเทพฯ ในช่วง 12–18 ตุลาคม 2569 ณ ศูนย์การประชุมแห่งชาติสิริกิติ์ โดยขณะนี้เหลือเวลาเพียง 77 วัน ผลการประเมินล่าสุดจาก IMF และธนาคารโลก (17–24 กรกฎาคม 2569) ยืนยันว่าไทยยังคงได้คะแนนระดับ A ด้านความพร้อม ทั้งสถานที่ ความปลอดภัย การบริการผู้แทน และการจัดงาน นายกฯ ยังสั่งเตรียมแผนฉุกเฉินและเปิดตัว Thailand Pavilion ภายใต้ธีม 'New Horizon: 7 Decades of Building Resilience and Empowering People' เพื่อโชว์ศักยภาพไทยใน 4 ด้านหลัก ได้แก่ Digital Public Infrastructure, Middle power, Climate resilience และ Longevity",
+      "source_url": "https://www.nationthailand.com/news/general/40069122",
+      "bd_opportunity": "ธุรกิจบริการ MICE ท่องเที่ยว โรงแรม และ Digital Public Infrastructure มีโอกาสสูงจากการที่ไทยเป็นเจ้าภาพ IMF-World Bank ซึ่งดึงผู้แทนจากกว่า 190 ประเทศ",
+      "tags": [
+        "IMF",
+        "World Bank",
+        "Bangkok 2026",
+        "Anutin",
+        "international"
+      ],
+      "category_label": "นโยบายรัฐบาล",
+      "published_at": "2026-07-27T06:58:00+07:00"
+    },
+    {
+      "id": "b2c3d4e5-art-tariff-20260728",
+      "slug": "thailand-art-us-tariff-talks",
+      "title": "Thailand seeks to conclude ART talks before final US tariff decision",
+      "topic": "การค้าระหว่างประเทศ",
+      "agency": "กระทรวงพาณิชย์",
+      "origin": "indirect",
+      "priority": "B",
+      "urgency": "high",
+      "content": "รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงพาณิชย์ สุภจี สุทธิมนัส เปิดเผยว่ารัฐบาลไทยพร้อมรับมือมาตรการภาษีของสหรัฐฯ ใน 4 แนวทางหลัก โดยเป้าหมายสำคัญคือเร่งเจรจาข้อตกลงการค้าตอบแทน (ART) เพื่อให้ไทยได้อัตราภาษีตามที่ตกลงกันที่ 19% แทนอัตรา 36% ที่ประกาศไว้เดิม หลังจากสหรัฐฯ ใช้กลไกมาตรา 301 ประกาศภาษี 12.5% สำหรับไทยจากประเด็นแรงงานบังคับ รัฐบาลได้เร่งร่างกฎหมายห้ามนำเข้าสินค้าที่ผลิตโดยแรงงานบังคับ ภายใต้ความดูแลของกระทรวงยุติธรรม โดยมีกระทรวงแรงงานเป็นเลขานุการ พร้อมกันนี้ยังเตรียมตรวจสอบอุตสาหกรรมที่มีความเสี่ยงเรื่องกำลังการผลิตส่วนเกิน และดำเนินการเพิ่มการนำเข้าจากสหรัฐฯ ตามกรอบข้อตกลงเดิม",
+      "source_url": "https://www.nationthailand.com/business/economy/40069116",
+      "bd_opportunity": "ผู้ส่งออกและอุตสาหกรรมยานยนต์ ยาง เครื่องจักร ต้องเตรียมรับมือการตรวจสอบห่วงโซ่อุปทาน ขณะที่ที่ปรึกษากฎหมายการค้าและ HRDD มีโอกาสธุรกิจสูง",
+      "tags": [
+        "US tariff",
+        "ART",
+        "Section 301",
+        "forced labour",
+        "trade"
+      ],
+      "category_label": "การค้าระหว่างประเทศ",
+      "published_at": "2026-07-27T16:24:00+07:00"
+    },
+    {
+      "id": "d4e5f6g7-siam-silica-20260728",
+      "slug": "siam-silica-semiconductor-framework",
+      "title": "Thailand Unveils \"Siam Silica\" Plan to Drive Regional Chip Hub",
+      "topic": "นวัตกรรมและเทคโนโลยี",
+      "agency": "กระทรวงการอุดมศึกษาวิทยาศาสตร์วิจัยและนวัตกรรม > กระทรวง อว.",
+      "origin": "indirect",
+      "priority": "B",
+      "urgency": "high",
+      "content": "กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม (อว.) โดยรองนายกฯ และรัฐมนตรี ศ.ดร.ยอดชาย วงษ์สวัสดิ์ ได้เปิดตัว 'Siam Silica Framework' แผนแม่บทแห่งชาติเพื่อสร้างระบบนิเวศเซมิคอนดักเตอร์ในประเทศและวางตำแหน่งไทยเป็น Hub กลางในห่วงโซ่อุปทาน ASEAN นำเสนอในที่ประชุม NXPO โดยมุ่งเน้น 5 ด้านยุทธศาสตร์ ได้แก่ Photonics Fabrication, Advanced Packaging, Silicon Design, Quantum Photonics และ Power Devices เป้าหมายปี 2573 คือมีบริษัทออกแบบ IC 8 แห่ง โรงงานผลิตชิป 1 แห่ง และโรงงาน Advanced Packaging 2 แห่ง พร้อมพัฒนากำลังคน 2,985 คน ผ่านหลักสูตร Higher Education Sandbox และแพลตฟอร์ม STEMPlus",
+      "source_url": "https://www.nationthailand.com/business/tech/40069147",
+      "bd_opportunity": "โอกาสมหาศาลสำหรับบริษัท System Integrator ด้าน EDA (Electronic Design Automation), Training/Upskilling, Fab Infrastructure และ IC Design — รัฐบาลกำลังเปิดประตูสร้างอุตสาหกรรมใหม่ทั้งหมดตั้งแต่ต้น",
+      "tags": [
+        "semiconductor",
+        "Siam Silica",
+        "MHESI",
+        "NXPO",
+        "digital economy",
+        "chip"
+      ],
+      "category_label": "นวัตกรรมและเทคโนโลยี",
+      "published_at": "2026-07-28T16:08:00+07:00"
+    },
+    {
+      "id": "c3d4e5f6-labour-tariff-20260728",
+      "slug": "anutin-forced-labour-capacity-us-tariffs",
+      "title": "Anutin orders action on labour and capacity risks tied to US tariffs",
+      "topic": "แรงงานและการจ้างงาน",
+      "agency": "กระทรวงแรงงาน",
+      "origin": "indirect",
+      "priority": "B",
+      "urgency": "high",
+      "content": "นายกรัฐมนตรีอนุทิน ชาญวีรกูล สั่งการให้ทุกกระทรวงที่เกี่ยวข้องเร่งดำเนินการแก้ไขประเด็นความเสี่ยง 2 ด้านหลักที่สหรัฐฯ หยิบยกขึ้นมา ได้แก่ แรงงานบังคับ (Forced Labour) และกำลังการผลิตส่วนเกิน (Excess Production Capacity) หลังจากสหรัฐฯ ประกาศภาษีมาตรา 301 อัตรา 12.5% สำหรับไทย กระทรวงแรงงานร่วมกับกระทรวงพาณิชย์ต้องบังคับใช้กฎหมายที่เกี่ยวข้องอย่างเข้มงวดและพัฒนาระบบตรวจสอบห่วงโซ่อุปทาน เพื่อรับรองว่าสินค้าไทยไม่เกี่ยวข้องกับแรงงานบังคับในทุกขั้นตอนการผลิต ด้านกำลังการผลิต กระทรวงพาณิชย์จะนำการตรวจสอบอุตสาหกรรมที่มีความเสี่ยง และสืบสวนการหลีกเลี่ยงมาตรการทางการค้า ในขณะที่การสนับสนุนธุรกิจจะมุ่งเน้นการเพิ่มผลิตภาพ ไม่ใช่การขยายกำลังการผลิตโดยไม่คำนึงถึงความต้องการตลาด",
+      "source_url": "https://www.nationthailand.com/business/economy/40069115",
+      "bd_opportunity": "บริษัทที่ให้บริการตรวจสอบและรับรองแรงงาน (Labour Auditing) และระบบ Supply Chain Transparency มีความต้องการสูงจากผู้ส่งออกที่ต้องการพิสูจน์ความสอดคล้องกับมาตรฐาน HRDD",
+      "tags": [
+        "forced labour",
+        "US tariff",
+        "Section 301",
+        "supply chain",
+        "labour law"
+      ],
+      "category_label": "แรงงานและการจ้างงาน",
+      "published_at": "2026-07-27T15:56:00+07:00"
+    },
+    {
+      "id": "e5f6g7h8-onwr-flood-20260728",
+      "slug": "onwr-flood-landslide-trat-chanthaburi",
+      "title": "Flood and landslide warning for Trat and Chanthaburi",
+      "topic": "ภัยพิบัติและทรัพยากรน้ำ",
+      "agency": "กระทรวงมหาดไทย > สำนักงานทรัพยากรน้ำแห่งชาติ (สทนช.)",
+      "origin": "indirect",
+      "priority": "B",
+      "urgency": "low",
+      "content": "สำนักงานทรัพยากรน้ำแห่งชาติ (สทนช.) ออกประกาศเตือนภัยน้ำท่วม น้ำป่าไหลหลาก น้ำท่วมฉับพลัน และดินโคลนถล่ม ในพื้นที่ 9 อำเภอของจังหวัดตราดและจันทบุรี ระหว่างวันที่ 28 กรกฎาคม – 1 สิงหาคม 2569 สืบเนื่องจากร่องมรสุมที่กำลังแรงพาดผ่านภาคเหนือและภาคตะวันออกเฉียงเหนือตอนบน ประกอบกับมรสุมตะวันตกเฉียงใต้ที่เพิ่มกำลังแรงในทะเลอันดามัน ไทย และอ่าวไทย อำเภอในตราดที่ต้องเฝ้าระวัง ได้แก่ โป่งน้ำร้อน เขาสมิง คลองใหญ่ และเมืองตราด ส่วนจันทบุรีมี 5 อำเภอ ได้แก่ เขาคิชฌกูฏ ขลุง สอยดาว โป่งน้ำร้อน และเมืองจันทบุรี ประชาชนและนักท่องเที่ยวในพื้นที่ควรติดตามประกาศอย่างใกล้ชิด หลีกเลี่ยงพื้นที่เสี่ยงและเตรียมพร้อมรับมือสถานการณ์ฉุกเฉิน",
+      "source_url": "https://www.nationthailand.com/news/general/40069146",
+      "bd_opportunity": "N/A",
+      "tags": [
+        "flood",
+        "landslide",
+        "ONWR",
+        "Trat",
+        "Chanthaburi",
+        "monsoon"
+      ],
+      "category_label": "ภัยพิบัติและทรัพยากรน้ำ",
+      "published_at": "2026-07-28T16:08:00+07:00"
+    }
+  ]
+}
