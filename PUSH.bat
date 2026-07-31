@@ -1,90 +1,191 @@
 @echo off
-setlocal EnableExtensions
+setlocal EnableExtensions EnableDelayedExpansion
 cd /d "%~dp0"
 
-echo === Gov-News Thailand PUSH ===
-echo Repo: %CD%
-echo Time: %DATE% %TIME%
+REM === Daily Gov-News Pages push (scheduled 18:00) ===
+set "REPO=%CD%"
+set "PARENT=%~dp0.."
+set "LOGDIR=%PARENT%\Logs"
+if not exist "%LOGDIR%" mkdir "%LOGDIR%" >nul 2>&1
 
 for /f %%I in ('powershell -NoProfile -Command "Get-Date -Format yyyy-MM-dd"') do set "TODAY=%%I"
-set "SRC=%~dp0..\Document\%TODAY%_News\%TODAY%_news.json"
-set "DEST=%CD%\data\%TODAY%_news.json"
-set "MANIFEST=%CD%\data\manifest.json"
+set "LOG=%LOGDIR%\gov-push-%TODAY%.log"
+set "DOCROOT=%PARENT%\Document"
+set "RESULT=FAIL"
+
+call :log "=== Gov-News Thailand PUSH ==="
+call :log "Repo: %REPO%"
+call :log "Time: %DATE% %TIME%"
+call :pscheck "START" "Gov-News PUSH starting"
+
+where git >nul 2>&1
+if errorlevel 1 ( set "ERR=git not found on PATH" & goto :fail )
+
+where python >nul 2>&1
+if errorlevel 1 ( set "ERR=python not found on PATH" & goto :fail )
+
+if not exist ".git" ( set "ERR=not a git repo: %REPO%" & goto :fail )
+
+set "HELPER=%~dp0update-manifest.py"
+if not exist "%HELPER%" ( set "ERR=missing update-manifest.py" & goto :fail )
 
 echo.
-echo [0/5] Today: %TODAY%
-if exist "%SRC%" (
-  echo Copy: %SRC%
-  copy /Y "%SRC%" "%DEST%" >nul
-  if errorlevel 1 (
-    echo ERROR: copy failed
-    exit /b 1
-  )
-  echo Copied to data\%TODAY%_news.json
-  python "%~dp0update-manifest.py" "%MANIFEST%" "%TODAY%_news.json"
-  if errorlevel 1 (
-    echo ERROR: manifest update failed
-    exit /b 1
-  )
-) else (
-  echo WARNING: source not found: %SRC%
-  echo Will push whatever is already in data\
+echo [0/6] Remove .ps1 / .sh before push
+call :cleanup_scripts
+call :pscheck "CLEAN" "Removed leftover .ps1/.sh (if any)"
+
+REM Prefer today; else latest Document\*_News
+set "TARGET=%TODAY%"
+set "SRC=%DOCROOT%\%TARGET%_News\%TARGET%_news.json"
+if not exist "%SRC%" (
+  call :log "Today source missing - scanning latest Document *_News"
+  for /f "delims=" %%D in ('powershell -NoProfile -Command "Get-ChildItem -LiteralPath '%DOCROOT%' -Directory -Filter '*_News' | Sort-Object Name -Descending | Select-Object -First 1 -ExpandProperty Name"') do set "FOLDER=%%D"
+  if not defined FOLDER ( set "ERR=no Document *_News folders found" & goto :fail )
+  set "TARGET=!FOLDER:_News=!"
+  set "SRC=%DOCROOT%\!TARGET!_News\!TARGET!_news.json"
 )
 
+if not exist "%SRC%" ( set "ERR=source JSON missing: %SRC%" & goto :fail )
+
+set "DEST=%REPO%\data\!TARGET!_news.json"
+set "MANIFEST=%REPO%\data\manifest.json"
+set "ENTRY=!TARGET!_news.json"
+
+call :log "Target date: !TARGET!"
+call :log "Source: %SRC%"
+call :pscheck "SOURCE" "Using !ENTRY!"
+
 echo.
-echo [1/5] Remove .git lock files...
+echo [1/6] Copy + manifest
+copy /Y "%SRC%" "%DEST%" >nul
+if errorlevel 1 ( set "ERR=copy failed" & goto :fail )
+for %%A in ("%DEST%") do call :log "Copied data\!ENTRY! (%%~zA bytes)"
+python "%HELPER%" "%MANIFEST%" "!ENTRY!"
+if errorlevel 1 ( set "ERR=manifest update failed" & goto :fail )
+call :pscheck "COPY" "JSON + manifest updated"
+
+echo.
+echo [2/6] Clear .git locks
 del /f /q ".git\index.lock" 2>nul
 del /f /q ".git\HEAD.lock" 2>nul
 del /f /q ".git\config.lock" 2>nul
 del /f /q ".git\refs\heads\master.lock" 2>nul
 del /f /q ".git\shallow.lock" 2>nul
 for /r ".git" %%F in (*.lock) do del /f /q "%%F" 2>nul
+call :log "Locks cleared"
+call :pscheck "LOCKS" "Cleared"
 
 echo.
-echo [2/5] git add data/...
-git add -- "data/%TODAY%_news.json" "data/manifest.json"
-git add -- "data/"
-if errorlevel 1 (
-  echo ERROR: git add failed
-  exit /b 1
-)
+echo [3/6] git add data/ only
+git add -- "data/!ENTRY!" "data/manifest.json"
+if errorlevel 1 ( set "ERR=git add failed" & goto :fail )
+REM never stage scripts
+git reset HEAD -- "*.ps1" "*.sh" 2>nul
+call :log "Staged files:"
+for /f "delims=" %%F in ('git diff --cached --name-only') do call :log "  %%F"
+call :pscheck "ADD" "Staged data files"
 
 echo.
-echo [3/5] git commit...
+echo [4/6] git commit
 git diff --cached --quiet
 if errorlevel 1 (
-  git commit -m "Add news %TODAY%"
-  if errorlevel 1 (
-    echo ERROR: git commit failed
-    exit /b 1
-  )
+  git commit -m "Add news !TARGET!"
+  if errorlevel 1 ( set "ERR=git commit failed" & goto :fail )
+  call :log "Committed Add news !TARGET!"
+  call :pscheck "COMMIT" "Add news !TARGET!"
 ) else (
-  echo Nothing new to commit.
+  call :log "Nothing new to commit"
+  call :pscheck "COMMIT" "Nothing new"
 )
 
 echo.
-echo [4/5] git push origin master...
+echo [5/6] git push origin master
+set "PUSHED=0"
 git push origin master
-if errorlevel 1 (
-  echo Push rejected - pull --rebase then retry...
+if not errorlevel 1 set "PUSHED=1"
+
+if "!PUSHED!"=="0" (
+  call :log "Push rejected - pull --rebase then retry"
+  call :pscheck "RETRY" "pull --rebase"
   git pull --rebase origin master
+  if errorlevel 1 (
+    call :log "rebase failed - abort and retry pull"
+    git rebase --abort 2>nul
+    git pull origin master
+  )
   git push origin master
   if errorlevel 1 (
-    echo ERROR: git push failed
-    exit /b 1
+    call :log "second push failed - one more pull --rebase"
+    git pull --rebase origin master
+    git push origin master
+    if errorlevel 1 ( set "ERR=git push failed after retries" & goto :fail )
   )
 )
+call :log "Push OK"
+call :pscheck "PUSH" "origin/master updated"
 
 echo.
-echo [5/5] Verify...
+echo [6/6] Verify + print log
 git fetch origin
-git status -sb
-git log --oneline -3
-if not exist "data\%TODAY%_news.json" (
-  echo ERROR: data\%TODAY%_news.json missing
-  exit /b 1
-)
-echo OK: data\%TODAY%_news.json present
+if errorlevel 1 ( set "ERR=git fetch failed after push" & goto :fail )
+
+for /f %%A in ('git rev-list --count origin/master..HEAD') do set "AHEAD=%%A"
+call :log "AHEAD=!AHEAD!"
+if not "!AHEAD!"=="0" ( set "ERR=still ahead by !AHEAD! commit(s) - PUSH FAIL" & goto :fail )
+
+if not exist "%DEST%" ( set "ERR=data\!ENTRY! missing after push" & goto :fail )
+
+for /f %%H in ('git rev-parse --short HEAD') do set "HEADSHORT=%%H"
+call :log "OK data\!ENTRY! present"
+call :log "HEAD=!HEADSHORT!"
+call :log "RESULT=PASS"
+call :log "SUCCESS - https://chiraleo2000.github.io/gov-news-thailand/"
+set "RESULT=PASS"
+call :print_summary
 echo.
+echo ===== PUSH PASS =====
 echo SUCCESS - https://chiraleo2000.github.io/gov-news-thailand/
 exit /b 0
+
+:cleanup_scripts
+REM Delete .ps1 / .sh in pages repo + parent project root (never commit them)
+for %%P in ("%REPO%" "%PARENT%") do (
+  if exist "%%~P" (
+    for %%F in ("%%~P\*.ps1" "%%~P\*.sh") do (
+      if exist "%%~F" (
+        del /f /q "%%~F" >nul 2>&1
+        call :log "Deleted script: %%~F"
+      )
+    )
+  )
+)
+exit /b 0
+
+:pscheck
+REM Colored PowerShell status line + append to log
+powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+  "$step='%~1'; $msg='%~2'; $c='Cyan'; if($step -eq 'PUSH' -or $step -eq 'PASS'){$c='Green'}; Write-Host ('[{0}] {1}' -f $step,$msg) -ForegroundColor $c"
+>>"%LOG%" echo %DATE% %TIME% [%~1] %~2
+exit /b 0
+
+:log
+echo %~1
+>>"%LOG%" echo %DATE% %TIME% %~1
+exit /b 0
+
+:print_summary
+powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+  "$log='%LOG%'; $repo='%REPO%'; $result='%RESULT%'; Write-Host ''; Write-Host '==== Gov-News Push Log (tail) ====' -ForegroundColor Cyan; if(Test-Path -LiteralPath $log){ Get-Content -LiteralPath $log -Tail 40 } else { Write-Host 'No log file' -ForegroundColor Yellow }; Write-Host ''; Set-Location -LiteralPath $repo; git fetch origin 2>$null | Out-Null; $ahead=0; try { $ahead=[int](git rev-list --count origin/master..HEAD 2>$null) } catch {}; $head=(git rev-parse --short HEAD); $orig=(git rev-parse --short origin/master 2>$null); Write-Host ('HEAD=' + $head + '  origin/master=' + $orig + '  AHEAD=' + $ahead); if($result -eq 'PASS' -and $ahead -eq 0){ Write-Host 'PUSH PASS' -ForegroundColor Green } else { Write-Host 'PUSH FAIL' -ForegroundColor Red }; Write-Host 'Live: https://chiraleo2000.github.io/gov-news-thailand/'; Write-Host ('Log: ' + $log)"
+exit /b 0
+
+:fail
+call :log "ERROR: !ERR!"
+call :log "RESULT=FAIL"
+set "RESULT=FAIL"
+call :pscheck "FAIL" "!ERR!"
+call :print_summary
+echo.
+echo ===== PUSH FAIL =====
+echo ERROR: !ERR!
+echo See log: %LOG%
+exit /b 1
