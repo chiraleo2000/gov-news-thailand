@@ -58,8 +58,9 @@ jobs:
           echo "artifact_id=${ARTIFACT_ID}"
 
           echo "Requesting OIDC token..."
+          OIDC_AUDIENCE="https://github.com/${GITHUB_REPOSITORY_OWNER}"
           OIDC_TOKEN="$(curl -sS -H "Authorization: bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN}" \
-            "${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=github" | jq -r .value)"
+            "${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=$(jq -nr --arg a "$OIDC_AUDIENCE" '$a|@uri')" | jq -r .value)"
           if [ -z "${OIDC_TOKEN}" ] || [ "${OIDC_TOKEN}" = "null" ]; then
             echo "ERROR: failed to obtain OIDC token"
             exit 1
