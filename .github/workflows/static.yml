@@ -42,3 +42,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          # GitHub Pages queue can sit in deployment_queued for >10m; default
+          # timeout then auto-cancels the deployment and leaves the site 503.
+          timeout: 2700000
