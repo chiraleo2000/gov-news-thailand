@@ -3,6 +3,19 @@ setlocal EnableExtensions EnableDelayedExpansion
 cd /d "%~dp0"
 
 REM === Daily Gov-News Pages push (scheduled 18:00) ===
+REM Task Scheduler often has a thin PATH / inherited proxy — fix that first.
+set "PATH=C:\Program Files\Git\cmd;C:\Program Files\Git\bin;%LOCALAPPDATA%\Python\bin;%LOCALAPPDATA%\Programs\Python\Python312;%LOCALAPPDATA%\Programs\Python\Python311;%LOCALAPPDATA%\Programs\Python\Python310;%PATH%"
+set "HTTP_PROXY="
+set "HTTPS_PROXY="
+set "http_proxy="
+set "https_proxy="
+set "ALL_PROXY="
+set "all_proxy="
+set "NO_PROXY=*"
+set "no_proxy=*"
+set "GIT_HTTP_LOW_SPEED_LIMIT=1000"
+set "GIT_HTTP_LOW_SPEED_TIME=60"
+
 set "REPO=%CD%"
 set "PARENT=%~dp0.."
 set "LOGDIR=%PARENT%\Logs"
@@ -38,7 +51,11 @@ REM Prefer today; else latest Document\*_News
 set "TARGET=%TODAY%"
 set "SRC=%DOCROOT%\%TARGET%_News\%TARGET%_news.json"
 if not exist "%SRC%" (
-  call :log "Today source missing - scanning latest Document *_News"
+  call :log "Today source missing - waiting 90s for Document\%TARGET%_News"
+  powershell -NoProfile -Command "Start-Sleep -Seconds 90" >nul
+)
+if not exist "%SRC%" (
+  call :log "Today source still missing - scanning latest Document *_News"
   for /f "delims=" %%D in ('powershell -NoProfile -Command "Get-ChildItem -LiteralPath '%DOCROOT%' -Directory -Filter '*_News' | Sort-Object Name -Descending | Select-Object -First 1 -ExpandProperty Name"') do set "FOLDER=%%D"
   if not defined FOLDER ( set "ERR=no Document *_News folders found" & goto :fail )
   set "TARGET=!FOLDER:_News=!"
@@ -66,13 +83,7 @@ call :pscheck "COPY" "JSON + manifest updated"
 
 echo.
 echo [2/6] Clear .git locks
-del /f /q ".git\index.lock" 2>nul
-del /f /q ".git\HEAD.lock" 2>nul
-del /f /q ".git\config.lock" 2>nul
-del /f /q ".git\refs\heads\master.lock" 2>nul
-del /f /q ".git\shallow.lock" 2>nul
-for /r ".git" %%F in (*.lock) do del /f /q "%%F" 2>nul
-call :log "Locks cleared"
+call :clear_locks
 call :pscheck "LOCKS" "Cleared"
 
 echo.
@@ -107,6 +118,7 @@ if not errorlevel 1 set "PUSHED=1"
 if "!PUSHED!"=="0" (
   call :log "Push rejected - pull --rebase then retry"
   call :pscheck "RETRY" "pull --rebase"
+  call :clear_locks
   git pull --rebase origin master
   if errorlevel 1 (
     call :log "rebase failed - abort and retry pull"
@@ -116,6 +128,7 @@ if "!PUSHED!"=="0" (
   git push origin master
   if errorlevel 1 (
     call :log "second push failed - one more pull --rebase"
+    call :clear_locks
     git pull --rebase origin master
     git push origin master
     if errorlevel 1 ( set "ERR=git push failed after retries" & goto :fail )
@@ -145,6 +158,16 @@ call :print_summary
 echo.
 echo ===== PUSH PASS =====
 echo SUCCESS - https://chiraleo2000.github.io/gov-news-thailand/
+exit /b 0
+
+:clear_locks
+del /f /q ".git\index.lock" 2>nul
+del /f /q ".git\HEAD.lock" 2>nul
+del /f /q ".git\config.lock" 2>nul
+del /f /q ".git\refs\heads\master.lock" 2>nul
+del /f /q ".git\shallow.lock" 2>nul
+for /r ".git" %%F in (*.lock) do del /f /q "%%F" 2>nul
+call :log "Locks cleared"
 exit /b 0
 
 :cleanup_scripts
