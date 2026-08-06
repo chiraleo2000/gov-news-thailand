@@ -43,6 +43,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         env:
+          GH_TOKEN: ${{ github.token }}
           PAGE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
           set -euo pipefail
@@ -65,13 +66,13 @@ jobs:
           fi
 
           echo "Creating Pages deployment for ${GITHUB_SHA}..."
-          gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/deployments" \
-            -f artifact_id="${ARTIFACT_ID}" \
-            -f pages_build_version="${GITHUB_SHA}" \
-            -f oidc_token="${OIDC_TOKEN}" >/tmp/pages-deploy.json
+          jq -n \
+            --argjson artifact_id "${ARTIFACT_ID}" \
+            --arg pages_build_version "${GITHUB_SHA}" \
+            --arg oidc_token "${OIDC_TOKEN}" \
+            '{artifact_id:$artifact_id, pages_build_version:$pages_build_version, oidc_token:$oidc_token}' \
+            | gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/deployments" --input - >/tmp/pages-deploy.json
           cat /tmp/pages-deploy.json
-          DEPLOY_ID="$(jq -r '.page_url // empty' /tmp/pages-deploy.json)"
-          # API may return status URL; deploy id is the commit SHA
           BUILD_ID="${GITHUB_SHA}"
 
           echo "page_url=${PAGE_URL}" >> "$GITHUB_OUTPUT"
