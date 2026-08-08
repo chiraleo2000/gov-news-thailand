@@ -18,6 +18,7 @@ set "GIT_HTTP_LOW_SPEED_TIME=60"
 
 set "REPO=%CD%"
 set "PARENT=%~dp0.."
+for %%I in ("%PARENT%") do set "PARENT=%%~fI"
 set "LOGDIR=%PARENT%\Logs"
 if not exist "%LOGDIR%" mkdir "%LOGDIR%" >nul 2>&1
 
@@ -47,28 +48,34 @@ echo [0/6] Remove .ps1 / .sh before push
 call :cleanup_scripts
 call :pscheck "CLEAN" "Removed leftover .ps1/.sh (if any)"
 
-REM Prefer today; else latest Document\*_News
+REM === TODAY ONLY — never republish an older date ===
 set "TARGET=%TODAY%"
-set "SRC=%DOCROOT%\%TARGET%_News\%TARGET%_news.json"
-if not exist "%SRC%" (
-  call :log "Today source missing - waiting 90s for Document\%TARGET%_News"
-  powershell -NoProfile -Command "Start-Sleep -Seconds 90" >nul
-)
-if not exist "%SRC%" (
-  call :log "Today source still missing - scanning latest Document *_News"
-  for /f "delims=" %%D in ('powershell -NoProfile -Command "Get-ChildItem -LiteralPath '%DOCROOT%' -Directory -Filter '*_News' | Sort-Object Name -Descending | Select-Object -First 1 -ExpandProperty Name"') do set "FOLDER=%%D"
-  if not defined FOLDER ( set "ERR=no Document *_News folders found" & goto :fail )
-  set "TARGET=!FOLDER:_News=!"
-  set "SRC=%DOCROOT%\!TARGET!_News\!TARGET!_news.json"
-)
-
-if not exist "%SRC%" ( set "ERR=source JSON missing: %SRC%" & goto :fail )
-
-set "DEST=%REPO%\data\!TARGET!_news.json"
-set "MANIFEST=%REPO%\data\manifest.json"
 set "ENTRY=!TARGET!_news.json"
+set "DOC_SRC=%DOCROOT%\!TARGET!_News\!ENTRY!"
+set "DATA_SRC=%REPO%\data\!ENTRY!"
+set "SRC="
 
-call :log "Target date: !TARGET!"
+call :find_today_source
+if not defined SRC (
+  call :log "Today source missing - waiting up to 10 minutes for !ENTRY!"
+  call :wait_today_source 20 30
+)
+if not defined SRC (
+  set "ERR=TODAY news missing: need Document\!TARGET!_News\!ENTRY! or data\!ENTRY! — refusing to push old news"
+  goto :fail
+)
+
+REM Keep Document in sync when source was data/
+if /I not "%SRC%"=="%DOC_SRC%" (
+  if not exist "%DOCROOT%\!TARGET!_News" mkdir "%DOCROOT%\!TARGET!_News" >nul 2>&1
+  copy /Y "%SRC%" "%DOC_SRC%" >nul
+  call :log "Synced Document\!TARGET!_News\!ENTRY!"
+)
+
+set "DEST=%REPO%\data\!ENTRY!"
+set "MANIFEST=%REPO%\data\manifest.json"
+
+call :log "Target date: !TARGET! (TODAY ONLY)"
 call :log "Source: %SRC%"
 call :pscheck "SOURCE" "Using !ENTRY!"
 
@@ -148,6 +155,12 @@ if not "!AHEAD!"=="0" ( set "ERR=still ahead by !AHEAD! commit(s) - PUSH FAIL" &
 
 if not exist "%DEST%" ( set "ERR=data\!ENTRY! missing after push" & goto :fail )
 
+REM Guard: never allow PASS if we somehow targeted a non-today date
+if /I not "!TARGET!"=="%TODAY%" (
+  set "ERR=refusing PASS - TARGET=!TARGET! is not TODAY=%TODAY%"
+  goto :fail
+)
+
 for /f %%H in ('git rev-parse --short HEAD') do set "HEADSHORT=%%H"
 call :log "OK data\!ENTRY! present"
 call :log "HEAD=!HEADSHORT!"
@@ -159,6 +172,34 @@ echo.
 echo ===== PUSH PASS =====
 echo SUCCESS - https://chiraleo2000.github.io/gov-news-thailand/
 exit /b 0
+
+:find_today_source
+set "SRC="
+if exist "%DOC_SRC%" (
+  set "SRC=%DOC_SRC%"
+  call :log "Found Document source: %DOC_SRC%"
+  exit /b 0
+)
+if exist "%DATA_SRC%" (
+  set "SRC=%DATA_SRC%"
+  call :log "Found data/ source: %DATA_SRC%"
+  exit /b 0
+)
+exit /b 1
+
+:wait_today_source
+REM %1 = attempts, %2 = seconds between attempts
+set "TRIES=%~1"
+set "DELAY=%~2"
+if not defined TRIES set "TRIES=20"
+if not defined DELAY set "DELAY=30"
+for /L %%N in (1,1,!TRIES!) do (
+  call :find_today_source
+  if defined SRC exit /b 0
+  call :log "Wait %%N/!TRIES! - still no !ENTRY! (sleep !DELAY!s)"
+  powershell -NoProfile -Command "Start-Sleep -Seconds !DELAY!" >nul
+)
+exit /b 1
 
 :clear_locks
 del /f /q ".git\index.lock" 2>nul
@@ -187,7 +228,7 @@ exit /b 0
 :pscheck
 REM Colored PowerShell status line + append to log
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^
-  "$step='%~1'; $msg='%~2'; $c='Cyan'; if($step -eq 'PUSH' -or $step -eq 'PASS'){$c='Green'}; Write-Host ('[{0}] {1}' -f $step,$msg) -ForegroundColor $c"
+  "$step='%~1'; $msg='%~2'; $c='Cyan'; if($step -eq 'PUSH' -or $step -eq 'PASS'){$c='Green'}; if($step -eq 'FAIL'){$c='Red'}; Write-Host ('[{0}] {1}' -f $step,$msg) -ForegroundColor $c"
 >>"%LOG%" echo %DATE% %TIME% [%~1] %~2
 exit /b 0
 
