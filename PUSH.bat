@@ -55,13 +55,19 @@ set "DOC_SRC=%DOCROOT%\!TARGET!_News\!ENTRY!"
 set "DATA_SRC=%REPO%\data\!ENTRY!"
 set "SRC="
 
+set "CREATOR=%~dp0create-news-json.py"
 call :find_today_source
 if not defined SRC (
-  call :log "Today source missing - waiting up to 10 minutes for !ENTRY!"
-  call :wait_today_source 20 30
+  call :log "Today JSON missing - attempting create from Facebook briefing / Articles"
+  call :create_today_news
+  call :find_today_source
 )
 if not defined SRC (
-  set "ERR=TODAY news missing: need Document\!TARGET!_News\!ENTRY! or data\!ENTRY! — refusing to push old news"
+  call :log "Still missing - wait+create loop up to 10 minutes for !ENTRY!"
+  call :wait_and_create_today 20 30
+)
+if not defined SRC (
+  set "ERR=TODAY news missing after create attempts: need Document\!TARGET!_Facebook briefing or Articles\!TARGET! — refusing old news"
   goto :fail
 )
 
@@ -187,7 +193,20 @@ if exist "%DATA_SRC%" (
 )
 exit /b 1
 
-:wait_today_source
+:create_today_news
+if not exist "%CREATOR%" (
+  call :log "create-news-json.py missing - cannot auto-create"
+  exit /b 1
+)
+python "%CREATOR%" "!TARGET!"
+if errorlevel 1 (
+  call :log "create-news-json.py failed for !TARGET!"
+  exit /b 1
+)
+call :pscheck "CREATE" "Built !ENTRY! from briefing/articles"
+exit /b 0
+
+:wait_and_create_today
 REM %1 = attempts, %2 = seconds between attempts
 set "TRIES=%~1"
 set "DELAY=%~2"
@@ -196,7 +215,10 @@ if not defined DELAY set "DELAY=30"
 for /L %%N in (1,1,!TRIES!) do (
   call :find_today_source
   if defined SRC exit /b 0
-  call :log "Wait %%N/!TRIES! - still no !ENTRY! (sleep !DELAY!s)"
+  call :log "Wait %%N/!TRIES! - trying create then sleep !DELAY!s"
+  call :create_today_news
+  call :find_today_source
+  if defined SRC exit /b 0
   powershell -NoProfile -Command "Start-Sleep -Seconds !DELAY!" >nul
 )
 exit /b 1
