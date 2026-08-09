@@ -234,13 +234,15 @@ call :log "Locks cleared"
 exit /b 0
 
 :cleanup_scripts
-REM Delete .ps1 / .sh in pages repo + parent project root (never commit them)
+REM Delete leftover one-off .ps1 / .sh — NEVER delete DailyPush.ps1 (scheduled runner)
 for %%P in ("%REPO%" "%PARENT%") do (
   if exist "%%~P" (
     for %%F in ("%%~P\*.ps1" "%%~P\*.sh") do (
       if exist "%%~F" (
-        del /f /q "%%~F" >nul 2>&1
-        call :log "Deleted script: %%~F"
+        if /I not "%%~nxF"=="DailyPush.ps1" (
+          del /f /q "%%~F" >nul 2>&1
+          call :log "Deleted script: %%~F"
+        )
       )
     )
   )
