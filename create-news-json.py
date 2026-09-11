@@ -214,6 +214,46 @@ def strip_internal(posts: list[dict]) -> list[dict]:
     return clean
 
 
+def paths_for(date: str) -> dict[str, Path]:
+    news_dir = DOCROOT / f"{date}_News"
+    return {
+        "doc_dir": news_dir,
+        "doc_json": news_dir / f"{date}_news.json",
+        "data_json": DATA / f"{date}_news.json",
+        "briefing": DOCROOT / f"{date}_Facebook" / f"{date}_facebook_briefing.json",
+        "articles_root": ARTICLES,
+    }
+
+
+def count_articles(date: str) -> int:
+    if not ARTICLES.is_dir():
+        return 0
+    n = 0
+    for path in ARTICLES.rglob("article.json"):
+        if path_is_for_date(path, date):
+            n += 1
+    return n
+
+
+def needs_combine(date: str) -> tuple[bool, str]:
+    """Only combine when Document/{date}_News/ is missing and sources exist.
+    If Claude already created the Document folder, never re-combine."""
+    p = paths_for(date)
+    doc = p["doc_json"]
+    briefing = p["briefing"]
+    article_count = count_articles(date)
+    has_brief = briefing.is_file()
+    has_doc = doc.is_file()
+
+    if has_doc:
+        return False, f"Document/{date}_News/ exists (Claude) — push as-is"
+
+    if article_count > 0 or has_brief:
+        return True, f"Document/{date}_News/ missing; articles={article_count} briefing={has_brief}"
+
+    return False, f"no Document/{date}_News/ and no Articles/Facebook for {date}"
+
+
 def create_for_date(date: str, force: bool = True) -> Path:
     news_dir = DOCROOT / f"{date}_News"
     out_doc = news_dir / f"{date}_news.json"
@@ -278,22 +318,28 @@ def create_for_date(date: str, force: bool = True) -> Path:
 
 
 def main() -> int:
-    args = [a for a in sys.argv[1:] if a]
-    force = True  # always rebuild — schedule expects recreate
-    date = today_str()
-    for a in args:
-        if a in ("--force", "-f"):
-            force = True
-        elif re.fullmatch(r"\d{4}-\d{2}-\d{2}", a):
-            date = a
-        elif a in ("--help", "-h"):
-            print(__doc__)
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Combine Articles + Facebook into Document + data JSON")
+    parser.add_argument("date", nargs="?", default=today_str(), help="Target date YYYY-MM-DD")
+    parser.add_argument("--date", dest="date_flag", default=None, help="Target date (alias)")
+    parser.add_argument("--check", action="store_true", help="Print NEED_COMBINE or OK and exit")
+    parser.add_argument("--force", action="store_true", help="Combine even if Document JSON looks current")
+    args = parser.parse_args()
+    date = args.date_flag or args.date
+
+    if args.check:
+        needed, reason = needs_combine(date)
+        print("NEED_COMBINE" if needed else "OK", reason)
+        return 0 if not needed else 2
+
+    if not args.force:
+        needed, reason = needs_combine(date)
+        if not needed:
+            print(f"[SKIP] {reason}")
             return 0
-        else:
-            print(f"Unknown arg: {a}")
-            print("Usage: create-news-json.py [YYYY-MM-DD] [--force]")
-            return 2
-    create_for_date(date, force=force)
+
+    create_for_date(date, force=True)
     return 0
 
 

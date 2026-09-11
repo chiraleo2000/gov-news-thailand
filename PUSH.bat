@@ -239,7 +239,7 @@ for %%P in ("%REPO%" "%PARENT%") do (
   if exist "%%~P" (
     for %%F in ("%%~P\*.ps1" "%%~P\*.sh") do (
       if exist "%%~F" (
-        if /I not "%%~nxF"=="DailyPush.ps1" (
+        if /I not "%%~nxF"=="DailyPush.ps1" if /I not "%%~nxF"=="OneTimePushDates.ps1" (
           del /f /q "%%~F" >nul 2>&1
           call :log "Deleted script: %%~F"
         )
