@@ -1,0 +1,66 @@
+{
+  "article_id": "BOT-official-2026-11-13-bot-boe-mas-meridian-fx-apac-synchronised-fx-settlement-nov13",
+  "agency": {
+    "parent": "กระทรวงการคลัง",
+    "name": "ธนาคารแห่งประเทศไทย",
+    "registry_key": "bot",
+    "official_url": "https://www.bot.or.th/th/news-and-media.html"
+  },
+  "source": {
+    "url": "https://www.bot.or.th/th/news-and-media/news/news-20261113-2.html",
+    "type": "official",
+    "fetch_priority_used": "1_official",
+    "origin": "direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-11-14T19:22:56+07:00",
+    "fetch_mode": "rendered"
+  },
+  "meta": {
+    "published_at": "2026-11-13T00:00:00+07:00",
+    "target_date": "2026-11-13",
+    "within_24h": true,
+    "status": "published",
+    "batch": "A",
+    "priority": "A",
+    "category_label": "การเงินและการธนาคาร",
+    "news_type": "ข่าว ธปท.",
+    "tags": [
+      "ธปท.",
+      "Meridian FX APAC",
+      "BoE",
+      "MAS",
+      "Synchronised FX Settlement",
+      "ระบบชำระเงิน"
+    ]
+  },
+  "content": {
+    "title": "ธปท. ร่วม BoE และ MAS เปิดผลสำเร็จโครงการ Meridian FX APAC ทดสอบระบบต้นแบบชำระเงินแลกเปลี่ยนเงินตราแบบพร้อมกัน",
+    "slug": "bot-boe-mas-meridian-fx-apac-synchronised-fx-settlement-nov13",
+    "summary_1": "ธนาคารแห่งประเทศไทย ร่วมกับธนาคารกลางอังกฤษ (BoE) และธนาคารกลางสิงคโปร์ (MAS) เผยแพร่รายงานผลการศึกษาและทดสอบระบบต้นแบบการชำระเงินสำหรับธุรกรรมแลกเปลี่ยนเงินตราต่างประเทศแบบพร้อมกัน (Synchronised FX Settlement) ภายใต้โครงการ Meridian FX APAC เมื่อวันที่ 13 พฤศจิกายน 2569 ซึ่งเป็นความร่วมมือตามบันทึกความเข้าใจที่ธนาคารกลางทั้งสามลงนามไว้เมื่อเดือนพฤศจิกายน 2568 ผลการทดลองสำเร็จในการทำธุรกรรมแลกเปลี่ยนเงินตราแบบ Payment versus Payment โดยเชื่อมระบบต้นแบบการชำระเงินมูลค่าสูงที่มีโครงสร้างเทคโนโลยีต่างกันให้ประมวลผลข้ามระบบได้ ช่วยลดความเสี่ยงด้านการชำระดุล และเพิ่มความยืดหยุ่นในการยกระดับโครงสร้างพื้นฐานการชำระเงิน โดยมีรายงานสามฉบับให้ศึกษา",
+    "language": "th"
+  },
+  "bd_insights": {
+    "opportunity": "ผลสำเร็จของ Meridian FX APAC ชี้ทิศทางการเชื่อมระบบชำระเงินมูลค่าสูงข้ามธนาคารกลางแบบ PvP สร้างโอกาสด้านที่ปรึกษา ออกแบบ และพัฒนาระบบ wholesale payment / FX settlement สำหรับธนาคารและผู้ให้บริการโครงสร้างพื้นฐานการเงิน",
+    "actions_sme": [
+      "ผู้ประกอบการฟินเทคขนาดเล็กอ่านรายงานนโยบาย/เทคนิคของโครงการเพื่อประเมินช่องทางเป็นพันธมิตรด้านเทคโนโลยีและที่ปรึกษา",
+      "ธุรกิจที่มีธุรกรรม FX ปริมาณมากสอบถามธนาคารถึงแผนรองรับการชำระดุลแบบพร้อมกันเมื่อระบบพร้อมใช้งานจริง"
+    ],
+    "actions_si": [
+      "ศึกษา technical report เพื่อเตรียมแนวทางเชื่อมต่อ (interoperability) ระบบ RTGS/ISO 20022 ของลูกค้าธนาคาร",
+      "เสนอบริการ PoC ระบบ PvP settlement และการประเมินความเสี่ยง settlement ให้สถาบันการเงินและผู้ให้บริการโครงสร้างพื้นฐานตลาดเงิน"
+    ],
+    "urgency": "medium",
+    "related_sectors": [
+      "การเงินการธนาคาร",
+      "ระบบชำระเงิน",
+      "เทคโนโลยีการเงิน"
+    ],
+    "tender_potential": false
+  },
+  "social_media": {
+    "agency_facebook": "https://www.facebook.com/bankofthailandofficial"
+  }
+}

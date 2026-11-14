@@ -1,0 +1,67 @@
+{
+  "article_id": "GOVCHANNEL-aggregator-2026-11-13-thailand-fastpass-boi-central-gateway-foreign-investors-nov13",
+  "agency": {
+    "parent": "สำนักนายกฯ & รัฐบาล",
+    "name": "GovChannel",
+    "registry_key": "govchannel",
+    "official_url": "https://www.thaigov.go.th/th/news"
+  },
+  "source": {
+    "url": "https://www.thailand-business-news.com/asean/340181-thailand-business-news-morning-briefing-thailand-%C2%B7-asean-%C2%B7-asia-pacific-markets",
+    "type": "aggregator",
+    "fetch_priority_used": "2_aggregator",
+    "origin": "indirect"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-11-14T19:22:56+07:00",
+    "fetch_mode": "rendered"
+  },
+  "meta": {
+    "published_at": "2026-11-13T09:53:40+07:00",
+    "target_date": "2026-11-13",
+    "within_24h": true,
+    "status": "published",
+    "batch": "A",
+    "priority": "A",
+    "category_label": "นโยบายและการส่งเสริมการลงทุน",
+    "news_type": "นโยบายรัฐบาล",
+    "tags": [
+      "Thailand FastPass",
+      "BOI",
+      "การลงทุนต่างชาติ",
+      "OECD",
+      "อนุทิน",
+      "ลดขั้นตอนอนุมัติ"
+    ]
+  },
+  "content": {
+    "title": "รัฐบาลดัน Thailand FastPass ให้ BOI เป็นศูนย์กลางประสานนักลงทุนต่างชาติ เป้าหมายเงินลงทุนกว่า 7 แสนล้านบาท",
+    "slug": "thailand-fastpass-boi-central-gateway-foreign-investors-nov13",
+    "summary_1": "รัฐบาลภายใต้นายกรัฐมนตรีอนุทิน ชาญวีรกูล เสริมบทบาทสำนักงานคณะกรรมการส่งเสริมการลงทุน (BOI) เป็นจุดประสานหลักของนักลงทุนต่างชาติผ่านโครงการ Thailand FastPass ตามรายงานเมื่อวันที่ 13 พฤศจิกายน 2569 เพื่อเปลี่ยนมติอนุมัติการลงทุนให้เป็นโรงงาน ธุรกิจ และการจ้างงานจริง โดยลดขั้นตอนทางปกครองและเพิ่มความโปร่งใส กลไกนี้รวม 8 หน่วยงานเข้ามาประสานงาน ตั้งเป้าระดมการลงทุนเชิงยุทธศาสตร์กว่า 7 แสนล้านบาท และลดเวลาอนุมัติและออกใบอนุญาตลงร้อยละ 20-50 การดำเนินงานระยะแรกแก้ไขอุปสรรคให้ 76 โครงการมูลค่ากว่า 4.74 แสนล้านบาท และกลุ่มที่สองอีก 25 โครงการ 23 บริษัท มูลค่าราว 2.23 แสนล้านบาท รวมทั้งเชื่อมโยงกับเป้าหมายเข้าเป็นสมาชิก OECD",
+    "language": "th"
+  },
+  "bd_insights": {
+    "opportunity": "Thailand FastPass สร้างความต้องการระบบ one-stop ติดตามใบอนุญาต แพลตฟอร์มแลกเปลี่ยนข้อมูลข้ามหน่วยงาน และบริการที่ปรึกษาสำหรับนักลงทุนต่างชาติ/บริษัทที่ได้รับส่งเสริมการลงทุนและติดขัดขั้นตอนอนุญาต (มูลค่ารวมกว่า 7 แสนล้านบาท)",
+    "actions_sme": [
+      "ผู้ประกอบการที่ได้รับส่งเสริมการลงทุนแต่ติดขัดใบอนุญาต รวบรวมรายการคอขวดและติดต่อ BOI เพื่อขอเข้าเกณฑ์ FastPass",
+      "ซัพพลายเออร์ท้องถิ่นเตรียมข้อมูลศักยภาพให้นักลงทุนเป้าหมายใน 7 แสนล้านบาท เพื่อเข้าสู่ห่วงโซ่อุปทาน"
+    ],
+    "actions_si": [
+      "เสนอระบบ case management/ติดตามสถานะใบอนุญาตข้าม 8 หน่วยงาน พร้อม data exchange และ dashboard โปร่งใสให้ BOI และหน่วยงานร่วม",
+      "พัฒนา portal นักลงทุน (investor aftercare) ที่เชื่อมระบบนิคม ศุลกากร ไฟฟ้า และแรงงานต่างด้าว"
+    ],
+    "urgency": "high",
+    "related_sectors": [
+      "การลงทุน",
+      "ดิจิทัลภาครัฐ",
+      "อิเล็กทรอนิกส์",
+      "ศูนย์ข้อมูล"
+    ],
+    "tender_potential": true
+  },
+  "social_media": {
+    "agency_facebook": ""
+  }
+}

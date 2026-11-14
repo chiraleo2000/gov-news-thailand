@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-14T19:22:56+07:00",
+  "pipeline": "gov-news-combined-1.0",
+  "stats": {
+    "total": 6,
+    "direct": 2,
+    "indirect": 4,
+    "priority_A": 4,
+    "priority_B": 2,
+    "priority_C": 0
+  },
+  "files": [
+    "2026-11-13_news.json",
+    "2026-11-13_news.html",
+    "2026-11-13_news.pdf",
+    "_index.json",
+    "_by_agency.json",
+    "_bd_summary.json",
+    "fonts/"
+  ],
+  "articles": [
+    {
+      "id": "BOT-official-2026-11-13-bot-bi-bnm-bsp-local-currency-transaction-framework-mou-nov13",
+      "title": "ธปท. จับมือธนาคารกลางอินโดนีเซีย มาเลเซีย ฟิลิปปินส์ ลงนาม MoU พหุภาคีส่งเสริมการทำธุรกรรมด้วยเงินสกุลท้องถิ่น",
+      "agency": "กระทรวงการคลัง > ธนาคารแห่งประเทศไทย",
+      "priority": "A",
+      "origin": "direct",
+      "urgency": "medium",
+      "source_url": "https://www.bot.or.th/th/news-and-media/news/news-20261113.html",
+      "article_path": "News/Articles/กระทรวงการคลัง/ธนาคารแห่งประเทศไทย/2026-11-13/bot-bi-bnm-bsp-local-currency-transaction-framework-mou-nov13"
+    },
+    {
+      "id": "BOT-official-2026-11-13-bot-boe-mas-meridian-fx-apac-synchronised-fx-settlement-nov13",
+      "title": "ธปท. ร่วม BoE และ MAS เปิดผลสำเร็จโครงการ Meridian FX APAC ทดสอบระบบต้นแบบชำระเงินแลกเปลี่ยนเงินตราแบบพร้อมกัน",
+      "agency": "กระทรวงการคลัง > ธนาคารแห่งประเทศไทย",
+      "priority": "A",
+      "origin": "direct",
+      "urgency": "medium",
+      "source_url": "https://www.bot.or.th/th/news-and-media/news/news-20261113-2.html",
+      "article_path": "News/Articles/กระทรวงการคลัง/ธนาคารแห่งประเทศไทย/2026-11-13/bot-boe-mas-meridian-fx-apac-synchronised-fx-settlement-nov13"
+    },
+    {
+      "id": "MOC-aggregator-2026-11-13-thai-china-business-leaders-exchange-li-qiang-visit-nov13",
+      "title": "องค์กรไทย-จีน 50 แห่งถกธุรกิจ 13 พ.ย. ระหว่างนายกฯ จีนเยือนไทย เน้นการค้า การลงทุน และโลจิสติกส์",
+      "agency": "กระทรวงพาณิชย์ > กระทรวงพาณิชย์",
+      "priority": "A",
+      "origin": "indirect",
+      "urgency": "medium",
+      "source_url": "https://www.nationthailand.com/business/trading-investment/40073443",
+      "article_path": "News/Articles/กระทรวงพาณิชย์/กระทรวงพาณิชย์/2026-11-13/thai-china-business-leaders-exchange-li-qiang-visit-nov13"
+    },
+    {
+      "id": "GOVCHANNEL-aggregator-2026-11-13-thailand-fastpass-boi-central-gateway-foreign-investors-nov13",
+      "title": "รัฐบาลดัน Thailand FastPass ให้ BOI เป็นศูนย์กลางประสานนักลงทุนต่างชาติ เป้าหมายเงินลงทุนกว่า 7 แสนล้านบาท",
+      "agency": "สำนักนายกฯ & รัฐบาล > GovChannel",
+      "priority": "A",
+      "origin": "indirect",
+      "urgency": "high",
+      "source_url": "https://www.thailand-business-news.com/asean/340181-thailand-business-news-morning-briefing-thailand-%C2%B7-asean-%C2%B7-asia-pacific-markets",
+      "article_path": "News/Articles/สำนักนายกฯ & รัฐบาล/GovChannel/2026-11-13/thailand-fastpass-boi-central-gateway-foreign-investors-nov13"
+    },
+    {
+      "id": "KHAOSOD-aggregator-2026-11-13-sihasak-myanmar-visit-river-pollution-border-remittance-nov13",
+      "title": "สีหศักดิ์เผยผลเยือนเมียนมา ตกลงประชุมแก้สารพิษแม่น้ำ 25-26 พ.ย. ป้องกันการสู้รบกระทบชายแดน และห่วงกฎโอนเงินแรงงาน",
+      "agency": "สื่อเอกชนหลัก > ข่าวสด",
+      "priority": "B",
+      "origin": "indirect",
+      "urgency": "medium",
+      "source_url": "https://www.khaosodenglish.com/featured/2026/11/13/min-aung-hlaing-pledges-measures-to-prevent-border-incidents-affecting-thailand/amp/",
+      "article_path": "News/Articles/สื่อเอกชนหลัก/ข่าวสด/2026-11-13/sihasak-myanmar-visit-river-pollution-border-remittance-nov13"
+    },
+    {
+      "id": "THAIPBS-aggregator-2026-11-13-four-thai-banks-suspend-email-microsoft-365-outage-nov13",
+      "title": "4 ธนาคารไทยระงับบริการอีเมลชั่วคราว หลัง Microsoft 365 ล่มทั่วโลก ATM-แอปธนาคาร-โอนระหว่างธนาคารยังใช้ได้ปกติ",
+      "agency": "สื่อของรัฐ > Thai PBS",
+      "priority": "B",
+      "origin": "indirect",
+      "urgency": "medium",
+      "source_url": "https://www.thaipbsworld.com/economy/572690",
+      "article_path": "News/Articles/สื่อของรัฐ/Thai PBS/2026-11-13/four-thai-banks-suspend-email-microsoft-365-outage-nov13"
+    }
+  ]
+}

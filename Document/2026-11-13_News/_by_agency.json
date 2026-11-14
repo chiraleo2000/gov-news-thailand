@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-13",
+  "agencies": {
+    "กระทรวงการคลัง > ธนาคารแห่งประเทศไทย": [
+      {
+        "id": "BOT-official-2026-11-13-bot-bi-bnm-bsp-local-currency-transaction-framework-mou-nov13",
+        "title": "ธปท. จับมือธนาคารกลางอินโดนีเซีย มาเลเซีย ฟิลิปปินส์ ลงนาม MoU พหุภาคีส่งเสริมการทำธุรกรรมด้วยเงินสกุลท้องถิ่น",
+        "priority": "A",
+        "urgency": "medium",
+        "published_at": "2026-11-13T00:00:00+07:00",
+        "source_url": "https://www.bot.or.th/th/news-and-media/news/news-20261113.html"
+      },
+      {
+        "id": "BOT-official-2026-11-13-bot-boe-mas-meridian-fx-apac-synchronised-fx-settlement-nov13",
+        "title": "ธปท. ร่วม BoE และ MAS เปิดผลสำเร็จโครงการ Meridian FX APAC ทดสอบระบบต้นแบบชำระเงินแลกเปลี่ยนเงินตราแบบพร้อมกัน",
+        "priority": "A",
+        "urgency": "medium",
+        "published_at": "2026-11-13T00:00:00+07:00",
+        "source_url": "https://www.bot.or.th/th/news-and-media/news/news-20261113-2.html"
+      }
+    ],
+    "กระทรวงพาณิชย์ > กระทรวงพาณิชย์": [
+      {
+        "id": "MOC-aggregator-2026-11-13-thai-china-business-leaders-exchange-li-qiang-visit-nov13",
+        "title": "องค์กรไทย-จีน 50 แห่งถกธุรกิจ 13 พ.ย. ระหว่างนายกฯ จีนเยือนไทย เน้นการค้า การลงทุน และโลจิสติกส์",
+        "priority": "A",
+        "urgency": "medium",
+        "published_at": "2026-11-13T08:31:00+07:00",
+        "source_url": "https://www.nationthailand.com/business/trading-investment/40073443"
+      }
+    ],
+    "สำนักนายกฯ & รัฐบาล > GovChannel": [
+      {
+        "id": "GOVCHANNEL-aggregator-2026-11-13-thailand-fastpass-boi-central-gateway-foreign-investors-nov13",
+        "title": "รัฐบาลดัน Thailand FastPass ให้ BOI เป็นศูนย์กลางประสานนักลงทุนต่างชาติ เป้าหมายเงินลงทุนกว่า 7 แสนล้านบาท",
+        "priority": "A",
+        "urgency": "high",
+        "published_at": "2026-11-13T09:53:40+07:00",
+        "source_url": "https://www.thailand-business-news.com/asean/340181-thailand-business-news-morning-briefing-thailand-%C2%B7-asean-%C2%B7-asia-pacific-markets"
+      }
+    ],
+    "สื่อเอกชนหลัก > ข่าวสด": [
+      {
+        "id": "KHAOSOD-aggregator-2026-11-13-sihasak-myanmar-visit-river-pollution-border-remittance-nov13",
+        "title": "สีหศักดิ์เผยผลเยือนเมียนมา ตกลงประชุมแก้สารพิษแม่น้ำ 25-26 พ.ย. ป้องกันการสู้รบกระทบชายแดน และห่วงกฎโอนเงินแรงงาน",
+        "priority": "B",
+        "urgency": "medium",
+        "published_at": "2026-11-13T15:06:52+07:00",
+        "source_url": "https://www.khaosodenglish.com/featured/2026/11/13/min-aung-hlaing-pledges-measures-to-prevent-border-incidents-affecting-thailand/amp/"
+      }
+    ],
+    "สื่อของรัฐ > Thai PBS": [
+      {
+        "id": "THAIPBS-aggregator-2026-11-13-four-thai-banks-suspend-email-microsoft-365-outage-nov13",
+        "title": "4 ธนาคารไทยระงับบริการอีเมลชั่วคราว หลัง Microsoft 365 ล่มทั่วโลก ATM-แอปธนาคาร-โอนระหว่างธนาคารยังใช้ได้ปกติ",
+        "priority": "B",
+        "urgency": "medium",
+        "published_at": "2026-11-13T16:14:07+07:00",
+        "source_url": "https://www.thaipbsworld.com/economy/572690"
+      }
+    ]
+  }
+}
