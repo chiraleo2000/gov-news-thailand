@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-14",
+  "agencies": {
+    "สำนักนายกฯ & รัฐบาล > สำนักโฆษก": [
+      {
+        "id": "SPM_SPOKESPERSON-aggregator-2026-11-14-anutin-three-point-asean-strategy-manila-49th-summit-nov14",
+        "title": "อนุทินชู 3 ข้อเสนอที่ประชุมสุดยอดอาเซียนครั้งที่ 49 ที่มะนิลา ต่อเนื่องการเป็นประธาน ขยายการค้าการลงทุน เพิ่มความคล่องตัว",
+        "priority": "A",
+        "urgency": "high",
+        "published_at": "2026-11-14T11:08:00+07:00",
+        "source_url": "https://www.nationthailand.com/news/asean/40073498"
+      }
+    ],
+    "สื่อเอกชนหลัก > ไทยรัฐ": [
+      {
+        "id": "THAIRATH-official-2026-11-14-cabinet-secretariat-circular-peaceful-handling-protests-nov14",
+        "title": "สลค. ออกหนังสือเวียนด่วนที่สุด ย้ำแนวทางนายกฯ รับมือการชุมนุม เน้นอำนวยความสะดวก เลี่ยงใช้กำลัง และเร่งแก้ข้อเรียกร้อง",
+        "priority": "B",
+        "urgency": "medium",
+        "published_at": "2026-11-14T10:51:03+07:00",
+        "source_url": "https://www.thairath.co.th/news/politic/2972451"
+      }
+    ],
+    "สื่อเอกชนหลัก > กรุงเทพธุรกิจ": [
+      {
+        "id": "BANGKOKBIZNEWS-official-2026-11-14-anutin-art-thailand-us-reciprocal-trade-apec-shenzhen-nov14",
+        "title": "นายกฯ เดินหน้าข้อตกลง ART ไทย-สหรัฐ หลัง ครม.เห็นชอบถ้อยคำ เตรียมหารือกับทรัมป์บนเวที APEC เซินเจิ้น",
+        "priority": "B",
+        "urgency": "high",
+        "published_at": "2026-11-14T11:09:00+07:00",
+        "source_url": "https://www.bangkokbiznews.com/economics/1260764"
+      }
+    ],
+    "สื่อของรัฐ > Thai PBS": [
+      {
+        "id": "THAIPBS-official-2026-11-14-anutin-energy-plan-b20-e20-solar-rooftop-before-asean-apec-nov14",
+        "title": "นายกฯ เปิดแผนพลังงานก่อนเวทีอาเซียน-เอเปค ยอดใช้ B20-E20 พุ่ง จ่อลดหัวจ่ายแก๊สโซฮอล์ 91 เพิ่ม E20 หนุนโซลาร์ครัวเรือน",
+        "priority": "B",
+        "urgency": "medium",
+        "published_at": "2026-11-14T11:16:07+07:00",
+        "source_url": "https://www.thaipbs.or.th/news/content/572711"
+      }
+    ]
+  }
+}
