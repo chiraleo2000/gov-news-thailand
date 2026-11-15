@@ -1,0 +1,68 @@
+{
+  "article_id": "THAIPBS-official-2026-11-15-thai-chamber-white-paper-6-agendas-handed-to-deputy-pm-pakorn-nov15",
+  "agency": {
+    "parent": "สื่อของรัฐ",
+    "name": "Thai PBS",
+    "registry_key": "thaipbs",
+    "official_url": "https://www.thaipbs.or.th"
+  },
+  "source": {
+    "url": "https://www.thaipbs.or.th/news/content/572752",
+    "type": "official",
+    "fetch_priority_used": "1_official",
+    "origin": "direct"
+  },
+  "fetch": {
+    "status": "pass",
+    "http_status": 200,
+    "fetched_at": "2026-11-15T20:00:29+07:00",
+    "fetch_mode": "rendered"
+  },
+  "meta": {
+    "published_at": "2026-11-15T12:46:09+07:00",
+    "target_date": "2026-11-15",
+    "within_24h": true,
+    "status": "published",
+    "batch": "B",
+    "priority": "B",
+    "category_label": "นโยบายเศรษฐกิจและข้อเสนอภาคเอกชน",
+    "news_type": "ข่าวเศรษฐกิจ",
+    "tags": [
+      "หอการค้าไทย",
+      "สมุดปกขาว",
+      "ปกรณ์ นิลประพันธ์",
+      "7 Reinvent Thailand",
+      "Zero Corruption",
+      "ART",
+      "Team Thailand+"
+    ]
+  },
+  "content": {
+    "title": "หอการค้าไทยส่งสมุดปกขาวปี 2569 ถึงรัฐบาล รองนายกฯ ปกรณ์รับมอบ เสนอ 6 วาระดันเศรษฐกิจโตไม่ต่ำกว่า 3%",
+    "slug": "thai-chamber-white-paper-6-agendas-handed-to-deputy-pm-pakorn-nov15",
+    "summary_1": "นายพจน์ อร่ามวัฒนานนท์ ประธานกรรมการหอการค้าไทยและสภาหอการค้าแห่งประเทศไทย เปิดเผยเมื่อวันที่ 15 พฤศจิกายน 2569 ในการปิดงานสัมมนาหอการค้าทั่วประเทศครั้งที่ 44 ว่าได้ส่งมอบสมุดปกขาวปี 2569 ให้รัฐบาล โดยนายปกรณ์ นิลประพันธ์ รองนายกรัฐมนตรี เป็นผู้แทนนายกรัฐมนตรีรับมอบ หอการค้าประเมินเศรษฐกิจปี 2569 โต 2.4-2.6% และเสนอ 6 วาระ ได้แก่ ลดต้นทุนและกระจายการเติบโต ขับเคลื่อน 7 Reinvent Thailand ปฏิรูปเกษตรและอาหาร ผลักดัน Zero Corruption และ Digital Government เปิดตลาดผ่าน Team Thailand+ ทั้ง ART, FTA ไทย-อียู และ CEPA ไทย-ยูเออี และพัฒนาเศรษฐกิจ 5 ภูมิภาค โดยตั้งเป้าเศรษฐกิจโตไม่ต่ำกว่า 3% ต่อปี",
+    "language": "th"
+  },
+  "bd_insights": {
+    "opportunity": "ข้อเสนอ Digital Government การปฏิรูปการอนุมัติอนุญาตและจัดซื้อจัดจ้าง และ 7 Reinvent Thailand ชี้ทิศทางความต้องการระบบ e-Permit, e-Procurement โปร่งใส, ระบบตรวจสอบย้อนกลับอาหาร และแพลตฟอร์มเศรษฐกิจเชิงพื้นที่ หากรัฐบาลนำไปบรรจุเป็นนโยบาย",
+    "actions_sme": [
+      "ผู้ประกอบการในเจ็ดกลุ่ม Reinvent Thailand ติดต่อหอการค้าจังหวัดเพื่อเข้าร่วมโครงการพัฒนาเชิงพื้นที่และเครือข่ายธุรกิจ",
+      "ผู้ส่งออกเตรียมข้อมูลตลาดสหรัฐฯ อียู ยูเออี และ EAEU ตามกรอบ Team Thailand+ ที่หอการค้าผลักดัน"
+    ],
+    "actions_si": [
+      "เตรียมโซลูชัน e-Permit/One Stop Service และ e-Procurement แบบ open contracting เพื่อตอบโจทย์ Zero Corruption",
+      "พัฒนาแพลตฟอร์ม traceability สำหรับข้าวหอมมะลิ กุ้ง และอาหารสัตว์เลี้ยงตามแนวทาง Thailand Food Valley"
+    ],
+    "urgency": "low",
+    "related_sectors": [
+      "นโยบายเศรษฐกิจ",
+      "ดิจิทัลภาครัฐ",
+      "เกษตรและอาหาร",
+      "การค้าระหว่างประเทศ"
+    ],
+    "tender_potential": false
+  },
+  "social_media": {
+    "agency_facebook": "https://www.facebook.com/ThaiPBSNews/"
+  }
+}
