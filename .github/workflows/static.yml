@@ -32,6 +32,7 @@ jobs:
         uses: actions/configure-pages@v6
 
       - name: Upload artifact
+        id: upload
         uses: actions/upload-pages-artifact@v5
         with:
           path: '.'
@@ -40,21 +41,42 @@ jobs:
       # deploy-pages@v5 hard-caps timeout at 10m and CANCELS the Pages
       # deployment when the queue is slower than that (leaving the site 503).
       # This step creates the deployment and waits longer without cancelling.
+      # Prefer upload step artifact_id (avoids Actions API race where the
+      # github-pages artifact is not listed yet right after upload).
       - name: Deploy to GitHub Pages
         id: deployment
         env:
           GH_TOKEN: ${{ github.token }}
           PAGE_URL: ${{ steps.pages.outputs.base_url }}
+          UPLOAD_ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
         run: |
           set -euo pipefail
 
+          resolve_artifact_id() {
+            if [ -n "${UPLOAD_ARTIFACT_ID:-}" ] && [ "${UPLOAD_ARTIFACT_ID}" != "null" ]; then
+              echo "${UPLOAD_ARTIFACT_ID}"
+              return 0
+            fi
+            local i id=""
+            for i in $(seq 1 36); do
+              id="$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" \
+                --jq '.artifacts[] | select(.name=="github-pages") | .id' | head -n1 || true)"
+              if [ -n "${id}" ]; then
+                echo "${id}"
+                return 0
+              fi
+              echo "Waiting for github-pages artifact to appear (attempt ${i}/36)..." >&2
+              sleep 5
+            done
+            return 1
+          }
+
           echo "Resolving github-pages artifact for run ${GITHUB_RUN_ID}..."
-          ARTIFACT_ID="$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" \
-            --jq '.artifacts[] | select(.name=="github-pages") | .id' | head -n1)"
-          if [ -z "${ARTIFACT_ID}" ]; then
-            echo "ERROR: github-pages artifact not found"
+          ARTIFACT_ID="$(resolve_artifact_id)" || {
+            echo "ERROR: github-pages artifact not found after retries"
+            gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" || true
             exit 1
-          fi
+          }
           echo "artifact_id=${ARTIFACT_ID}"
 
           echo "Requesting OIDC token..."
@@ -97,6 +119,6 @@ jobs:
             sleep 15
           done
 
-          echo "Still queued/in-progress after 45m — leaving deployment running (not cancelling)."
+          echo "Still queued/in-progress after 45m - leaving deployment running (not cancelling)."
           echo "page_url=${PAGE_URL}" >> "$GITHUB_OUTPUT"
           exit 0
