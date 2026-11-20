@@ -158,8 +158,8 @@
       <aside class="brain-chat" aria-label="แชทถามจากกราฟ">
         <div class="brain-chat-log" id="brain-chat-log">
           <div class="brain-chat-empty" id="brain-chat-empty">
-            <p class="brain-kind">ถามจากกราฟ</p>
-            <p>เลือกตัวอย่าง หรือพิมพ์คำถามด้านล่าง</p>
+            <p class="brain-kind">ถามจากกราฟ (GraphRAG)</p>
+            <p>ค้นหลักฐานจากกราฟในเบราว์เซอร์ แล้วให้ LM Studio เล่าคำตอบ — MCP ใช้เข้าถึงคลังข่าว ไม่ใช่แชท</p>
             <div class="brain-ask-examples" id="brain-ask-examples">
               <button type="button" class="btn-ghost brain-example" data-example="0" data-mode="all">กระทรวงการคลังมีข่าวเกี่ยวกับภาษีหรือ BOI อะไรบ้างช่วงนี้</button>
               <button type="button" class="btn-ghost brain-example" data-example="1" data-mode="all">มีโอกาส BD ด้านดิจิทัลหรือ EV อะไรบ้าง</button>
@@ -186,28 +186,32 @@
   <section class="hero hero-compact">
     <p class="hero-kicker">ค่าในเบราว์เซอร์นี้เท่านั้น</p>
     <h1>เชื่อมต่อ</h1>
-    <p class="hero-lead">แชทเรียก LLM ผ่านฐาน HTTPS ถ้าเว้นว่าง หน้านี้จะอ่าน data/tunnel.json แล้วประกอบที่อยู่ LLM กับ MCP เอง</p>
+    <p class="hero-lead">ตั้งฐาน HTTPS ที่ชี้ไปอุโมงค์ RAG ร่วมเครื่องนี้ — ใช้ LM Studio ที่รันอยู่แล้ว และ MCP สำหรับเข้าถึงคลังข่าว (ไม่ใช่แชท)</p>
   </section>
   <section class="panel connect-panel">
+    <div class="connect-roles">
+      <p><strong>MCP</strong> = เครื่องมือเข้าถึงคลังข่าว (<code>list_posts</code> · <code>get_post</code> · <code>list_downloads</code>) ให้ agent/Claude ดึงข่าว — <strong>ไม่ใช่แชท</strong></p>
+      <p><strong>LLM</strong> = LM Studio บนเครื่อง (พอร์ต 1234) สำหรับเล่าคำตอบในแท็บข้อมูลกราฟ หลังค้นหลักฐานในเบราว์เซอร์แล้ว</p>
+    </div>
     <div class="connect-grid">
       <label class="brain-field">
         <span>ฐาน HTTPS (ไม่บังคับ)</span>
-        <input id="connect-public-base" type="url" placeholder="https://….ngrok-free.app" autocomplete="off" />
+        <input id="connect-public-base" type="url" placeholder="https://ai-pc-dev-rag.ngrok-free.app" autocomplete="off" />
       </label>
     </div>
     <dl class="connect-derived">
-      <div><dt>LLM</dt><dd><code id="connect-llm-url">…</code></dd></div>
-      <div><dt>MCP</dt><dd><code id="connect-mcp-url">…</code></dd></div>
+      <div><dt>LLM (LM Studio)</dt><dd><code id="connect-llm-url">…</code></dd></div>
+      <div><dt>MCP (คลังข่าว)</dt><dd><code id="connect-mcp-url">…</code></dd></div>
     </dl>
-    <p class="muted">โมเดล google/gemma-4-e2b · LLM คือ {ฐาน}/1234/v1/chat/completions · MCP คือ {ฐาน}/8787/mcp</p>
+    <p class="muted">ค่าเริ่มต้นใช้ <code>data/tunnel.json</code> · โมเดล <code>google/gemma-4-e2b</code> · LLM = {ฐาน}/1234/… · MCP ข่าว = {ฐาน}/8788/mcp</p>
     <div class="connect-actions">
       <button type="button" class="btn-ghost" id="connect-save">บันทึก</button>
-      <button type="button" class="btn-ghost" id="connect-test">ทดสอบ MCP</button>
-      <button type="button" class="btn-ghost" id="connect-test-llm">ทดสอบ LLM</button>
+      <button type="button" class="btn-ghost" id="connect-test">ทดสอบ MCP ข่าว</button>
+      <button type="button" class="btn-ghost" id="connect-test-llm">ทดสอบ LM Studio</button>
     </div>
     <p class="muted" id="connect-status" aria-live="polite"></p>
     <pre id="connect-llm-reply" class="connect-llm-reply" hidden></pre>
-    <p class="muted">ทดสอบ MCP ส่ง JSON-RPC <code>tools/list</code> — ห้ามมีเครื่องมือชื่อที่มีคำว่า graph</p>
+    <p class="muted">ทดสอบ MCP ส่ง <code>tools/list</code> ต้องเจอเครื่องมือข่าวเท่านั้น — ห้ามมีชื่อที่มีคำว่า <code>graph</code></p>
   </section>
 </section>
 
@@ -215,8 +219,8 @@
   <div class="modal-box" id="modalBox"></div>
 </div>
 <footer><p>Gov News Thailand — Pipeline v10 · GraphRAG + MCP</p></footer>
-<script src="./js/graph.js?v=20261120v10"></script>
-<script src="./js/rag.js?v=20261120v10"></script>
-<script src="./js/app.js?v=20261120v10"></script>
+<script src="./js/graph.js?v=20261121v10b"></script>
+<script src="./js/rag.js?v=20261121v10b"></script>
+<script src="./js/app.js?v=20261121v10b"></script>
 </body>
 </html>

@@ -126,6 +126,9 @@ body.is-brain { background:#eef2f6; }
 .brain-chat-form { display:flex; gap:6px; padding:10px; border-top:1px solid var(--border); }
 .brain-chat-form input { flex:1; padding:8px 10px; border-radius:8px; border:1.5px solid var(--border); font-family:inherit; }
 .connect-panel { max-width:900px; }
+.connect-roles { background:#f4f7fb; border:1px solid var(--border); border-radius:10px; padding:12px 14px; margin-bottom:14px; font-size:13.5px; line-height:1.55; color:#2a2a3a; }
+.connect-roles p { margin:0 0 8px; }
+.connect-roles p:last-child { margin:0; }
 .connect-grid { display:grid; gap:12px; }
 .connect-derived { display:grid; gap:8px; margin:14px 0; }
 .connect-derived dt { font-size:12px; font-weight:700; color:var(--text-sub); }

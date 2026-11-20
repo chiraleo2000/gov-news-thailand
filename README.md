@@ -35,15 +35,21 @@
 - คอลัมน์ขวาเป็น **ถามจากกราฟ** (retrieval ในเบราว์เซอร์ + LLM ถ้าตั้งค่าแล้ว)
 - ลากพื้นหลังเลื่อน · สกอร์ลซูม · ปุ่ม **พอดี** จัดมุมมอง · ดับเบิลคลิกโหนดเพื่อโฟกัสเพื่อนบ้าน
 
-### 3) เชื่อมต่อ (LLM / MCP)
+### 3) เชื่อมต่อ (LM Studio + MCP ข่าว)
 
 ![ตั้งค่าฐาน HTTPS สำหรับ LLM และ MCP](docs/images/pages-connect.png)
 
-- ค่าเก็บเฉพาะในเบราว์เซอร์นี้ (`gov-news-connect`)
-- ถ้าเว้นว่าง หน้าเว็บอ่าน `data/tunnel.json` แล้วประกอบที่อยู่เอง
+แยกบทบาทให้ชัด:
+
+| ช่อง | ทำอะไร | ไม่ใช่ |
+| --- | --- | --- |
+| **MCP** (`…/8788/mcp`) | เครื่องมือเข้าถึงคลังข่าว `list_posts` · `get_post` · `list_downloads` | ไม่ใช่แชท |
+| **LLM** (`…/1234/…`) | LM Studio เล่าคำตอบในแท็บข้อมูลกราฟ หลังค้นหลักฐานในเบราว์เซอร์ | ไม่ใช่ MCP |
+
+- ค่าเก็บเฉพาะในเบราว์เซอร์นี้ หรืออ่านจาก `data/tunnel.json`
+- ใช้**อุโมงค์ RAG ร่วมเครื่อง**กับ police kit (`ai-pc-dev-rag.ngrok-free.app`) + LM Studio ที่รันอยู่แล้ว
 - โมเดลค่าเริ่มต้น: `google/gemma-4-e2b`
-- LLM = `{ฐาน}/1234/v1/chat/completions` · MCP = `{ฐาน}/8787/mcp`
-- ปุ่ม **ทดสอบ MCP** ส่ง `tools/list` — ต้องมี `list_posts` · `get_post` · `list_downloads` และ**ห้าม**มีเครื่องมือชื่อที่มีคำว่า `graph`
+- ทดสอบ MCP ต้องเจอเครื่องมือข่าวเท่านั้น — **ห้าม**มีชื่อที่มีคำว่า `graph`
 
 ---
 
@@ -53,21 +59,20 @@
 
 โฟลเดอร์ราก (`index.html` · `js/` · `assets/` · `data/`) คือเว็บอ่านอย่างเดียว ซิงค์มาจาก **`Gov-News-GitHub`**
 
-- คน/CI ใน private เป็นคน publish เข้า repo นี้
-- ไม่มี prompts / News / Document ใน public — ไปป์ไลน์อยู่ที่ private เท่านั้น
-
-### 2) Optional local MCP (เสริม)
+### 2) Local MCP ข่าว (เสริม — ไม่ใช่แชท)
 
 ```bat
-cd C:\Users\AI-PC-DEV\Documents\gov-news-thailand
-node mcp\server.mjs
+cd C:\Users\AI-PC-DEV\Documents\Gov-News-GitHub
+powershell -NoProfile -ExecutionPolicy Bypass -File ops\wake-gov-mcp.ps1
 ```
 
-| บริการ | พอร์ตค่าเริ่มต้น |
+| บริการ | พอร์ต |
 | --- | --- |
-| MCP | `:8787` (`PORT` ทับได้) |
+| Gov MCP (ข่าว) | `:8788` |
+| LM Studio (แชร์) | `:1234` |
+| Gateway (แชร์) | `:8790` → HTTPS |
 
-ถ้าพอร์ต `:8787` ถูก police kit ใช้อยู่แล้ว ให้ตั้ง `PORT=8797` แล้วอัปเดตฐาน HTTPS / `tunnel.json` ให้ตรง
+Police crime MCP อยู่คนละพอร์ต (`:8787`) — ไม่ทับกัน
 
 ---
 

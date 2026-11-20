@@ -195,7 +195,8 @@
     return {
       base,
       llm: `${base}/1234/v1/chat/completions`,
-      mcp: `${base}/8787/mcp`,
+      // Gov MCP is news-archive tools on :8788 (police crime MCP stays on :8787).
+      mcp: `${base}/8788/mcp`,
     };
   }
 
