@@ -3,27 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gov News Briefing — ข่าวภาครัฐไทย</title>
-<link rel="stylesheet" href="./assets/style.css">
+<title>Gov News Briefing — ข่าวภาครัฐไทย · v10</title>
+<link rel="stylesheet" href="./assets/style.css?v=20261120v10">
 </head>
 <body>
 <header class="site-header">
   <div>
-    <h1>🏛️ Gov News Briefing</h1>
-    <div class="meta" id="headerMeta">ข่าวภาครัฐไทย | gov-news-thailand.github.io</div>
+    <h1>Gov News Briefing</h1>
+    <div class="meta" id="headerMeta">ข่าวภาครัฐไทย · ข้อมูลกราฟ · MCP · v10</div>
   </div>
   <div class="stats" id="headerStats">
-    <div class="stat-pill" id="statTotal">📰 0 ข่าว</div>
-    <div class="stat-pill" id="statAgencies">🏢 0 หน่วยงาน</div>
-    <div class="stat-pill" id="statBD">🟢 0 โอกาส BD</div>
+    <div class="stat-pill" id="statTotal">0 ข่าว</div>
+    <div class="stat-pill" id="statAgencies">0 หน่วยงาน</div>
+    <div class="stat-pill" id="statBD">0 โอกาส BD</div>
   </div>
 </header>
+
+<nav class="top-tabs" aria-label="ส่วนหลัก">
+  <button type="button" class="top-tab is-active" data-maintab="news" id="tab-news">รายการข่าว</button>
+  <button type="button" class="top-tab" data-maintab="brain" id="tab-brain">ข้อมูลกราฟ</button>
+  <button type="button" class="top-tab" data-maintab="connect" id="tab-connect">เชื่อมต่อ</button>
+</nav>
+
+<section id="view-news">
 <nav class="tab-bar">
-  <button class="tab-btn active" data-tab="all">🗞️ ทั้งหมด</button>
-  <button class="tab-btn" data-tab="bd">🟢 โอกาส BD</button>
-  <button class="tab-btn" data-tab="policy">📋 นโยบาย/กฎหมาย</button>
-  <button class="tab-btn" data-tab="economy">📊 เศรษฐกิจ</button>
-  <button class="tab-btn" data-tab="special">⭐ พิเศษ</button>
+  <button class="tab-btn active" data-tab="all">ทั้งหมด</button>
+  <button class="tab-btn" data-tab="bd">โอกาส BD</button>
+  <button class="tab-btn" data-tab="policy">นโยบาย/กฎหมาย</button>
+  <button class="tab-btn" data-tab="economy">เศรษฐกิจ</button>
+  <button class="tab-btn" data-tab="special">พิเศษ</button>
 </nav>
 <div class="filter-bar" id="filterBar">
   <div class="filter-group" id="catFilters">
@@ -48,7 +56,7 @@
     <option value="30">30 วัน</option>
     <option value="all">ทั้งหมด</option>
   </select>
-  <input class="search-box" id="searchInput" placeholder="🔍 ค้นหาข่าว...">
+  <input class="search-box" id="searchInput" placeholder="ค้นหาข่าว...">
 </div>
 <div class="main" id="mainContent">
   <div class="section-label" id="sectionLabel">กำลังโหลด...</div>
@@ -57,16 +65,158 @@
 </div>
 <div class="special-page" id="specialPage">
   <div class="special-tabs">
-    <button class="special-tab-btn active" data-stab="proc">📦 จัดซื้อจัดจ้าง</button>
-    <button class="special-tab-btn" data-stab="tax">💰 ภาษี</button>
-    <button class="special-tab-btn" data-stab="labor">👷 แรงงาน</button>
+    <button class="special-tab-btn active" data-stab="proc">จัดซื้อจัดจ้าง</button>
+    <button class="special-tab-btn" data-stab="tax">ภาษี</button>
+    <button class="special-tab-btn" data-stab="labor">แรงงาน</button>
   </div>
   <div class="card-area" id="specialContent"></div>
 </div>
+</section>
+
+<section id="view-brain" class="view-brain" hidden>
+  <div class="brain-shell">
+    <header class="brain-topbar">
+      <div class="brain-topbar-title">
+        <p class="brain-kicker">GraphRAG จากคลังข่าวภาครัฐ</p>
+        <h1>ข้อมูลกราฟ</h1>
+        <p class="brain-status-line" id="brain-status"></p>
+      </div>
+      <div class="brain-stats" id="brain-stats" aria-live="polite"></div>
+      <details class="brain-help-box">
+        <summary>คำอธิบาย</summary>
+        <div id="brain-help" class="brain-help"></div>
+      </details>
+    </header>
+
+    <div class="brain-filterbar" aria-label="ตัวกรองกราฟ">
+      <label class="brain-field brain-field-search">
+        <span>ค้นหา</span>
+        <input id="brain-search" type="search" placeholder="ชื่อโหนด แท็ก หมวด…" />
+      </label>
+      <fieldset class="brain-fieldset brain-fieldset-inline">
+        <legend>ชนิด</legend>
+        <div id="brain-kind-checks" class="brain-checks brain-checks-row">
+          <label><input type="checkbox" data-kind-check="case" checked /> ข่าว</label>
+          <label><input type="checkbox" data-kind-check="entity" checked /> เอนทิตี</label>
+          <label><input type="checkbox" data-kind-check="crime_type" /> หมวด</label>
+          <label><input type="checkbox" data-kind-check="daily" /> รายวัน</label>
+          <label><input type="checkbox" data-kind-check="unresolved" /> ลิงก์ค้าง</label>
+          <label><input type="checkbox" data-kind-check="other" /> อื่น</label>
+        </div>
+      </fieldset>
+      <label class="brain-field">
+        <span>กลุ่มเอนทิตี</span>
+        <select id="brain-entity-group"><option value="">ทั้งหมด</option></select>
+      </label>
+      <label class="brain-field">
+        <span>หน่วยงาน</span>
+        <select id="brain-bureau"><option value="">ทั้งหมด</option></select>
+      </label>
+      <label class="brain-field">
+        <span>หมวดข่าว</span>
+        <select id="brain-crime-type"><option value="">ทุกหมวด</option></select>
+      </label>
+      <label class="brain-field brain-field-narrow">
+        <span>degree ≥</span>
+        <input id="brain-min-degree" type="number" min="0" max="50" value="0" />
+      </label>
+      <label class="brain-field"><span>ตั้งแต่</span><input id="brain-date-from" type="date" /></label>
+      <label class="brain-field"><span>ถึง</span><input id="brain-date-to" type="date" /></label>
+      <label class="brain-field">
+        <span>ความสัมพันธ์</span>
+        <select id="brain-relation"><option value="">ทุกความสัมพันธ์</option></select>
+      </label>
+      <label class="brain-field">
+        <span>ป้ายชื่อ</span>
+        <select id="brain-labels">
+          <option value="auto" selected>อัตโนมัติ</option>
+          <option value="all">ทั้งหมด</option>
+          <option value="none">ซ่อน</option>
+        </select>
+      </label>
+      <label class="brain-check"><input type="checkbox" id="brain-hide-orphans" checked /> ซ่อนไร้ลิงก์</label>
+      <label class="brain-check"><input type="checkbox" id="brain-isolate" /> โฟกัสเพื่อนบ้าน</label>
+      <div class="brain-filter-actions">
+        <button type="button" class="btn-ghost" id="brain-reset">รีเซ็ต</button>
+        <button type="button" class="btn-ghost" id="brain-zoom-out" title="ซูมออก">−</button>
+        <button type="button" class="btn-ghost" id="brain-zoom-fit" title="พอดีจอ">พอดี</button>
+        <button type="button" class="btn-ghost" id="brain-zoom-in" title="ซูมเข้า">+</button>
+      </div>
+    </div>
+
+    <div class="brain-legend-row">
+      <div class="brain-legend" id="brain-legend" aria-label="คำอธิบายสี"></div>
+      <span class="muted" id="brain-meta"></span>
+      <span class="muted brain-hint">โหนดใหญ่ = หน่วยงาน หมวด หรือภาคส่วน · จุดเล็ก = หัวข่าว · ลากพื้นหลังเลื่อน · สกอร์ลซูม</span>
+    </div>
+
+    <div class="brain-workspace">
+      <div class="brain-stage">
+        <canvas id="brain-canvas" width="1600" height="900" aria-label="ข้อมูลกราฟ"></canvas>
+        <aside id="brain-detail" class="brain-detail" aria-label="รายละเอียดโหนดที่เลือก" aria-live="polite"></aside>
+      </div>
+      <aside class="brain-chat" aria-label="แชทถามจากกราฟ">
+        <div class="brain-chat-log" id="brain-chat-log">
+          <div class="brain-chat-empty" id="brain-chat-empty">
+            <p class="brain-kind">ถามจากกราฟ</p>
+            <p>เลือกตัวอย่าง หรือพิมพ์คำถามด้านล่าง</p>
+            <div class="brain-ask-examples" id="brain-ask-examples">
+              <button type="button" class="btn-ghost brain-example" data-example="0" data-mode="all">กระทรวงการคลังมีข่าวเกี่ยวกับภาษีหรือ BOI อะไรบ้างช่วงนี้</button>
+              <button type="button" class="btn-ghost brain-example" data-example="1" data-mode="all">มีโอกาส BD ด้านดิจิทัลหรือ EV อะไรบ้าง</button>
+              <button type="button" class="btn-ghost brain-example" data-example="2" data-mode="all">สำนักนายกรัฐมนตรีพูดถึงความสัมพันธ์กับจีนอย่างไร</button>
+            </div>
+          </div>
+        </div>
+        <form class="brain-chat-form" id="brain-chat-form">
+          <label class="sr-only" for="brain-question">ถามจากกราฟ</label>
+          <input id="brain-question" type="text" placeholder="ถามหน่วยงาน นโยบาย หรือโอกาส BD…" autocomplete="off" />
+          <button type="button" class="btn-ghost" id="brain-chat-clear">เคลียร์</button>
+          <button type="submit" class="btn-ghost" id="brain-ask-submit">ส่ง</button>
+        </form>
+      </aside>
+    </div>
+
+    <p class="muted" id="brain-empty" hidden>
+      ยังไม่มี <code>data/graph.json</code> — สร้างด้วย <code>node ops/build-gov-graph.js</code> ใน Gov-News-GitHub
+    </p>
+  </div>
+</section>
+
+<section id="view-connect" class="view-connect" hidden>
+  <section class="hero hero-compact">
+    <p class="hero-kicker">ค่าในเบราว์เซอร์นี้เท่านั้น</p>
+    <h1>เชื่อมต่อ</h1>
+    <p class="hero-lead">แชทเรียก LLM ผ่านฐาน HTTPS ถ้าเว้นว่าง หน้านี้จะอ่าน data/tunnel.json แล้วประกอบที่อยู่ LLM กับ MCP เอง</p>
+  </section>
+  <section class="panel connect-panel">
+    <div class="connect-grid">
+      <label class="brain-field">
+        <span>ฐาน HTTPS (ไม่บังคับ)</span>
+        <input id="connect-public-base" type="url" placeholder="https://….ngrok-free.app" autocomplete="off" />
+      </label>
+    </div>
+    <dl class="connect-derived">
+      <div><dt>LLM</dt><dd><code id="connect-llm-url">…</code></dd></div>
+      <div><dt>MCP</dt><dd><code id="connect-mcp-url">…</code></dd></div>
+    </dl>
+    <p class="muted">โมเดล google/gemma-4-e2b · LLM คือ {ฐาน}/1234/v1/chat/completions · MCP คือ {ฐาน}/8787/mcp</p>
+    <div class="connect-actions">
+      <button type="button" class="btn-ghost" id="connect-save">บันทึก</button>
+      <button type="button" class="btn-ghost" id="connect-test">ทดสอบ MCP</button>
+      <button type="button" class="btn-ghost" id="connect-test-llm">ทดสอบ LLM</button>
+    </div>
+    <p class="muted" id="connect-status" aria-live="polite"></p>
+    <pre id="connect-llm-reply" class="connect-llm-reply" hidden></pre>
+    <p class="muted">ทดสอบ MCP ส่ง JSON-RPC <code>tools/list</code> — ห้ามมีเครื่องมือชื่อที่มีคำว่า graph</p>
+  </section>
+</section>
+
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal-box" id="modalBox"></div>
 </div>
-<footer><p>Gov News Thailand — Pipeline v8</p></footer>
-<script src="./js/app.js"></script>
+<footer><p>Gov News Thailand — Pipeline v10 · GraphRAG + MCP</p></footer>
+<script src="./js/graph.js?v=20261120v10"></script>
+<script src="./js/rag.js?v=20261120v10"></script>
+<script src="./js/app.js?v=20261120v10"></script>
 </body>
 </html>
