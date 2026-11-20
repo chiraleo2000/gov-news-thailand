@@ -48,8 +48,46 @@
 
 - ค่าเก็บเฉพาะในเบราว์เซอร์นี้ หรืออ่านจาก `data/tunnel.json`
 - ใช้**อุโมงค์ RAG ร่วมเครื่อง**กับ police kit (`ai-pc-dev-rag.ngrok-free.app`) + LM Studio ที่รันอยู่แล้ว
-- โมเดลค่าเริ่มต้น: `google/gemma-4-e2b`
+- โมเดลใน `tunnel.json` เลือกจากแชทโมเดลที่โหลดใน LM Studio (ข้าม embedding)
 - ทดสอบ MCP ต้องเจอเครื่องมือข่าวเท่านั้น — **ห้าม**มีชื่อที่มีคำว่า `graph`
+
+### 4) Claude Connector → MCP คลังข่าว
+
+คู่มือเต็ม: **[docs/claude-mcp-connector.md](docs/claude-mcp-connector.md)**
+
+URL ที่ใส่ใน Claude (Customize → Connectors → Add custom connector):
+
+```text
+https://ai-pc-dev-rag.ngrok-free.app/8788/mcp
+```
+
+- ชื่อตัวอย่าง: `gov-news-thailand`
+- Authentication: **No sign in**
+- ต้องเป็น HTTPS พอร์ต 443 (อุโมงค์ ngrok) — อย่าใส่ `:8788` ตรง ๆ จากเครื่องท้องถิ่นให้ Claude cloud
+
+![เพิ่ม custom connector ใน Claude](docs/images/claude-connector-add.jpg)
+
+ในแชทให้เปิด connector แล้วสั่งให้เรียก `list_posts` / `get_post` — MCP คือคลังข่าว ไม่ใช่แชท
+
+![ตัวอย่าง Claude เรียกเครื่องมือคลังข่าว](docs/images/claude-connector-tools.jpg)
+
+ตัวอย่างคำสั่งในแชท Claude:
+
+```text
+ใช้ connector gov-news-thailand เรียก list_posts โดย q="การคลัง" limit=5
+จากนั้น get_post ตาม id ที่ได้มา แล้วสรุปเป็นภาษาไทยโดยไม่แต่งข้อเท็จจริง
+```
+
+ทดสอบเครื่องมือก่อนเชื่อม:
+
+```powershell
+Invoke-RestMethod -Uri "https://ai-pc-dev-rag.ngrok-free.app/8788/mcp" `
+  -Method POST -ContentType "application/json" `
+  -Headers @{ "ngrok-skip-browser-warning"="true" } `
+  -Body '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'
+```
+
+ต้องได้เฉพาะ `list_posts`, `get_post`, `list_downloads`
 
 ---
 

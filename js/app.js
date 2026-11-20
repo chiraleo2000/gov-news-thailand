@@ -100,11 +100,14 @@
     document.getElementById("connect-test")?.addEventListener("click", async () => {
       const nc = window.NewsConnect;
       if (!status || !nc?.testMcp) return;
-      status.textContent = "กำลังทดสอบ MCP…";
+      status.textContent = "กำลังทดสอบ MCP คลังข่าว…";
       try {
         const result = await nc.testMcp();
-        if (result?.ok) status.textContent = `MCP ผ่าน · เครื่องมือ: ${(result.names || []).join(", ")}`;
-        else status.textContent = result?.message || JSON.stringify(result);
+        if (result?.ok) {
+          status.textContent = `MCP คลังข่าวผ่าน · ${(result.names || []).join(", ")} (ไม่ใช่แชท)`;
+        } else {
+          status.textContent = result?.message || JSON.stringify(result);
+        }
       } catch (err) {
         status.textContent = `MCP ล้มเหลว: ${err.message || err}`;
       }
@@ -113,7 +116,7 @@
     document.getElementById("connect-test-llm")?.addEventListener("click", async () => {
       const nc = window.NewsConnect;
       if (!status || !nc?.testLlm) return;
-      status.textContent = "กำลังทดสอบ LLM…";
+      status.textContent = "กำลังทดสอบ LM Studio…";
       if (reply) {
         reply.hidden = true;
         reply.textContent = "";
@@ -121,16 +124,17 @@
       try {
         const result = await nc.testLlm();
         if (result?.ok) {
-          status.textContent = "LLM ตอบแล้ว";
+          const model = result.model ? ` · ${result.model}` : "";
+          status.textContent = `LM Studio ตอบแล้ว${model}`;
           if (reply) {
             reply.hidden = false;
             reply.textContent = result.text || "";
           }
         } else {
-          status.textContent = result?.reason || "LLM ล้มเหลว";
+          status.textContent = result?.reason || "LM Studio ล้มเหลว";
         }
       } catch (err) {
-        status.textContent = `LLM ล้มเหลว: ${err.message || err}`;
+        status.textContent = `LM Studio ล้มเหลว: ${err.message || err}`;
       }
     });
 
