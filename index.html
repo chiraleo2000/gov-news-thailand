@@ -203,7 +203,7 @@
       <div><dt>LLM (LM Studio)</dt><dd><code id="connect-llm-url">…</code></dd></div>
       <div><dt>MCP (คลังข่าว)</dt><dd><code id="connect-mcp-url">…</code></dd></div>
     </dl>
-    <p class="muted">ค่าเริ่มต้นใช้ <code>data/tunnel.json</code> (wake เลือกแชทโมเดลที่โหลดใน LM Studio) · LLM = {ฐาน}/1234/… · MCP ข่าว = {ฐาน}/8788/mcp</p>
+    <p class="muted">ค่าเริ่มต้นใช้ <code>data/tunnel.json</code> · โมเดล <code>google/gemma-4-e2b</code> · LLM = {ฐาน}/1234/… · MCP ข่าว = {ฐาน}/8788/mcp</p>
     <div class="connect-actions">
       <button type="button" class="btn-ghost" id="connect-save">บันทึก</button>
       <button type="button" class="btn-ghost" id="connect-test">ทดสอบ MCP ข่าว</button>
@@ -211,7 +211,7 @@
     </div>
     <p class="muted" id="connect-status" aria-live="polite"></p>
     <pre id="connect-llm-reply" class="connect-llm-reply" hidden></pre>
-    <p class="muted">ทดสอบ MCP ส่ง <code>tools/list</code> ต้องเจอเครื่องมือข่าวเท่านั้น — ห้ามมีชื่อที่มีคำว่า <code>graph</code>. แชท/เล่าคำตอบใช้ปุ่ม LM Studio</p>
+    <p class="muted">ทดสอบ MCP ส่ง <code>tools/list</code> ต้องเจอเครื่องมือข่าวเท่านั้น — ห้ามมีชื่อที่มีคำว่า <code>graph</code></p>
   </section>
 </section>
 
@@ -219,8 +219,8 @@
   <div class="modal-box" id="modalBox"></div>
 </div>
 <footer><p>Gov News Thailand — Pipeline v10 · GraphRAG + MCP</p></footer>
-<script src="./js/graph.js?v=20261121v10c"></script>
-<script src="./js/rag.js?v=20261121v10c"></script>
-<script src="./js/app.js?v=20261121v10c"></script>
+<script src="./js/graph.js?v=20261121v10b"></script>
+<script src="./js/rag.js?v=20261121v10b"></script>
+<script src="./js/app.js?v=20261121v10b"></script>
 </body>
 </html>

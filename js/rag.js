@@ -1711,11 +1711,10 @@
       ${focusButton(opts, result)}
     </div>`;
   }
-  function llmFailureReason(status, data, model) {
+  function llmFailureReason(status, data) {
     const blob = JSON.stringify(data || {}).toLowerCase();
-    const name = model || LLM_MODEL;
     if (status === 404 || /model|not loaded|does not exist|unknown model|failed to load|no models loaded/.test(blob)) {
-      return `โมเดล ${name} ยังไม่ถูกโหลดใน LM Studio — เปิดโหลดแชทโมเดลแล้วกดทดสอบ LLM อีกครั้ง`;
+      return "โมเดล google/gemma-4-e2b ยังไม่ถูกโหลดใน LM Studio";
     }
     return `เซิร์ฟเวอร์ตอบรหัส ${status}`;
   }
@@ -1724,34 +1723,29 @@
     const msg = choice?.message || {};
     const content = String(msg.content || "").trim();
     if (content) return content;
-    // Gemma sometimes burns a short max_tokens budget on reasoning only.
-    const reasoning = String(msg.reasoning_content || msg.reasoning || "").trim();
+    const reasoning = String(msg.reasoning_content || "").trim();
     if (!reasoning) return "";
     const lines = reasoning
       .split(/\n+/)
       .map((line) => line.trim())
-      .filter(Boolean)
-      .filter((line) => !/^(thinking|thought|process|step|analyze|determine|formulate)\b/i.test(line))
-      .filter((line) => !/^\d+\.\s/.test(line))
-      .filter((line) => !/^\*\*/.test(line));
+      .filter(Boolean);
     const last = lines[lines.length - 1] || "";
-    return last.length >= 2 ? last : "";
+    if (/^(thinking|thought|process|step)\b/i.test(last)) return "";
+    return last.length >= 8 ? last : "";
   }
 
-  async function completeChatOnce(url, messages, model, maxTokens = -1) {
-    const useModel = model || LLM_MODEL;
+  async function completeChatOnce(url, messages, maxTokens = -1) {
     let res;
     try {
       const signal = maxTokens > 0 && typeof AbortSignal !== "undefined" && AbortSignal.timeout
         ? AbortSignal.timeout(12000)
         : undefined;
       const body = {
-        model: useModel,
+        model: LLM_MODEL,
         temperature: maxTokens > 0 ? 0 : 0.2,
         messages,
       };
-      // Avoid tiny max_tokens: reasoning models often return empty content.
-      if (maxTokens > 0) body.max_tokens = Math.max(maxTokens, 256);
+      if (maxTokens > 0) body.max_tokens = maxTokens;
       res = await fetch(url, {
         method: "POST",
         headers: {
@@ -1778,31 +1772,24 @@
     if (!data || typeof data !== "object") {
       return { ok: false, reason: "เซิร์ฟเวอร์ตอบกลับไม่ใช่ JSON" };
     }
-    if (!res.ok) return { ok: false, reason: llmFailureReason(res.status, data, useModel) };
+    if (!res.ok) return { ok: false, reason: llmFailureReason(res.status, data) };
     const choice = data?.choices?.[0];
     const text = messageTextFromChoice(choice);
-    if (!text.trim()) {
-      return {
-        ok: false,
-        reason: `โมเดล ${useModel} ไม่ส่งข้อความกลับ (อาจกำลังคิดแบบ reasoning — ลองโมเดลอื่นใน LM Studio)`,
-      };
-    }
+    if (!text.trim()) return { ok: false, reason: "โมเดลไม่ส่งข้อความกลับ" };
     return {
       ok: true,
       text,
       truncated: choice?.finish_reason === "length",
-      model: useModel,
     };
   }
 
-  async function completeChat(url, messages, model) {
-    const useModel = model || LLM_MODEL;
+  async function completeChat(url, messages) {
     const convo = messages.map((message) => ({ role: message.role, content: message.content }));
     let text = "";
     let previous = "";
     while (true) {
-      const once = await completeChatOnce(url, convo, useModel);
-      if (!once.ok) return text.trim() ? { ok: true, text: text.trim(), model: useModel } : once;
+      const once = await completeChatOnce(url, convo);
+      if (!once.ok) return text.trim() ? { ok: true, text: text.trim() } : once;
       if (!once.text || once.text === previous) break;
       text += once.text;
       if (!once.truncated) break;
@@ -1815,7 +1802,7 @@
         }
       );
     }
-    return { ok: true, text: text.trim(), model: useModel };
+    return { ok: true, text: text.trim() };
   }
 
   function markerText(line, index) {
@@ -2015,15 +2002,11 @@
     const endpoints = await resolveEndpoints();
     if (!endpoints.ok) return { ok: false, reason: endpoints.reason };
     const history = priorMessages();
-    return completeChat(
-      endpoints.llm,
-      [
-        { role: "system", content: NARRATION_RULE },
-        ...history,
-        { role: "user", content: evidenceBrief(question, result) },
-      ],
-      endpoints.model || LLM_MODEL
-    );
+    return completeChat(endpoints.llm, [
+      { role: "system", content: NARRATION_RULE },
+      ...history,
+      { role: "user", content: evidenceBrief(question, result) },
+    ]);
   }
 
   function parseRpcBody(text) {
@@ -2104,13 +2087,10 @@
 
   async function testLlm() {
     const endpoints = await resolveEndpoints();
-    if (!endpoints.ok) return { ok: false, reason: endpoints.reason, text: "", model: "" };
-    const reply = await completeChat(
-      endpoints.llm,
-      [{ role: "user", content: "ตอบเป็นภาษาไทยหนึ่งประโยคว่าเชื่อมต่อแล้ว" }],
-      endpoints.model || LLM_MODEL
-    );
-    return { ...reply, model: reply.model || endpoints.model || LLM_MODEL };
+    if (!endpoints.ok) return { ok: false, reason: endpoints.reason, text: "" };
+    return completeChat(endpoints.llm, [
+      { role: "user", content: "ตอบเป็นภาษาไทยหนึ่งประโยคว่าเชื่อมต่อแล้ว" },
+    ]);
   }
 
   function ask(text) {

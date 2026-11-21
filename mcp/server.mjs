@@ -5,8 +5,23 @@ import path from "node:path";
 
 const HOST = "127.0.0.1";
 const DEFAULT_PAGES_BASE = "https://chiraleo2000.github.io/gov-news-thailand";
-const DATA_ROOT = path.resolve(path.dirname(filePathFromImportUrl(import.meta.url)), "../data");
+const MCP_DIR = path.dirname(filePathFromImportUrl(import.meta.url));
+const REPO_ROOT = path.resolve(MCP_DIR, "..");
+const DATA_ROOT = path.resolve(REPO_ROOT, "data");
 const DOWNLOADS_DIR = path.join(DATA_ROOT, "downloads");
+
+function resolveDocumentRoot() {
+  const fromEnv = process.env.DOCUMENT_ROOT?.trim();
+  if (fromEnv && fs.existsSync(fromEnv)) return path.resolve(fromEnv);
+  const local = path.join(REPO_ROOT, "Document");
+  if (fs.existsSync(local)) return local;
+  // Public Pages kit: Document lives in sibling private kit Gov-News-GitHub
+  const sibling = path.resolve(REPO_ROOT, "..", "Gov-News-GitHub", "Document");
+  if (fs.existsSync(sibling)) return sibling;
+  return local;
+}
+
+const DOCUMENT_ROOT = resolveDocumentRoot();
 
 function withoutTrailingSlashes(value) {
   let text = String(value || "");
@@ -508,19 +523,37 @@ function isRegularFile(filePath) {
 
 function filesForDate(date) {
   if (!DATE_RE.test(date)) return [];
-  const root = path.resolve(DOWNLOADS_DIR);
   const found = [];
+  const seen = new Set();
+  const pushFile = (full, pathLabel, filename) => {
+    if (!isRegularFile(full) || seen.has(pathLabel)) return;
+    seen.add(pathLabel);
+    const ext = path.extname(filename).toLowerCase();
+    let kind = "file";
+    if (ext === ".pdf") kind = "pdf";
+    else if (IMAGE_EXT.has(ext)) kind = "image";
+    else if (ext === ".html" || ext === ".htm") kind = "html";
+    found.push({
+      path: pathLabel,
+      url: downloadFileUrl(filename),
+      kind,
+      date,
+    });
+  };
+
+  // Prefer published data/downloads, then private Document/{date}_News digests.
   for (const spec of POST_DAY_FILES) {
     const filename = `${date}_${spec.suffix}`;
-    const full = path.resolve(root, filename);
-    const rel = path.relative(root, full);
-    if (!rel || rel.startsWith("..") || path.isAbsolute(rel)) continue;
-    if (!isRegularFile(full)) continue;
-    found.push({
-      path: `downloads/${filename}`,
-      url: downloadFileUrl(filename),
-      kind: spec.kind,
-    });
+    pushFile(path.join(DOWNLOADS_DIR, filename), `downloads/${filename}`, filename);
+  }
+  const dayDir = path.join(DOCUMENT_ROOT, `${date}_News`);
+  if (fs.existsSync(dayDir)) {
+    for (const name of fs.readdirSync(dayDir)) {
+      if (!name.startsWith(`${date}_`)) continue;
+      const ext = path.extname(name).toLowerCase();
+      if (!(ext === ".pdf" || IMAGE_EXT.has(ext) || ext === ".html" || ext === ".htm")) continue;
+      pushFile(path.join(dayDir, name), `Document/${date}_News/${name}`, name);
+    }
   }
   return found;
 }
@@ -555,34 +588,73 @@ function getPost(args) {
 
 function listDownloads(args) {
   const date = optionalDate(args);
-  if (!fs.existsSync(DOWNLOADS_DIR)) return { downloads: [] };
-  const entries = fs.readdirSync(DOWNLOADS_DIR, { withFileTypes: true });
   const downloads = [];
-  for (const entry of entries) {
-    if (!entry.isFile()) continue;
-    if (entry.name.includes("/") || entry.name.includes("\\") || entry.name.includes("..")) continue;
-    const ext = path.extname(entry.name).toLowerCase();
-    let kind = "";
-    if (ext === ".pdf") kind = "pdf";
-    else if (IMAGE_EXT.has(ext)) kind = "image";
-    else continue;
-    const match = /^(\d{4}-\d{2}-\d{2})_/.exec(entry.name);
-    const fileDate = match ? match[1] : null;
-    if (date && fileDate !== date) continue;
-    downloads.push({
-      path: `downloads/${entry.name}`,
-      url: downloadFileUrl(entry.name),
-      kind,
-      date: fileDate,
-    });
+  const seen = new Set();
+  const push = (item) => {
+    if (!item?.path || seen.has(item.path)) return;
+    seen.add(item.path);
+    downloads.push(item);
+  };
+
+  if (fs.existsSync(DOWNLOADS_DIR)) {
+    for (const entry of fs.readdirSync(DOWNLOADS_DIR, { withFileTypes: true })) {
+      if (!entry.isFile()) continue;
+      if (entry.name.includes("/") || entry.name.includes("\\") || entry.name.includes("..")) continue;
+      const ext = path.extname(entry.name).toLowerCase();
+      let kind = "";
+      if (ext === ".pdf") kind = "pdf";
+      else if (IMAGE_EXT.has(ext)) kind = "image";
+      else if (ext === ".html" || ext === ".htm") kind = "html";
+      else continue;
+      const match = /^(\d{4}-\d{2}-\d{2})_/.exec(entry.name);
+      const fileDate = match ? match[1] : null;
+      if (date && fileDate !== date) continue;
+      push({
+        path: `downloads/${entry.name}`,
+        url: downloadFileUrl(entry.name),
+        kind,
+        date: fileDate,
+        source: "data/downloads",
+      });
+    }
   }
+
+  // Workspace digests (private kit Document/) so agents can reach analysis PDFs even
+  // before they are mirrored into data/downloads for Pages.
+  if (fs.existsSync(DOCUMENT_ROOT)) {
+    for (const dirEnt of fs.readdirSync(DOCUMENT_ROOT, { withFileTypes: true })) {
+      if (!dirEnt.isDirectory() || !dirEnt.name.endsWith("_News")) continue;
+      const day = dirEnt.name.slice(0, -5);
+      if (!DATE_RE.test(day)) continue;
+      if (date && day !== date) continue;
+      const dayDir = path.join(DOCUMENT_ROOT, dirEnt.name);
+      for (const name of fs.readdirSync(dayDir)) {
+        const ext = path.extname(name).toLowerCase();
+        if (!(ext === ".pdf" || IMAGE_EXT.has(ext) || ext === ".html" || ext === ".htm")) continue;
+        if (name.includes("..") || name.includes("/") || name.includes("\\")) continue;
+        let kind = "file";
+        if (ext === ".pdf") kind = "pdf";
+        else if (IMAGE_EXT.has(ext)) kind = "image";
+        else kind = "html";
+        push({
+          path: `Document/${dirEnt.name}/${name}`,
+          url: downloadFileUrl(name),
+          kind,
+          date: day,
+          source: "Document",
+          workspace: true,
+        });
+      }
+    }
+  }
+
   downloads.sort((a, b) => {
     if (a.date && b.date && a.date !== b.date) return a.date < b.date ? 1 : -1;
     if (a.date && !b.date) return -1;
     if (!a.date && b.date) return 1;
     return a.path.localeCompare(b.path);
   });
-  return { downloads };
+  return { downloads, document_root: DOCUMENT_ROOT };
 }
 
 function publicTools() {

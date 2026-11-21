@@ -2,7 +2,7 @@
     "base":  "https://ai-pc-dev-rag.ngrok-free.app",
     "mcp":  "https://ai-pc-dev-rag.ngrok-free.app/8788/mcp",
     "llm":  "https://ai-pc-dev-rag.ngrok-free.app/1234/v1/chat/completions",
-    "model":  "google/gemma-4-e4b",
-    "updated_at":  "2026-11-20T17:22:55.3841149Z",
+    "model":  "google/gemma-4-e2b",
+    "updated_at":  "2026-11-21T06:45:00.9761954Z",
     "note":  "MCP=news archive tools only; LLM=LM Studio narration for GraphRAG ask panel"
 }
