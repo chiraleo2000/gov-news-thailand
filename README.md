@@ -55,15 +55,16 @@
 
 คู่มือเต็ม: **[docs/claude-mcp-connector.md](docs/claude-mcp-connector.md)**
 
-URL ที่ใส่ใน Claude (Customize → Connectors → Add custom connector):
+ค่าใน Claude (Customize → Connectors → Add custom connector) — **สองตัวคนละ URL**:
 
-```text
-https://ai-pc-dev-rag.ngrok-free.app/8788/mcp
-```
+| ช่อง | gov-news-thailand | AI-news-thailand |
+| --- | --- | --- |
+| **Name** | `gov-news-thailand` | `AI-news-thailand` |
+| **URL** | `https://ai-pc-dev-rag.ngrok-free.app/8788/mcp` | `https://ai-pc-dev-rag.ngrok-free.app/8789/mcp` |
+| **Auth** | `No sign in` | `No sign in` |
 
-- ชื่อตัวอย่าง: `gov-news-thailand`
-- Authentication: **No sign in**
-- ต้องเป็น HTTPS พอร์ต 443 (อุโมงค์ ngrok) — อย่าใส่ `:8788` ตรง ๆ จากเครื่องท้องถิ่นให้ Claude cloud
+- ต้องเป็น HTTPS พอร์ต 443 (อุโมงค์ ngrok) — อย่าใส่ `http://127.0.0.1:8788` ให้ Claude cloud
+- อย่าใส่ URL เดียวกันให้ทั้งสองชื่อ — AI News คือ **`:8789`**
 
 ![เพิ่ม custom connector ใน Claude](docs/images/claude-connector-add.jpg)
 

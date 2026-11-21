@@ -12,6 +12,17 @@ MCP ของโปรเจกต์นี้เป็น **คลังข่�
 
 ก่อนเชื่อม: รัน `ops\wake-gov-mcp.ps1` ใน `Gov-News-GitHub` และให้อุโมงค์ police RAG (`ai-pc-dev-rag`) เปิดอยู่
 
+### ค่าที่กรอกใน Claude (อย่าสลับพอร์ต)
+
+| ช่อง | **gov-news-thailand** | AI-news-thailand |
+| --- | --- | --- |
+| **Name** | `gov-news-thailand` | `AI-news-thailand` |
+| **URL** | `https://ai-pc-dev-rag.ngrok-free.app/8788/mcp` | `https://ai-pc-dev-rag.ngrok-free.app/8789/mcp` |
+| **Auth** | `No sign in` | `No sign in` |
+
+> สอง connector คนละ URL — **ห้าม**ใส่ `:8788` ให้ AI News  
+> gov = **`:8788`** · AI = **`:8789`** · police = `:8787` · LLM chat = `:1234`
+
 ---
 
 ## A) Claude.ai / Claude Desktop — Custom Connector (แนะนำ)
@@ -20,10 +31,11 @@ MCP ของโปรเจกต์นี้เป็น **คลังข่�
 
 1. เปิด **Customize → Connectors**
 2. กด **+ Add** → **Add custom connector**
-3. ตั้งชื่อ เช่น `gov-news-thailand`
+3. ตั้งชื่อ `gov-news-thailand`
 4. วาง URL ทั้งเส้นรวมพาธ: `https://ai-pc-dev-rag.ngrok-free.app/8788/mcp`
 5. Authentication เลือก **No sign in**
-6. บันทึก แล้วกด **Connect** ให้สถานะเป็น Connected
+6. บันทึก แล้วกด **Connect** ให้สถานะเป็น Connected  
+   (ถ้าต้องการ AI News ด้วย ให้เพิ่ม connector ที่สองชื่อ `AI-news-thailand` ที่ URL `…/8789/mcp`)
 
 ![เพิ่ม custom connector ใน Claude](images/claude-connector-add.jpg)
 

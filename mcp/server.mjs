@@ -94,12 +94,34 @@ const TOOLS = [
       },
     },
   },
+  {
+    name: "search_rag",
+    description:
+      "Ranked RAG search over the gov news archive. Scores title, agency, analysis_notes, exec_blurb, content, and topic. Returns ranked posts with score, matched_fields, and short analysis/content chunks. Required q. Optional date, agency, limit (default 12, max 30).",
+    inputSchema: {
+      type: "object",
+      properties: {
+        q: { type: "string", description: "Search query: person, office, place, policy, or topic" },
+        date: { type: "string", description: "Optional archive date YYYY-MM-DD" },
+        agency: { type: "string", description: "Optional agency substring filter" },
+        limit: {
+          type: "integer",
+          description: "Maximum hits. Default 12, maximum 30.",
+          minimum: 1,
+          maximum: 30,
+          default: 12,
+        },
+      },
+      required: ["q"],
+    },
+  },
 ];
 
 const HANDLERS = {
   list_posts: listPosts,
   get_post: getPost,
   list_downloads: listDownloads,
+  search_rag: searchRag,
 };
 
 let archiveCache = null;
@@ -111,12 +133,13 @@ function filePathFromImportUrl(importUrl) {
 }
 
 function resolvePort() {
+  // 8788 = Gov News MCP (8787=police, 8789=ai-news; shared gateway proxies all)
   const raw = process.env.PORT;
-  if (raw === undefined || raw === "") return 8787;
+  if (raw === undefined || raw === "") return 8788;
   const port = Number(raw);
   if (!Number.isInteger(port) || port < 0 || port > 65535) {
-    console.error("Invalid PORT, using 8787");
-    return 8787;
+    console.error("Invalid PORT, using 8788");
+    return 8788;
   }
   return port;
 }
@@ -174,7 +197,7 @@ function pickPost(raw, fallbackDate) {
     references: Array.isArray(raw.references) ? raw.references : [],
     corroborating_sources: Array.isArray(raw.corroborating_sources) ? raw.corroborating_sources : [],
     stats: pickStats(raw.stats),
-    search: [id, title, topic, agency, execBlurb, content].join("\n").toLowerCase(),
+    search: [id, title, topic, agency, execBlurb, analysisNotes, content].join("\n").toLowerCase(),
   };
 }
 
@@ -358,6 +381,102 @@ function listPosts(args) {
   };
 }
 
+function chunkSnippets(text, tokens, maxChunks = 2) {
+  const clean = String(text || "").replace(/\s+/g, " ").trim();
+  if (!clean) return [];
+  const lower = clean.toLowerCase();
+  const out = [];
+  for (const token of tokens) {
+    if (!token) continue;
+    let from = 0;
+    while (out.length < maxChunks) {
+      const idx = lower.indexOf(token, from);
+      if (idx < 0) break;
+      const start = Math.max(0, idx - 60);
+      const end = Math.min(clean.length, idx + token.length + 100);
+      const snippet = `${start > 0 ? "…" : ""}${clean.slice(start, end).trim()}${end < clean.length ? "…" : ""}`;
+      if (snippet && !out.includes(snippet)) out.push(snippet);
+      from = idx + token.length;
+    }
+  }
+  return out.slice(0, maxChunks);
+}
+
+function scorePost(post, tokens) {
+  const fields = [
+    ["title", 5, post.title],
+    ["agency", 4, post.agency],
+    ["topic", 3, post.topic],
+    ["analysis_notes", 4, post.analysis_notes],
+    ["exec_blurb", 3, post.exec_blurb],
+    ["content", 1, post.content],
+    ["search", 1, post.search],
+  ];
+  let score = 0;
+  const matchedFields = [];
+  for (const token of tokens) {
+    let hit = false;
+    for (const [name, weight, text] of fields) {
+      const hay = String(text || "").toLowerCase();
+      if (!hay.includes(token)) continue;
+      score += weight;
+      hit = true;
+      if (!matchedFields.includes(name)) matchedFields.push(name);
+    }
+    if (!hit) return null;
+  }
+  const chunks = [
+    ...chunkSnippets(post.analysis_notes, tokens, 2),
+    ...chunkSnippets(post.exec_blurb, tokens, 1),
+    ...chunkSnippets(post.content, tokens, 2),
+  ].slice(0, 4);
+  return { score, matchedFields, chunks };
+}
+
+function searchRag(args) {
+  const query = optionalQuery(args);
+  if (!query) throw rpcError(-32602, "q is required");
+  const date = optionalDate(args);
+  let agency = "";
+  if (Object.hasOwn(args, "agency") && args.agency != null && args.agency !== "") {
+    if (typeof args.agency !== "string") throw rpcError(-32602, "agency must be a string");
+    agency = args.agency.trim().toLowerCase();
+  }
+  let limit = 12;
+  if (Object.hasOwn(args, "limit") && args.limit != null && args.limit !== "") {
+    const value = limitNumber(args.limit);
+    if (!Number.isFinite(value) || value < 1) throw rpcError(-32602, "limit must be a number >= 1");
+    limit = Math.min(30, Math.floor(value));
+  }
+  const tokens = query.split(/\s+/).filter(Boolean);
+  const hits = [];
+  for (const post of getArchive().posts) {
+    if (date && post.date !== date) continue;
+    if (agency && !String(post.agency || "").toLowerCase().includes(agency)) continue;
+    const scored = scorePost(post, tokens);
+    if (!scored) continue;
+    hits.push({
+      id: post.id,
+      date: post.date,
+      title: post.title,
+      topic: post.topic,
+      agency: post.agency,
+      excerpt: excerptOf(post),
+      href: postHref(post.date, post.id),
+      score: scored.score,
+      matched_fields: scored.matchedFields,
+      chunks: scored.chunks,
+    });
+  }
+  hits.sort((a, b) => b.score - a.score || (a.date < b.date ? 1 : -1));
+  return {
+    q: query,
+    matched: hits.length,
+    limit,
+    posts: hits.slice(0, limit),
+  };
+}
+
 function sourceLinks(post) {
   const links = [];
   const seen = new Set();
@@ -511,7 +630,7 @@ function initializeResult() {
   return {
     protocolVersion: "2025-03-26",
     capabilities: { tools: { listChanged: false } },
-    serverInfo: { name: "police-news", version: "1.0.0", homepage: PAGES_BASE },
+    serverInfo: { name: "gov-news", version: "1.1.0", homepage: PAGES_BASE },
     instructions:
       "These tools read only the published news archive. Return stored records and say when a record is absent. Do not invent names, counts, or events. A job title is not the whole parent organization.",
   };
