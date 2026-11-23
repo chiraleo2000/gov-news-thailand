@@ -3,6 +3,6 @@
     "mcp":  "https://ai-pc-dev-rag.ngrok-free.app/8788/mcp",
     "llm":  "https://ai-pc-dev-rag.ngrok-free.app/1234/v1/chat/completions",
     "model":  "google/gemma-4-e2b",
-    "updated_at":  "2026-11-23T17:23:27.3703818Z",
+    "updated_at":  "2026-11-23T17:28:19.9953405Z",
     "note":  "MCP=news archive tools only; LLM=LM Studio narration for GraphRAG ask panel"
 }
