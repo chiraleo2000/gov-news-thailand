@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-22T13:00:08.678Z",
+  "generated_at": "2026-11-23T11:00:10.512Z",
   "schema_version": 2,
   "source": "github-pages/data/*_news.json",
   "stats": {
-    "nodes": 7709,
-    "edges": 12630,
+    "nodes": 7804,
+    "edges": 12840,
     "unresolved": 0,
     "by_kind": {
-      "case": 1778,
-      "entity": 5931
+      "case": 1796,
+      "entity": 6008
     },
     "by_entity_group": {
-      "ภาคส่วน": 358,
-      "แท็ก": 3855,
-      "หมวด": 1130,
-      "หน่วย": 588
+      "ภาคส่วน": 373,
+      "แท็ก": 3906,
+      "หมวด": 1138,
+      "หน่วย": 591
     },
     "by_label": {
-      "เผยแพร่โดย": 1751,
-      "อยู่ในหมวด": 1765,
-      "แท็ก": 8260,
-      "เกี่ยวข้องกับภาคส่วน": 854
+      "เผยแพร่โดย": 1769,
+      "อยู่ในหมวด": 1783,
+      "แท็ก": 8375,
+      "เกี่ยวข้องกับภาคส่วน": 913
     }
   },
   "unresolved_samples": [],
@@ -5531,6 +5531,29 @@
       "degree": 8
     },
     {
+      "id": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "title": "ธปท. ขยายมาตรการคงอัตราผ่อนชำระหนี้บัตรเครดิตขั้นต่ำ 8% ต่ออีก 2 ปีถึงสิ้นปี 2571 ช่วยลูกหนี้ที่รายได้ยังฟื้นไม่เต็มที่",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "crime_type": "เศรษฐกิจการเงินและการคลัง",
+      "bureau": "ธนาคารแห่งประเทศไทย",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ธปท.",
+        "บัตรเครดิต",
+        "Minimum Payment",
+        "หนี้ครัวเรือน",
+        "วิทัย รัตนากร"
+      ],
+      "excerpt": "นายวิทัย รัตนากร ผู้ว่าการธนาคารแห่งประเทศไทย (ธปท.) เปิดเผยเมื่อวันที่ 23 พฤศจิกายน 2569 ว่า ธปท. ตัดสินใจขยายระยะเวลาผ่อนผันอัตราการผ่อนชำระหนี้บัตรเครดิตขั้นต่ำ (Minimum Payment) โดยคงไว้ที่ 8% ต่อไปอีก 2 ปีจนถึงสิ้นป",
+      "path": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "degree": 10
+    },
+    {
       "id": "20_Posts/bot-baht-stability-2026-06-18-a1b2c3d4",
       "title": "ธปท. ยืนยันเงินบาทมีเสถียรภาพ แม้แรงกดดันจากสงครามสหรัฐ-อิหร่าน",
       "kind": "case",
@@ -9302,6 +9325,31 @@
       "degree": 9
     },
     {
+      "id": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "title": "DITP เผยท่าเรือกวนเหล่ยนำเข้าผลไม้ไทยผ่านเส้นทางแม่น้ำโขงพุ่ง 16.2 เท่า 9 เดือนแรกปี 2569 พร้อมดันส่งออกลำไยสดเป็น 2 แสนตัน",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "crime_type": "การค้าระหว่างประเทศ",
+      "bureau": "DITP",
+      "area": "",
+      "status": "",
+      "tags": [
+        "DITP",
+        "ผลไม้ส่งออก",
+        "ท่าเรือกวนเหล่ย",
+        "เชียงแสน",
+        "แม่น้ำโขง",
+        "ลำไย",
+        "ทุเรียน"
+      ],
+      "excerpt": "นายวราวุฒิ สมหวังประเสริฐ อธิบดีกรมส่งเสริมการค้าระหว่างประเทศ (DITP) เปิดเผยว่าได้รับรายงานจากสำนักงานส่งเสริมการค้าในต่างประเทศ ณ นครคุนหมิง ว่าช่วงมกราคม–กันยายน 2569 ท่าเรือกวนเหล่ย เมืองสิบสองปันนา มณฑลยูนนาน นำเข้า",
+      "path": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "degree": 12
+    },
+    {
       "id": "20_Posts/DIW-aggregator-2026-11-15-industry-committee-375-of-752-recycling-factories-violations-metal-mix-nov15",
       "title": "กมธ.อุตสาหกรรมเผยผลตรวจโรงงานรีไซเคิล 752 แห่งพบทำผิด 375 แห่ง เตรียมตรวจอีก 2,297 แห่ง เสนอคุมนำเข้าเศษโลหะผสม",
       "kind": "case",
@@ -9488,6 +9536,54 @@
       ],
       "excerpt": "เมื่อวันที่ 22 พฤศจิกายน 2569 กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม เผยแพร่สถิติการจัดเก็บรายได้ปีงบประมาณ 2569 รวม 2,245,808,956 บาท แบ่งเป็นอุทยานแห่งชาติ 133 แห่ง 2,224.26 ล้านบ",
       "path": "20_Posts/DNP-aggregator-2026-11-22-dnp-fy2026-revenue-2245m-phi-phi-top-khao-yai-most-visited-20-9m-visitors",
+      "degree": 11
+    },
+    {
+      "id": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "title": "กรมประมง–คพ. พบสัตว์น้ำ 10 ชนิดในลุ่มน้ำกกมีสารปนเปื้อนเกินมาตรฐาน แนะงดกินสัตว์น้ำหน้าดินและเครื่องในปลา เตรียมใช้ระบบธงเตือนภัย 3 สี",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "crime_type": "เกษตรและสิ่งแวดล้อม",
+      "bureau": "กรมประมง",
+      "area": "",
+      "status": "",
+      "tags": [
+        "กรมประมง",
+        "กรมควบคุมมลพิษ",
+        "แม่น้ำกก",
+        "สัตว์น้ำปนเปื้อน",
+        "สารหนู",
+        "ระบบธงเตือนภัย"
+      ],
+      "excerpt": "วันที่ 23 พฤศจิกายน 2569 นายสุรินทร์ วรกิจธำรง อธิบดีกรมควบคุมมลพิษ นายเผด็จ ลายทอง รองปลัดกระทรวงทรัพยากรธรรมชาติฯ รักษาราชการแทนอธิบดีกรมทรัพยากรทางทะเลและชายฝั่ง และนายปิ่นสักก์ สุรัสวดี อธิบดีกรมประมง ประชุมบูรณาการแ",
+      "path": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "degree": 12
+    },
+    {
+      "id": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "title": "กรมประมงรับ 4 วาระจากสมาพันธ์ประมงพื้นบ้านกว่า 200 คน ทั้งน้ำมันเขียวราคาถูก แก้กฎหมายเรือเล็ก คุมเครื่องมือผิดกฎหมาย คุ้มครองสัตว์น้ำวัยอ่อน และทบทวนแลนด์บริดจ์",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "crime_type": "เกษตรและประมง",
+      "bureau": "กรมประมง",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ประมงพื้นบ้าน",
+        "กรมประมง",
+        "น้ำมันเขียว",
+        "อวนลาก",
+        "แลนด์บริดจ์",
+        "สัตว์น้ำวัยอ่อน"
+      ],
+      "excerpt": "นายปิ่นสักก์ สุรัสวดี อธิบดีกรมประมง เปิดเผยว่ากรมประมงได้ประชุมร่วมกับผู้แทนสมาคมสมาพันธ์ชาวประมงพื้นบ้านแห่งประเทศไทยกว่า 200 คน เพื่อรับฟังปัญหาและข้อเสนอ ครอบคลุม 4 วาระหลัก ได้แก่ การลดต้นทุนด้วยน้ำมันราคาถูกหรือน้ำ",
+      "path": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
       "degree": 11
     },
     {
@@ -9787,6 +9883,31 @@
       "excerpt": "นางสาวโชติมา เอี่ยมสวัสดิกุล อธิบดีกรมเจรจาการค้าระหว่างประเทศ เปิดเผยว่าปัจจุบันไทยมี FTA ที่มีผลใช้บังคับแล้ว 14 ฉบับกับ 18 ประเทศ และในปี 2567-2568 ได้ลงนามเพิ่ม 3 ฉบับ คือ ไทย-EFTA ไทย-ภูฏาน และไทย-ศรีลังกา โดยความตก",
       "path": "20_Posts/DTN-aggregator-2026-11-21-dtn-multiple-ftas-take-effect-2027-acfta3-defa-art-nov21",
       "degree": 13
+    },
+    {
+      "id": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "title": "กรมเจรจาการค้าฯ เร่งเครื่อง FTA ACFTA 3.0 มีผล 1 ธ.ค. 2569 DEFA คาดใช้ พ.ค. 2570 ตั้งเป้าสรุป FTA ไทย–EU ภายในปีนี้ ลงนามไทย–UAE ไตรมาสแรกปี 2570",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "crime_type": "การค้าระหว่างประเทศ",
+      "bureau": "กรมเจรจาการค้าระหว่างประเทศ",
+      "area": "",
+      "status": "",
+      "tags": [
+        "FTA",
+        "กรมเจรจาการค้าฯ",
+        "ACFTA 3.0",
+        "DEFA",
+        "ไทย-EU FTA",
+        "ไทย-UAE CEPA",
+        "ไทย-เปรู"
+      ],
+      "excerpt": "นางสาวโชติมา เอี่ยมสวัสดิกุล อธิบดีกรมเจรจาการค้าระหว่างประเทศ เปิดเผยเมื่อวันที่ 23 พฤศจิกายน 2569 ว่าปัจจุบันไทยมี FTA ที่มีผลใช้บังคับแล้ว 14 ฉบับกับ 18 ประเทศ และช่วงปี 2567–2568 ได้ลงนามเพิ่ม 3 ฉบับ คือ ไทย–EFTA ไทย",
+      "path": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "degree": 12
     },
     {
       "id": "20_Posts/e11c3a33",
@@ -19099,6 +19220,55 @@
       "degree": 13
     },
     {
+      "id": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "title": "ยศชนันขีดเส้นก่อน 25 พ.ย. ให้ NANOTEC พิสูจน์ผล ‘บ่อดักตะกอนอัจฉริยะ’ สกัดสารหนูในคลองส่งน้ำบ้านเหมืองแดง ปกป้องพื้นที่เกษตร 6 หมื่นไร่",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "crime_type": "วิทยาศาสตร์ วิจัยและนวัตกรรม",
+      "bureau": "กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ยศชนัน วงศ์สวัสดิ์",
+        "NANOTEC",
+        "บ่อดักตะกอนอัจฉริยะ",
+        "บ้านเหมืองแดง",
+        "แม่สาย",
+        "สารหนู"
+      ],
+      "excerpt": "ศ.ดร.ยศชนัน วงศ์สวัสดิ์ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวง อว. นำทีมนักวิจัยศูนย์นาโนเทคโนโลยีแห่งชาติ (NANOTEC) ลงพื้นที่อำเภอแม่สาย จังหวัดเชียงราย ต่อเนื่องเป็นวันที่ 2 เมื่อวันที่ 23 พฤศจิกายน 2569 ตรวจแหล่งน้ำส",
+      "path": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "degree": 12
+    },
+    {
+      "id": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "title": "ศิริราชเปิดตัว ‘Siriraj One’ แพลตฟอร์ม AI การแพทย์ฝีมือคนไทย รวมข้อมูลผู้ป่วย 3 โรงพยาบาลในเครือ ใช้ LLM สรุปเวชระเบียนและ AI Agent ลดงานซ้ำซ้อน",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "crime_type": "สาธารณสุขและสุขภาพดิจิทัล",
+      "bureau": "กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ศิริราช",
+        "Siriraj One",
+        "AI การแพทย์",
+        "LLM",
+        "AI Agent",
+        "Data Integration",
+        "มหาวิทยาลัยมหิดล"
+      ],
+      "excerpt": "ภาควิชารังสีวิทยา คณะแพทยศาสตร์ศิริราชพยาบาล มหาวิทยาลัยมหิดล ประกาศเปิดตัว ‘Siriraj One’ แพลตฟอร์มปัญญาประดิษฐ์ทางการแพทย์ที่พัฒนาขึ้นเองภายในองค์กร ทำหน้าที่เป็นศูนย์กลางเชื่อมโยงและรวมข้อมูลผู้ป่วยจากระบบต่าง ๆ ของ 3 ",
+      "path": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "degree": 13
+    },
+    {
       "id": "20_Posts/MHESI-gistda.or.th-2026-08-18-gistda-space-tech-flood-drought-central-region",
       "title": "GISTDA นำเทคโนโลยีอวกาศและภูมิสารสนเทศ สนับสนุนบริหารจัดการอุทกภัยและภัยแล้งภาคกลาง",
       "kind": "case",
@@ -19717,6 +19887,31 @@
       "excerpt": "นายรพีภัทร์ จันทรศรีวงศ์ ปลัดกระทรวงเกษตรและสหกรณ์ เปิดเผยในงานสัมมนา Thailand Agri Future 2027: The Big Reset เมื่อวันที่ 19 พฤศจิกายน 2569 ว่ากระทรวงกำลังจัดทำตัวชี้วัด (KPI) และ OKR สำหรับปี 2570–2571 เพื่อติดตามรายได",
       "path": "20_Posts/MOAC-aggregator-2026-11-20-moac-kpi-okr-2027-2028-farmer-income-debt-export-big-reset-nov19",
       "degree": 12
+    },
+    {
+      "id": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "title": "ก.เกษตรฯ เตรียมไทยเป็นเจ้าภาพถก 3 ฝ่ายไทย–เมียนมา–จีน แก้สารหนูลุ่มน้ำกก–สายจากต้นทาง พร้อมนำร่องระบบกรองสารหนูป้องนาข้าว 2.7 หมื่นไร่ ตรวจดิน น้ำ พืช 200 ตัวอย่างให้เสร็จก่อน ธ.ค.",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "crime_type": "เกษตรและสิ่งแวดล้อม",
+      "bureau": "กระทรวงเกษตรและสหกรณ์",
+      "area": "",
+      "status": "",
+      "tags": [
+        "สารหนู",
+        "แม่น้ำกก",
+        "แม่น้ำสาย",
+        "ปิยะรัฐชย์ ติยะไพรัช",
+        "Agri-Map",
+        "ประชุม 3 ฝ่าย",
+        "ไทย-เมียนมา-จีน"
+      ],
+      "excerpt": "นางสาวปิยะรัฐชย์ ติยะไพรัช รัฐมนตรีช่วยว่าการกระทรวงเกษตรและสหกรณ์ เปิดเผยหลังประชุมแลกเปลี่ยนข้อมูลแก้ปัญหาสารหนูและตะกั่วปนเปื้อนลุ่มน้ำกก ที่มหาวิทยาลัยแม่ฟ้าหลวง จังหวัดเชียงราย ซึ่งมี ศ.ดร.ยศชนัน วงศ์สวัสดิ์ รองนายก",
+      "path": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "degree": 13
     },
     {
       "id": "20_Posts/moac-alro-land-opportunity-20260618",
@@ -20771,6 +20966,31 @@
       "degree": 8
     },
     {
+      "id": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "title": "ศุภจีเผยหารือ USTR เร่งลดภาษีมาตรา 301 ด้านแรงงานบังคับจาก 12.5% เหลือ 10% หลังไทย–สหรัฐฯ บรรลุสาระสำคัญ ART ย้ำเปิดตลาด 99% ไม่ได้หมายถึงต้องซื้อทั้งหมด",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "crime_type": "การค้าระหว่างประเทศ",
+      "bureau": "กระทรวงพาณิชย์",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ART",
+        "ศุภจี สุธรรมพันธุ์",
+        "USTR",
+        "ภาษีมาตรา 301",
+        "แรงงานบังคับ",
+        "สหรัฐอเมริกา",
+        "Structural Excess Capacity"
+      ],
+      "excerpt": "นางศุภจี สุธรรมพันธุ์ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงพาณิชย์ เปิดเผยผลการเดินทางร่วมประชุมสุดยอดอาเซียนและเอเปก ว่าหลังนายกรัฐมนตรีไทยและประธานาธิบดีโดนัลด์ ทรัมป์ บรรลุสาระสำคัญความตกลงการค้าต่างตอบแทน (ART) และ",
+      "path": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "degree": 15
+    },
+    {
       "id": "20_Posts/moc-dft-nation-40067892-20260626",
       "title": "Three pillars reshape global trade as Commerce boosts FTA push and competitiveness",
       "kind": "case",
@@ -21419,6 +21639,30 @@
       "degree": 9
     },
     {
+      "id": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "title": "กลาโหมประชุมคณะกรรมการแก้ปัญหาลักลอบค้ายุทธภัณฑ์ครั้งแรก ตั้ง 4 คณะอนุกรรมการ คุมชิ้นส่วนอาวุธที่จำหน่ายออกจากบัญชี เตรียมใช้แผนป้องกันปราบปราม พ.ศ. 2570–2575",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "crime_type": "ความมั่นคงและการป้องกันประเทศ",
+      "bureau": "กระทรวงกลาโหม",
+      "area": "",
+      "status": "",
+      "tags": [
+        "กลาโหม",
+        "ยุทธภัณฑ์",
+        "ชิ้นส่วนอาวุธ",
+        "ป.ป.ช.",
+        "อดุลย์ บุญธรรมเจริญ",
+        "แผนป้องกันปราบปราม 2570-2575"
+      ],
+      "excerpt": "พล.ท.อดุลย์ บุญธรรมเจริญ รัฐมนตรีว่าการกระทรวงกลาโหม เป็นประธานประชุมคณะกรรมการอำนวยการขับเคลื่อนการแก้ไขปัญหาการลักลอบค้ายุทธภัณฑ์ที่อาจนำไปใช้ในการรบหรือการสงครามได้ ครั้งที่ 1/2569 เมื่อวันที่ 23 พฤศจิกายน 2569 ที่ศาล",
+      "path": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "degree": 11
+    },
+    {
       "id": "20_Posts/mod-nationth-40067956-20260627",
       "title": "Truck arson shuts Yala-Betong route as defence volunteer killed in Pattani",
       "kind": "case",
@@ -21891,6 +22135,33 @@
       "excerpt": "นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง พร้อมนายวราวุธ ศิลปอาชา รัฐมนตรีว่าการกระทรวงอุตสาหกรรม และเลขาธิการคณะกรรมการส่งเสริมการลงทุน (บีโอไอ) หารือแยกรายกับผู้บริหารค่ายรถยนต์ญี่ปุ่น 6",
       "path": "20_Posts/MOF-aggregator-2026-11-20-six-japanese-carmakers-invest-134bn-baht-ev-excise-35pct-2027-nov20",
       "degree": 10
+    },
+    {
+      "id": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "title": "เอกนิติเผยค่ายรถญี่ปุ่น–จีนยืนยันไม่ย้ายฐานผลิตจากไทย ใช้เป็นฐานส่งออก ขอบคุณนโยบายขึ้นภาษีสรรพสามิตรถ EV นำเข้า และขอรัฐหนุนสถานีชาร์จทั่วประเทศ",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "crime_type": "อุตสาหกรรมและการลงทุน",
+      "bureau": "กระทรวงการคลัง",
+      "area": "",
+      "status": "",
+      "tags": [
+        "เอกนิติ นิติทัณฑ์ประภาศ",
+        "ยานยนต์",
+        "EV",
+        "สถานีชาร์จ",
+        "E20",
+        "B20",
+        "ภาษีสรรพสามิต",
+        "บีวายดี",
+        "โตโยต้า"
+      ],
+      "excerpt": "วันที่ 23 พฤศจิกายน 2569 ที่ทำเนียบรัฐบาล นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยหลังนายกรัฐมนตรีหารือกับผู้บริหารค่ายรถยนต์ญี่ปุ่นและจีน ว่าทุกบริษัท อาทิ โตโยต้า อีซูซุ มิตซูบิ",
+      "path": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "degree": 16
     },
     {
       "id": "20_Posts/MOF-customs.go.th-2026-08-19-bangkok-customs-office-inspection-policy",
@@ -22521,6 +22792,30 @@
       "excerpt": "เมื่อวันที่ 22 พฤศจิกายน 2569 นายพลพีร์ สุวรรณฉวี รัฐมนตรีช่วยว่าการกระทรวงมหาดไทย ลงพื้นที่จังหวัดปราจีนบุรี ติดตามปัญหามลพิษจากโรงงานขยะอุตสาหกรรม โดยตรวจโรงงานแห่งหนึ่งในตำบลหนองโพรง อำเภอศรีมหาโพธิ และชุมชนบ้านสระมะเ",
       "path": "20_Posts/MOI-aggregator-2026-11-22-phonpee-prachinburi-industrial-waste-plant-land-title-nominee-probe-nov22",
       "degree": 14
+    },
+    {
+      "id": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "title": "ผู้ว่าฯ แม่ฮ่องสอนยืนยันแหล่งน้ำในพื้นที่ท่องเที่ยวไม่มีสารหนูเกินมาตรฐาน พบเฉพาะช่วงแม่น้ำสาละวิน วอนนักท่องเที่ยวอย่ายกเลิกจองที่พักหน้าหนาว",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "crime_type": "ท่องเที่ยวและบริการ",
+      "bureau": "กระทรวงมหาดไทย",
+      "area": "",
+      "status": "",
+      "tags": [
+        "แม่ฮ่องสอน",
+        "ผู้ว่าราชการจังหวัด",
+        "แม่น้ำสาละวิน",
+        "สารหนู",
+        "ประปาภูเขา",
+        "บ้านรักไทย"
+      ],
+      "excerpt": "นายวิบูรณ์ แววบัณฑิตย์ ผู้ว่าราชการจังหวัดแม่ฮ่องสอน ชี้แจงเมื่อวันที่ 23 พฤศจิกายน 2569 กรณีนักท่องเที่ยวจำนวนมากทยอยยกเลิกการจองที่พัก โดยเฉพาะที่บ้านรักไทย เพราะกังวลข่าวสารหนูในแหล่งน้ำ โดยยืนยันว่าแม่น้ำสายต่าง ๆ ใน",
+      "path": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "degree": 11
     },
     {
       "id": "20_Posts/moi-ddpm-national-disaster-insurance-20260915",
@@ -24758,6 +25053,31 @@
       "degree": 11
     },
     {
+      "id": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "title": "ก.ท่องเที่ยวฯ เผยต่างชาติเที่ยวไทยสะสม 27.44 ล้านคน รายได้ 1.34 ล้านล้านบาท สัปดาห์ล่าสุด 6.79 แสนคน ตลาดระยะไกลโต 4.85% ชดเชยมาเลเซีย–จีนลดลง",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "crime_type": "ท่องเที่ยวและบริการ",
+      "bureau": "กระทรวงการท่องเที่ยวและกีฬา",
+      "area": "",
+      "status": "",
+      "tags": [
+        "นักท่องเที่ยวต่างชาติ",
+        "สุรศักดิ์ พันธ์เจริญวรกุล",
+        "ท่องเที่ยว",
+        "ตลาดระยะไกล",
+        "จีน",
+        "มาเลเซีย",
+        "อินเดีย"
+      ],
+      "excerpt": "นายสุรศักดิ์ พันธ์เจริญวรกุล รัฐมนตรีว่าการกระทรวงการท่องเที่ยวและกีฬา เปิดเผยเมื่อวันที่ 23 พฤศจิกายน 2569 ว่าตั้งแต่ 1 มกราคม–21 พฤศจิกายน 2569 ไทยมีนักท่องเที่ยวต่างชาติสะสม 27,443,320 คน สร้างรายได้ 1,338,622 ล้านบาท",
+      "path": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "degree": 12
+    },
+    {
       "id": "20_Posts/mots-atta-nation-40067926-20260626",
       "title": "Fastening the First Button: ATTA backs new Ministry of Tourism and Culture, urges 'Visitor Economy' framework",
       "kind": "case",
@@ -25225,6 +25545,29 @@
       "excerpt": "เมื่อวันที่ 22 พฤศจิกายน 2569 นายเกียรติศักดิ์ พุฒพันธุ์ รองเลขาธิการคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ (ป.ป.ช.) กล่าวถึงกรณีคณะกรรมการไต่สวนอิสระของศาลฎีกามีมติเอกฉันท์ว่านายเอกวิทย์ วัชชวัลคุ กรรมการ ป.ป.ช. ",
       "path": "20_Posts/NACC-aggregator-2026-11-22-nacc-meeting-nov23-ekkawit-gold-bribe-case-recuse-supreme-court-nov22",
       "degree": 10
+    },
+    {
+      "id": "20_Posts/NACC-aggregator-2026-11-23-nacc-ekawit-chairs-meeting-despite-gold-bribery-finding-4-commissioners-postpone-cases-nov23",
+      "title": "ประชุม ป.ป.ช. ตึงเครียด ‘เอกวิทย์’ นั่งประธานที่ประชุมแม้คณะผู้ไต่สวนอิสระชี้มูลคดีสินบนทองคำ 246 บาท กรรมการ 4 คนค้าน ขอเลื่อนพิจารณาสำนวนคดีทั้งหมด",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "NACC-aggregator-2026-11-23-nacc-ekawit-chairs-meeting-despite-gold-bribery-finding-4-commissioners-postpone-cases-nov23",
+      "crime_type": "ธรรมาภิบาลและปราบปรามการทุจริต",
+      "bureau": "สำนักงาน ป.ป.ช.",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ป.ป.ช.",
+        "เอกวิทย์ วัชชวัลคุ",
+        "สินบนทองคำ",
+        "คณะผู้ไต่สวนอิสระ",
+        "ศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง"
+      ],
+      "excerpt": "รายงานจากสำนักงาน ป.ป.ช. ระบุว่าในการประชุมคณะกรรมการ ป.ป.ช. วันที่ 23 พฤศจิกายน 2569 นายเอกวิทย์ วัชชวัลคุ กรรมการ ป.ป.ช. เข้าประชุมและทำหน้าที่ประธานในที่ประชุม แม้คณะผู้ไต่สวนอิสระมีมติเอกฉันท์ 9 ต่อ 0 ว่ามีมูลความผิด",
+      "path": "20_Posts/NACC-aggregator-2026-11-23-nacc-ekawit-chairs-meeting-despite-gold-bribery-finding-4-commissioners-postpone-cases-nov23",
+      "degree": 7
     },
     {
       "id": "20_Posts/nacc-exam-fraud-20260624-001",
@@ -27750,6 +28093,54 @@
       "degree": 8
     },
     {
+      "id": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "title": "สภาพัฒน์ชี้กากอุตสาหกรรมอันตรายเพิ่ม 40.8% แตะ 1.5 ล้านตันในปี 2568 พบลักลอบทิ้ง 382 ครั้ง ระบุช่องว่างกำกับดูแล 4 ด้าน ค่ากำจัดสูงแต่โทษปรับไม่เกิน 2 แสนบาท",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "crime_type": "อุตสาหกรรมและสิ่งแวดล้อม",
+      "bureau": "สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+      "area": "",
+      "status": "",
+      "tags": [
+        "สภาพัฒน์",
+        "กากอุตสาหกรรม",
+        "ขยะอันตราย",
+        "พ.ร.บ.โรงงาน",
+        "Polluter Pays",
+        "E-Fully Manifest"
+      ],
+      "excerpt": "นายดนุชา พิชยนันท์ เลขาธิการ สศช. เปิดเผยรายงานภาวะสังคมไทยไตรมาส 3 ปี 2569 หัวข้อ ‘กากอุตสาหกรรม: จากของเสียในโรงงานสู่ต้นทุนที่สังคมต้องร่วมจ่าย’ ว่าการขยายตัวของเศรษฐกิจและนิคมอุตสาหกรรมใหม่ทำให้ไทยมีกากอุตสาหกรรมเฉลี",
+      "path": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "degree": 12
+    },
+    {
+      "id": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "title": "สภาพัฒน์รายงานภาวะสังคมไตรมาส 3/2569 ว่างงาน 1.02% สูงสุดรอบ 2 ปี ผู้ว่างงาน 4.3 แสนคน ค่าจ้างแท้จริงลด 3.27% หนี้ครัวเรือน Q2 ต่อจีดีพีลดเหลือ 85.2%",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "crime_type": "แรงงานและสังคม",
+      "bureau": "สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+      "area": "",
+      "status": "",
+      "tags": [
+        "สภาพัฒน์",
+        "ภาวะสังคมไทย",
+        "อัตราว่างงาน",
+        "หนี้ครัวเรือน",
+        "ค่าจ้างแท้จริง",
+        "ดนุชา พิชยนันท์"
+      ],
+      "excerpt": "นายดนุชา พิชยนันท์ เลขาธิการสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ (สศช.) แถลงภาวะสังคมไทยไตรมาส 3 ปี 2569 เมื่อวันที่ 23 พฤศจิกายน 2569 ว่าผู้มีงานทำมี 42.1 ล้านคน เพิ่มขึ้น 5.7% แต่อัตราการว่างงานขยับขึ้นเป็น 1.02% สูงสุด",
+      "path": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "degree": 12
+    },
+    {
       "id": "20_Posts/nesdc-invest-gdp-20260804",
       "title": "Thailand targets 30% investment share to push GDP growth beyond 3%",
       "kind": "case",
@@ -28398,6 +28789,30 @@
       "degree": 8
     },
     {
+      "id": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "title": "เลขาธิการ OECD ชื่นชมไทยคืบหน้าการเข้าเป็นสมาชิก ไทยผ่านการประเมินรอบแรกคณะกรรมการนโยบายกฎระเบียบแบบไร้เงื่อนไข ตั้งเป้าเป็นสมาชิกภายในสิ้นปี 2571",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "crime_type": "นโยบายรัฐบาลและการต่างประเทศ",
+      "bureau": "สำนักโฆษก",
+      "area": "",
+      "status": "",
+      "tags": [
+        "OECD",
+        "อนุทิน ชาญวีรกูล",
+        "มาธิอัส คอร์มันน์",
+        "ปฏิรูปกฎระเบียบ",
+        "Regulatory Policy Committee",
+        "ประเทศรายได้สูง"
+      ],
+      "excerpt": "วันที่ 23 พฤศจิกายน 2569 ที่ทำเนียบรัฐบาล นายมาธิอัส คอร์มันน์ เลขาธิการองค์การเพื่อความร่วมมือทางเศรษฐกิจและการพัฒนา (OECD) แถลงข่าวร่วมกับนายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย หลังหารือความคืบ",
+      "path": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "degree": 11
+    },
+    {
       "id": "20_Posts/or-bangchak-fuel-price-cut-20260703",
       "title": "OR and Bangchak cut petrol and gasohol prices by 0.60-1.20 baht per litre",
       "kind": "case",
@@ -28514,6 +28929,30 @@
       ],
       "excerpt": "สำนักงานนโยบายและแผนการขนส่งและจราจร (OTP) ศึกษาความเป็นไปได้ในการนำแนวทางเก็บค่าธรรมเนียมการจราจรติดขัด (Congestion Charge) แบบลอนดอนมาปรับใช้ในกรุงเทพมหานคร โดยรายได้จากการเก็บค่าธรรมเนียมจะนำไปอุดหนุนค่าโดยสารรถไฟและร",
       "path": "20_Posts/otp-bangkok-congestion-charge-20260731",
+      "degree": 8
+    },
+    {
+      "id": "20_Posts/PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
+      "title": "ป.ป.ท. เขต 6 ร่วมตำรวจจับเจ้าหน้าที่ป่าไม้ถูกกล่าวหาร่วมปลอมเอกสาร ภ.บ.ท.5 หลอกขายที่ดิน 2,133 ไร่ให้นายทุน เสียหาย 19 ล้านบาท",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-23",
+      "case_id": "PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
+      "crime_type": "ธรรมาภิบาลและปราบปรามการทุจริต",
+      "bureau": "สำนักงาน ป.ป.ท.",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ป.ป.ท.",
+        "ภ.บ.ท.5",
+        "ที่ดินรัฐ",
+        "นครสวรรค์",
+        "เพชรบูรณ์",
+        "ทุจริต อบต."
+      ],
+      "excerpt": "วันที่ 23 พฤศจิกายน 2569 เจ้าหน้าที่สำนักงาน ป.ป.ท. เขต 6 ร่วมกับตำรวจ สภ.แม่วงก์ ตำรวจสืบสวนจังหวัดนครสวรรค์ และ กก.4 บก.ปทส. จับกุมข้าราชการประจำสำนักงานป่าไม้แห่งหนึ่งในจังหวัดนครสวรรค์ อายุ 57 ปี ตามหมายจับศาลอาญาคดี",
+      "path": "20_Posts/PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
       "degree": 8
     },
     {
@@ -40937,6 +41376,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/siriraj-one",
+      "title": "Siriraj One",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/siriraj-one",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Sectors/siteminder",
       "title": "SiteMinder",
       "kind": "entity",
@@ -41396,6 +41852,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/กฎหมายและกำกับดูแล",
+      "title": "กฎหมายและกำกับดูแล",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/กฎหมายและกำกับดูแล",
+      "degree": 2
+    },
+    {
       "id": "30_Entities/Sectors/กมธ.การอุตสาหกรรม",
       "title": "กมธ.การอุตสาหกรรม",
       "kind": "entity",
@@ -41852,7 +42325,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/กากอุตสาหกรรม",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Sectors/การกำกับธุรกิจ",
@@ -41954,7 +42427,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/การค้าระหว่างประเทศ",
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "30_Entities/Sectors/การเงิน",
@@ -41974,6 +42447,23 @@
       "degree": 9
     },
     {
+      "id": "30_Entities/Sectors/การเงินการธนาคาร",
+      "title": "การเงินการธนาคาร",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/การเงินการธนาคาร",
+      "degree": 2
+    },
+    {
       "id": "30_Entities/Sectors/การต่างประเทศ",
       "title": "การต่างประเทศ",
       "kind": "entity",
@@ -41988,7 +42478,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/การต่างประเทศ",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Sectors/การบิน",
@@ -42005,7 +42495,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/การบิน",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Sectors/การแบ่งปันข้อมูลดิจิทัล",
@@ -42107,7 +42597,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/การลงทุน",
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "30_Entities/Sectors/การศึกษา",
@@ -42124,6 +42614,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/การศึกษา",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Sectors/การศึกษาและฝึกอบรม",
+      "title": "การศึกษาและฝึกอบรม",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/การศึกษาและฝึกอบรม",
       "degree": 1
     },
     {
@@ -42209,7 +42716,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/เกษตร",
-      "degree": 25
+      "degree": 29
     },
     {
       "id": "30_Entities/Sectors/เกษตร-ปศุสัตว์",
@@ -42329,6 +42836,23 @@
       "excerpt": "",
       "path": "30_Entities/Sectors/เกษตรนวัตกรรม",
       "degree": 2
+    },
+    {
+      "id": "30_Entities/Sectors/เกษตรแปรรูป",
+      "title": "เกษตรแปรรูป",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/เกษตรแปรรูป",
+      "degree": 1
     },
     {
       "id": "30_Entities/Sectors/เกษตรเพื่อภูมิอากาศ",
@@ -42549,7 +43073,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/คมนาคม",
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "30_Entities/Sectors/คมนาคม-จราจร",
@@ -42651,7 +43175,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ความมั่นคง",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Sectors/ความมั่นคงดิจิทัล",
@@ -43042,7 +43566,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ดิจิทัล",
-      "degree": 34
+      "degree": 35
     },
     {
       "id": "30_Entities/Sectors/ดิจิทัลไทยแลนด์",
@@ -43280,7 +43804,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ท้องถิ่น",
-      "degree": 2
+      "degree": 4
     },
     {
       "id": "30_Entities/Sectors/ท่องเที่ยว",
@@ -43297,7 +43821,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ท่องเที่ยว",
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "30_Entities/Sectors/ท่องเที่ยวเชิงสุขภาพ",
@@ -43453,6 +43977,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/เทคโนโลยีติดตามทรัพย์สิน",
+      "title": "เทคโนโลยีติดตามทรัพย์สิน",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/เทคโนโลยีติดตามทรัพย์สิน",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Sectors/โทรคมนาคม",
       "title": "โทรคมนาคม",
       "kind": "entity",
@@ -43484,7 +44025,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ธรรมาภิบาล",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Sectors/ธรรมาภิบาลดิจิทัล",
@@ -43572,6 +44113,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/น้ำ",
+      "title": "น้ำ",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/น้ำ",
+      "degree": 3
+    },
+    {
       "id": "30_Entities/Sectors/น้ำประปา",
       "title": "น้ำประปา",
       "kind": "entity",
@@ -43638,6 +44196,23 @@
       "excerpt": "",
       "path": "30_Entities/Sectors/นิคมอุตสาหกรรม",
       "degree": 5
+    },
+    {
+      "id": "30_Entities/Sectors/บริการ",
+      "title": "บริการ",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/บริการ",
+      "degree": 1
     },
     {
       "id": "30_Entities/Sectors/บริการภาครัฐดิจิทัล",
@@ -43793,6 +44368,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/ประมง",
+      "title": "ประมง",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/ประมง",
+      "degree": 2
+    },
+    {
       "id": "30_Entities/Sectors/ปลัดกระทรวงเกษตร",
       "title": "ปลัดกระทรวงเกษตร",
       "kind": "entity",
@@ -43824,6 +44416,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ปลัดกระทรวงแรงงาน",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Sectors/ปัญญาประดิษฐ์",
+      "title": "ปัญญาประดิษฐ์",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/ปัญญาประดิษฐ์",
       "degree": 1
     },
     {
@@ -43876,6 +44485,23 @@
       "excerpt": "",
       "path": "30_Entities/Sectors/ผลิตภัณฑ์สุขภาพ",
       "degree": 2
+    },
+    {
+      "id": "30_Entities/Sectors/ผู้บริโภค",
+      "title": "ผู้บริโภค",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/ผู้บริโภค",
+      "degree": 1
     },
     {
       "id": "30_Entities/Sectors/ผู้เสียภาษี",
@@ -44011,7 +44637,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/พลังงาน",
-      "degree": 29
+      "degree": 31
     },
     {
       "id": "30_Entities/Sectors/พลังงานชีวภาพ",
@@ -44181,7 +44807,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ฟินเทค",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Sectors/ภัยการเงิน",
@@ -44267,6 +44893,23 @@
       "excerpt": "",
       "path": "30_Entities/Sectors/ภาคใต้",
       "degree": 2
+    },
+    {
+      "id": "30_Entities/Sectors/ภาครัฐ",
+      "title": "ภาครัฐ",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/ภาครัฐ",
+      "degree": 1
     },
     {
       "id": "30_Entities/Sectors/ภาษี",
@@ -44473,6 +45116,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/ภาษีมาตรา-301",
+      "title": "ภาษีมาตรา 301",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/ภาษีมาตรา-301",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Sectors/ภาษีมูลค่าเพิ่ม",
       "title": "ภาษีมูลค่าเพิ่ม",
       "kind": "entity",
@@ -44555,7 +45215,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ภาษีสรรพสามิต",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Sectors/ภาษีสหรัฐ",
@@ -44708,7 +45368,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ยานยนต์",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Sectors/เยียวยาเกษตรกร",
@@ -44929,7 +45589,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/แรงงาน",
-      "degree": 27
+      "degree": 29
     },
     {
       "id": "30_Entities/Sectors/แรงงานข้ามชาติ",
@@ -45031,7 +45691,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/แรงงานบังคับ",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Sectors/แรงงานแพลตฟอร์ม",
@@ -45116,7 +45776,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/โลจิสติกส์",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Sectors/วัฒนธรรม",
@@ -45187,6 +45847,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/วิจัยและนวัตกรรม",
+      "title": "วิจัยและนวัตกรรม",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/วิจัยและนวัตกรรม",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Sectors/วิทยาศาสตร์-วิจัย",
       "title": "วิทยาศาสตร์/วิจัย",
       "kind": "entity",
@@ -45252,7 +45929,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/เศรษฐกิจดิจิทัล",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "30_Entities/Sectors/เศรษฐกิจสร้างสรรค์",
@@ -45303,7 +45980,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ส่งออก",
-      "degree": 2
+      "degree": 5
     },
     {
       "id": "30_Entities/Sectors/ส่งออกไลฟ์สไตล์",
@@ -45575,7 +46252,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/สาธารณสุข",
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "30_Entities/Sectors/สาธารณสุขดิจิทัล",
@@ -45626,7 +46303,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/สิ่งแวดล้อม",
-      "degree": 8
+      "degree": 12
     },
     {
       "id": "30_Entities/Sectors/สิทธิเยาวชน",
@@ -45969,6 +46646,23 @@
       "degree": 3
     },
     {
+      "id": "30_Entities/Sectors/อาหาร",
+      "title": "อาหาร",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/อาหาร",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Sectors/อาหารปลอดภัย",
       "title": "อาหารปลอดภัย",
       "kind": "entity",
@@ -46000,7 +46694,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/อุตสาหกรรม",
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "30_Entities/Sectors/อุตสาหกรรมกลาโหม",
@@ -47241,7 +47935,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/acfta-3.0",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/acmecs",
@@ -47428,7 +48122,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/agri-map",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/agri-wellness",
@@ -47530,6 +48224,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ai-act",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ai-agent",
+      "title": "AI Agent",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ai-agent",
       "degree": 1
     },
     {
@@ -47836,6 +48547,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ai-การทำงาน",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ai-การแพทย์",
+      "title": "AI การแพทย์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ai-การแพทย์",
       "degree": 1
     },
     {
@@ -48703,7 +49431,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/art",
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "30_Entities/Tags/art-ไทย-สหรัฐ",
@@ -49162,7 +49890,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/b20",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Tags/back-to-school",
@@ -52341,7 +53069,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/data-integration",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/data-lake",
@@ -52613,7 +53341,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/defa",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "30_Entities/Tags/defi",
@@ -53480,7 +54208,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ditp",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "30_Entities/Tags/dji",
@@ -53959,6 +54687,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Tags/e-fully-manifest",
+      "title": "E-Fully Manifest",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/e-fully-manifest",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/e-government",
       "title": "e-Government",
       "kind": "entity",
@@ -54092,7 +54837,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/e20",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "30_Entities/Tags/eaeu",
@@ -55163,7 +55908,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ev",
-      "degree": 25
+      "degree": 26
     },
     {
       "id": "30_Entities/Tags/ev-3.5",
@@ -56200,7 +56945,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/fta",
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "30_Entities/Tags/fta-ไทย-eu",
@@ -60045,6 +60790,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/llm",
+      "title": "LLM",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/llm",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/lng",
       "title": "LNG",
       "kind": "entity",
@@ -61116,6 +61878,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/minimum-payment",
+      "title": "Minimum Payment",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/minimum-payment",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/missing-link",
       "title": "Missing Link",
       "kind": "entity",
@@ -61762,6 +62541,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/nanotec",
+      "title": "NANOTEC",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/nanotec",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/narcotics",
       "title": "narcotics",
       "kind": "entity",
@@ -62337,7 +63133,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/oecd",
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "30_Entities/Tags/offences",
@@ -63479,6 +64275,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/polluter-pays",
+      "title": "Polluter Pays",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/polluter-pays",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/pong-nam-ron",
       "title": "Pong Nam Ron",
       "kind": "entity",
@@ -64513,6 +65326,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/regulations",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/regulatory-policy-committee",
+      "title": "Regulatory Policy Committee",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/regulatory-policy-committee",
       "degree": 1
     },
     {
@@ -65570,6 +66400,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/siriraj-one",
+      "title": "Siriraj One",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/siriraj-one",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/siteminder",
       "title": "SiteMinder",
       "kind": "entity",
@@ -66587,6 +67434,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/strong-el-niño",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/structural-excess-capacity",
+      "title": "Structural Excess Capacity",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/structural-excess-capacity",
       "degree": 1
     },
     {
@@ -69307,7 +70171,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ustr",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/usv",
@@ -71568,7 +72432,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กรมควบคุมมลพิษ",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "30_Entities/Tags/กรมควบคุมโรค",
@@ -71636,7 +72500,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กรมเจรจาการค้าฯ",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/กรมเจ้าท่า",
@@ -71908,7 +72772,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กรมประมง",
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/กรมปศุสัตว์",
@@ -73370,7 +74234,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กลาโหม",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "30_Entities/Tags/กลุ่มประเทศอ่าวอาหรับ",
@@ -74101,7 +74965,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กากอุตสาหกรรม",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Tags/ก๊าซชีวภาพ",
@@ -76552,6 +77416,23 @@
       "degree": 5
     },
     {
+      "id": "30_Entities/Tags/ขยะอันตราย",
+      "title": "ขยะอันตราย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ขยะอันตราย",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ขยะอิเล็กทรอนิกส์",
       "title": "ขยะอิเล็กทรอนิกส์",
       "kind": "entity",
@@ -77671,7 +78552,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/คณะผู้ไต่สวนอิสระ",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/คณะมนตรี-itu",
@@ -79507,6 +80388,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ค่าจ้าง",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ค่าจ้างแท้จริง",
+      "title": "ค่าจ้างแท้จริง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ค่าจ้างแท้จริง",
       "degree": 1
     },
     {
@@ -81683,7 +82581,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/จีน",
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "30_Entities/Tags/จีน-อาเซียน",
@@ -82519,6 +83417,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ชิ้นส่วนอาวุธ",
+      "title": "ชิ้นส่วนอาวุธ",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ชิ้นส่วนอาวุธ",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ชิป-ai",
       "title": "ชิป AI",
       "kind": "entity",
@@ -82720,7 +83635,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/เชียงแสน",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/เชียงใหม่",
@@ -83383,6 +84298,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ฐานะการคลัง",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ดนุชา-พิชยนันท์",
+      "title": "ดนุชา พิชยนันท์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ดนุชา-พิชยนันท์",
       "degree": 1
     },
     {
@@ -84610,6 +85542,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ตลาดระยะไกล",
+      "title": "ตลาดระยะไกล",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ตลาดระยะไกล",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ตลาดแรงงาน",
       "title": "ตลาดแรงงาน",
       "kind": "entity",
@@ -85117,7 +86066,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/โตโยต้า",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/ไต้ฝุ่น",
@@ -85610,7 +86559,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ท่องเที่ยว",
-      "degree": 32
+      "degree": 33
     },
     {
       "id": "30_Entities/Tags/ท่องเที่ยวชุมชน",
@@ -86106,6 +87055,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ท่าเรือกวนเหล่ย",
+      "title": "ท่าเรือกวนเหล่ย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ท่าเรือกวนเหล่ย",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ท่าเรือชานไค",
       "title": "ท่าเรือชานไค",
       "kind": "entity",
@@ -86239,6 +87205,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ที่ดินเกษตร",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ที่ดินรัฐ",
+      "title": "ที่ดินรัฐ",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ที่ดินรัฐ",
       "degree": 1
     },
     {
@@ -86376,6 +87359,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/ทุจริต",
       "degree": 7
+    },
+    {
+      "id": "30_Entities/Tags/ทุจริต-อบต.",
+      "title": "ทุจริต อบต.",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ทุจริต-อบต.",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/ทุจริตการสอบ",
@@ -86545,7 +87545,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ทุเรียน",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/ทุเรียนแช่เยือกแข็ง",
@@ -86803,6 +87803,40 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ไทย-eu-fta",
+      "title": "ไทย-EU FTA",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ไทย-eu-fta",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ไทย-uae-cepa",
+      "title": "ไทย-UAE CEPA",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ไทย-uae-cepa",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ไทย-กัมพูชา",
       "title": "ไทย-กัมพูชา",
       "kind": "entity",
@@ -86854,6 +87888,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ไทย-เปรู",
+      "title": "ไทย-เปรู",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ไทย-เปรู",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ไทย-มาเลเซีย",
       "title": "ไทย-มาเลเซีย",
       "kind": "entity",
@@ -86902,7 +87953,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ไทย-เมียนมา-จีน",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/ไทย-รัสเซีย",
@@ -87429,7 +88480,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ธปท.",
-      "degree": 37
+      "degree": 38
     },
     {
       "id": "30_Entities/Tags/ธรรมศาสตร์",
@@ -87719,6 +88770,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/นครศรีธรรมราช",
       "degree": 3
+    },
+    {
+      "id": "30_Entities/Tags/นครสวรรค์",
+      "title": "นครสวรรค์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/นครสวรรค์",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/นครินทร์-เมฆไตรรัตน์",
@@ -88279,7 +89347,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/นักท่องเที่ยวต่างชาติ",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "30_Entities/Tags/นักโทษ",
@@ -88962,6 +90030,23 @@
       "degree": 7
     },
     {
+      "id": "30_Entities/Tags/น้ำมันเขียว",
+      "title": "น้ำมันเขียว",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/น้ำมันเขียว",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/น้ำมันเชื้อเพลิง",
       "title": "น้ำมันเชื้อเพลิง",
       "kind": "entity",
@@ -89642,6 +90727,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/บ่อดักตะกอนอัจฉริยะ",
+      "title": "บ่อดักตะกอนอัจฉริยะ",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/บ่อดักตะกอนอัจฉริยะ",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/บอร์ด",
       "title": "บอร์ด",
       "kind": "entity",
@@ -89846,6 +90948,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/บัตรเครดิต",
+      "title": "บัตรเครดิต",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/บัตรเครดิต",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/บัตรทอง",
       "title": "บัตรทอง",
       "kind": "entity",
@@ -90033,6 +91152,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/บ้านรักไทย",
+      "title": "บ้านรักไทย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/บ้านรักไทย",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/บ้านหนองจาน",
       "title": "บ้านหนองจาน",
       "kind": "entity",
@@ -90047,6 +91183,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/บ้านหนองจาน",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/บ้านเหมืองแดง",
+      "title": "บ้านเหมืองแดง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/บ้านเหมืองแดง",
       "degree": 1
     },
     {
@@ -90200,6 +91353,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/บิลไฟ",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/บีวายดี",
+      "title": "บีวายดี",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/บีวายดี",
       "degree": 1
     },
     {
@@ -90574,7 +91744,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ป.ป.ช.",
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "30_Entities/Tags/ป.ป.ท.",
@@ -90591,7 +91761,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ป.ป.ท.",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/ป.ป.ส.",
@@ -90643,6 +91813,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/ปฏิรูป",
       "degree": 2
+    },
+    {
+      "id": "30_Entities/Tags/ปฏิรูปกฎระเบียบ",
+      "title": "ปฏิรูปกฎระเบียบ",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ปฏิรูปกฎระเบียบ",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/ปฏิรูปกระทรวง",
@@ -91189,6 +92376,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Tags/ประชุม-3-ฝ่าย",
+      "title": "ประชุม 3 ฝ่าย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ประชุม-3-ฝ่าย",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ประชุมการเงินโลก",
       "title": "ประชุมการเงินโลก",
       "kind": "entity",
@@ -91288,6 +92492,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ประตูระบายน้ำ",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ประเทศรายได้สูง",
+      "title": "ประเทศรายได้สูง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ประเทศรายได้สูง",
       "degree": 1
     },
     {
@@ -91393,6 +92614,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ประปาภูเขา",
+      "title": "ประปาภูเขา",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ประปาภูเขา",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ประมง",
       "title": "ประมง",
       "kind": "entity",
@@ -91441,6 +92679,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ประมงไทย",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ประมงพื้นบ้าน",
+      "title": "ประมงพื้นบ้าน",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ประมงพื้นบ้าน",
       "degree": 1
     },
     {
@@ -92206,7 +93461,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ปิยะรัฐชย์-ติยะไพรัช",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/ปิยะศิริ-วัฒนวรางกูร",
@@ -92530,6 +93785,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/ผลไม้ไทย",
       "degree": 3
+    },
+    {
+      "id": "30_Entities/Tags/ผลไม้ส่งออก",
+      "title": "ผลไม้ส่งออก",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ผลไม้ส่งออก",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/ผลิตภัณฑ์ชุมชน",
@@ -92988,7 +94260,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ผู้ว่าราชการจังหวัด",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "30_Entities/Tags/ผู้ว่าฯ-กทม.",
@@ -93091,6 +94363,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/แผนปฏิบัติการ",
       "degree": 2
+    },
+    {
+      "id": "30_Entities/Tags/แผนป้องกันปราบปราม-2570-2575",
+      "title": "แผนป้องกันปราบปราม 2570-2575",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/แผนป้องกันปราบปราม-2570-2575",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/แผนพัฒนาเมือง",
@@ -93651,7 +94940,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/พ.ร.บ.โรงงาน",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/พ.ร.บ.ส่งเสริมความสงบสุข",
@@ -95079,7 +96368,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/เพชรบูรณ์",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/เพิกถอนใบอนุญาต",
@@ -95524,6 +96813,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Tags/ภ.บ.ท.5",
+      "title": "ภ.บ.ท.5",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ภ.บ.ท.5",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ภราดร",
       "title": "ภราดร",
       "kind": "entity",
@@ -95881,6 +97187,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ภาวะสังคมไทย",
+      "title": "ภาวะสังคมไทย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ภาวะสังคมไทย",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ภาวุธ",
       "title": "ภาวุธ",
       "kind": "entity",
@@ -96085,6 +97408,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ภาษีมาตรา-301",
+      "title": "ภาษีมาตรา 301",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ภาษีมาตรา-301",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ภาษีมูลค่าเพิ่ม",
       "title": "ภาษีมูลค่าเพิ่ม",
       "kind": "entity",
@@ -96167,7 +97507,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ภาษีสรรพสามิต",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Tags/ภาษีสหรัฐ",
@@ -96711,7 +98051,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/มหาวิทยาลัยมหิดล",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/มหาวิทยาลัยแม่ฟ้าหลวง",
@@ -97377,6 +98717,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/มาธิอัส-คอร์มันน์",
+      "title": "มาธิอัส คอร์มันน์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/มาธิอัส-คอร์มันน์",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/มารยาทขนส่งสาธารณะ",
       "title": "มารยาทขนส่งสาธารณะ",
       "kind": "entity",
@@ -97408,7 +98765,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/มาเลเซีย",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "30_Entities/Tags/มาสคอต",
@@ -97680,7 +99037,24 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แม่น้ำกก",
-      "degree": 5
+      "degree": 7
+    },
+    {
+      "id": "30_Entities/Tags/แม่น้ำโขง",
+      "title": "แม่น้ำโขง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/แม่น้ำโขง",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/แม่น้ำเจ้าพระยา",
@@ -97765,7 +99139,24 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แม่น้ำสาย",
-      "degree": 5
+      "degree": 6
+    },
+    {
+      "id": "30_Entities/Tags/แม่น้ำสาละวิน",
+      "title": "แม่น้ำสาละวิน",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/แม่น้ำสาละวิน",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/แม่มนต์",
@@ -97816,7 +99207,24 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แม่สาย",
-      "degree": 5
+      "degree": 6
+    },
+    {
+      "id": "30_Entities/Tags/แม่ฮ่องสอน",
+      "title": "แม่ฮ่องสอน",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/แม่ฮ่องสอน",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/โมเดลธุรกิจ",
@@ -97969,7 +99377,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ยศชนัน-วงศ์สวัสดิ์",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "30_Entities/Tags/ยะลา",
@@ -98088,7 +99496,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ยานยนต์",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "30_Entities/Tags/ยานยนต์ไฟฟ้า",
@@ -98242,6 +99650,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/ยุติธรรม",
       "degree": 4
+    },
+    {
+      "id": "30_Entities/Tags/ยุทธภัณฑ์",
+      "title": "ยุทธภัณฑ์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ยุทธภัณฑ์",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/ยุทธศาสตร์",
@@ -99176,6 +100601,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ระบบชำระเงิน",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ระบบธงเตือนภัย",
+      "title": "ระบบธงเตือนภัย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ระบบธงเตือนภัย",
       "degree": 1
     },
     {
@@ -100519,7 +101961,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แรงงานบังคับ",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/แรงงานแพลตฟอร์ม",
@@ -101471,7 +102913,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ลำไย",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/ลิขสิทธิ์",
@@ -101743,7 +103185,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แลนด์บริดจ์",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/โลกเดือด",
@@ -102610,7 +104052,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/วิทัย-รัตนากร",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/วิธีปฏิบัติ",
@@ -103089,6 +104531,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง",
+      "title": "ศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ศาลฎีกาแผนกคดีอาญานักการเมือง",
       "title": "ศาลฎีกาแผนกคดีอาญานักการเมือง",
       "kind": "entity",
@@ -103191,6 +104650,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ศิริราช",
+      "title": "ศิริราช",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ศิริราช",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ศิลปกรรมศาสตร์",
       "title": "ศิลปกรรมศาสตร์",
       "kind": "entity",
@@ -103239,7 +104715,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ศุภจี-สุธรรมพันธุ์",
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "30_Entities/Tags/ศุภมาส",
@@ -104242,7 +105718,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สถานีชาร์จ",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/สถานีตรวจวัดน้ำ",
@@ -104990,7 +106466,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สภาพัฒน์",
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "30_Entities/Tags/สภาวิชาชีพบัญชี",
@@ -106027,7 +107503,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สหรัฐอเมริกา",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Tags/สหรัฐอาหรับเอมิเรตส์",
@@ -106367,6 +107843,40 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สัตว์ของกลาง",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/สัตว์น้ำปนเปื้อน",
+      "title": "สัตว์น้ำปนเปื้อน",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สัตว์น้ำปนเปื้อน",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/สัตว์น้ำวัยอ่อน",
+      "title": "สัตว์น้ำวัยอ่อน",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สัตว์น้ำวัยอ่อน",
       "degree": 1
     },
     {
@@ -106894,7 +108404,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สารหนู",
-      "degree": 11
+      "degree": 15
     },
     {
       "id": "30_Entities/Tags/สารอันตราย",
@@ -107727,7 +109237,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สินบนทองคำ",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/สิมิลัน",
@@ -108067,7 +109577,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สุรศักดิ์-พันธ์เจริญวรกุล",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/สุริยะ",
@@ -108407,7 +109917,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/หนี้ครัวเรือน",
-      "degree": 2
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/หนี้สาธารณะ",
@@ -109124,6 +110634,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/อดุลย์-บุญธรรมเจริญ",
+      "title": "อดุลย์ บุญธรรมเจริญ",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/อดุลย์-บุญธรรมเจริญ",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/อธิบดี",
       "title": "อธิบดี",
       "kind": "entity",
@@ -109274,7 +110801,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/อนุทิน-ชาญวีรกูล",
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "30_Entities/Tags/อนุสัญญาภาษีซ้อน",
@@ -109685,6 +111212,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/อวนลาก",
+      "title": "อวนลาก",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/อวนลาก",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/อววน",
       "title": "อววน",
       "kind": "entity",
@@ -109920,6 +111464,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/อัตราดอกเบี้ย",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/อัตราว่างงาน",
+      "title": "อัตราว่างงาน",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/อัตราว่างงาน",
       "degree": 1
     },
     {
@@ -110498,7 +112059,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/อินเดีย",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/อินโดนีเซีย",
@@ -111178,7 +112739,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/เอกนิติ-นิติทัณฑ์ประภาศ",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "30_Entities/Tags/เอกนิติ-นิติทัณฑ์ประภาส",
@@ -111246,7 +112807,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/เอกวิทย์-วัชชวัลคุ",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/เอกสารอิเล็กทรอนิกส์",
@@ -113779,7 +115340,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/การค้าระหว่างประเทศ",
-      "degree": 11
+      "degree": 14
     },
     {
       "id": "30_Entities/Topics/การค้าระหว่างประเทศ-การส่งออก",
@@ -118097,7 +119658,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/เกษตรและประมง",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Topics/เกษตรและปศุสัตว์",
@@ -118131,6 +119692,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/เกษตรและสหกรณ์",
+      "degree": 2
+    },
+    {
+      "id": "30_Entities/Topics/เกษตรและสิ่งแวดล้อม",
+      "title": "เกษตรและสิ่งแวดล้อม",
+      "kind": "entity",
+      "folder": "30_Entities/Topics",
+      "entity_group": "หมวด",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Topics/เกษตรและสิ่งแวดล้อม",
       "degree": 2
     },
     {
@@ -119729,7 +121307,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/ความมั่นคงและการป้องกันประเทศ",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Topics/ความมั่นคงและชายแดน",
@@ -121891,6 +123469,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Topics/ท่องเที่ยวและบริการ",
+      "title": "ท่องเที่ยวและบริการ",
+      "kind": "entity",
+      "folder": "30_Entities/Topics",
+      "entity_group": "หมวด",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Topics/ท่องเที่ยวและบริการ",
+      "degree": 2
+    },
+    {
       "id": "30_Entities/Topics/ทักษะดิจิทัลและ-ai-สำหรับเยาวชน",
       "title": "ทักษะดิจิทัลและ AI สำหรับเยาวชน",
       "kind": "entity",
@@ -122399,6 +123994,23 @@
       "excerpt": "",
       "path": "30_Entities/Topics/ธรรมาภิบาลและความโปร่งใสภาครัฐ",
       "degree": 1
+    },
+    {
+      "id": "30_Entities/Topics/ธรรมาภิบาลและปราบปรามการทุจริต",
+      "title": "ธรรมาภิบาลและปราบปรามการทุจริต",
+      "kind": "entity",
+      "folder": "30_Entities/Topics",
+      "entity_group": "หมวด",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Topics/ธรรมาภิบาลและปราบปรามการทุจริต",
+      "degree": 2
     },
     {
       "id": "30_Entities/Topics/นโยบาย",
@@ -123401,6 +125013,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/นโยบายรัฐบาล-ความมั่นคง",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Topics/นโยบายรัฐบาลและการต่างประเทศ",
+      "title": "นโยบายรัฐบาลและการต่างประเทศ",
+      "kind": "entity",
+      "folder": "30_Entities/Topics",
+      "entity_group": "หมวด",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Topics/นโยบายรัฐบาลและการต่างประเทศ",
       "degree": 1
     },
     {
@@ -127688,6 +129317,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Topics/แรงงานและสังคม",
+      "title": "แรงงานและสังคม",
+      "kind": "entity",
+      "folder": "30_Entities/Topics",
+      "entity_group": "หมวด",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Topics/แรงงานและสังคม",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Topics/โรคติดต่อและการเฝ้าระวังโรค-ฝีดาษวานร",
       "title": "โรคติดต่อและการเฝ้าระวังโรค: ฝีดาษวานร",
       "kind": "entity",
@@ -127923,6 +129569,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/วิทยาศาสตร์-วิจัย-และนวัตกรรม",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Topics/วิทยาศาสตร์-วิจัยและนวัตกรรม",
+      "title": "วิทยาศาสตร์ วิจัยและนวัตกรรม",
+      "kind": "entity",
+      "folder": "30_Entities/Topics",
+      "entity_group": "หมวด",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Topics/วิทยาศาสตร์-วิจัยและนวัตกรรม",
       "degree": 1
     },
     {
@@ -128280,6 +129943,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/เศรษฐกิจ-แรงงาน",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Topics/เศรษฐกิจการเงินและการคลัง",
+      "title": "เศรษฐกิจการเงินและการคลัง",
+      "kind": "entity",
+      "folder": "30_Entities/Topics",
+      "entity_group": "หมวด",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Topics/เศรษฐกิจการเงินและการคลัง",
       "degree": 1
     },
     {
@@ -129813,6 +131493,23 @@
       "degree": 4
     },
     {
+      "id": "30_Entities/Topics/สาธารณสุขและสุขภาพดิจิทัล",
+      "title": "สาธารณสุขและสุขภาพดิจิทัล",
+      "kind": "entity",
+      "folder": "30_Entities/Topics",
+      "entity_group": "หมวด",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Topics/สาธารณสุขและสุขภาพดิจิทัล",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Topics/สาธารณสุขและหลักประกันสุขภาพ",
       "title": "สาธารณสุขและหลักประกันสุขภาพ",
       "kind": "entity",
@@ -130762,7 +132459,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/อุตสาหกรรมและการลงทุน",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Topics/อุตสาหกรรมและกิจกรรมจิตอาสา",
@@ -130864,7 +132561,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/อุตสาหกรรมและสิ่งแวดล้อม",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Topics/อุตุนิยมวิทยา-ภัยธรรมชาติ",
@@ -131188,6 +132885,23 @@
       "excerpt": "",
       "path": "30_Entities/Units/dga-(สพร.)",
       "degree": 3
+    },
+    {
+      "id": "30_Entities/Units/ditp",
+      "title": "DITP",
+      "kind": "entity",
+      "folder": "30_Entities/Units",
+      "entity_group": "หน่วย",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Units/ditp",
+      "degree": 1
     },
     {
       "id": "30_Entities/Units/dsi",
@@ -133159,7 +134873,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กรมเจรจาการค้าระหว่างประเทศ",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Units/กรมเจ้าท่า",
@@ -133465,7 +135179,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กรมประมง",
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "30_Entities/Units/กรมประมง-ครม",
@@ -134247,7 +135961,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวงกลาโหม",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Units/กระทรวงกลาโหม-ครม",
@@ -134281,7 +135995,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวงการคลัง",
-      "degree": 33
+      "degree": 34
     },
     {
       "id": "30_Entities/Units/กระทรวงการคลัง-(การพิจารณาร่าง-พ.ร.บ.-งบประมาณ-2570)",
@@ -134485,7 +136199,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวงการท่องเที่ยวและกีฬา",
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "30_Entities/Units/กระทรวงการท่องเที่ยวและกีฬา-(mots)",
@@ -134587,7 +136301,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวงการอุดมศึกษา-วิทยาศาสตร์-วิจัยและนวัตกรรม",
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "30_Entities/Units/กระทรวงการอุดมศึกษา-วิทยาศาสตร์-วิจัยและนวัตกรรม-(อว.)",
@@ -134638,7 +136352,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวงเกษตรและสหกรณ์",
-      "degree": 44
+      "degree": 45
     },
     {
       "id": "30_Entities/Units/กระทรวงเกษตรและสหกรณ์-(กรมชลประทาน)",
@@ -135029,7 +136743,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวงพาณิชย์",
-      "degree": 55
+      "degree": 56
     },
     {
       "id": "30_Entities/Units/กระทรวงพาณิชย์-(กรมการค้าต่างประเทศ)",
@@ -135233,7 +136947,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวงมหาดไทย",
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "30_Entities/Units/กระทรวงมหาดไทย-(กรมการปกครอง)",
@@ -137341,7 +139055,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/ธนาคารแห่งประเทศไทย",
-      "degree": 32
+      "degree": 33
     },
     {
       "id": "30_Entities/Units/ธนาคารแห่งประเทศไทย-(bot)-—-คณะกรรมการนโยบายการเงิน-(กนง.)",
@@ -138956,7 +140670,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/สำนักโฆษก",
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "30_Entities/Units/สำนักโฆษก-สำนักนายกรัฐมนตรี",
@@ -139143,7 +140857,24 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/สำนักงาน-ป.ป.ช.",
-      "degree": 4
+      "degree": 5
+    },
+    {
+      "id": "30_Entities/Units/สำนักงาน-ป.ป.ท.",
+      "title": "สำนักงาน ป.ป.ท.",
+      "kind": "entity",
+      "folder": "30_Entities/Units",
+      "entity_group": "หน่วย",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Units/สำนักงาน-ป.ป.ท.",
+      "degree": 1
     },
     {
       "id": "30_Entities/Units/สำนักงาน-ป.ป.ส.-(oncb)",
@@ -140402,6 +142133,23 @@
       "excerpt": "",
       "path": "30_Entities/Units/สำนักงานสภาความมั่นคงแห่งชาติ-(สมช.)",
       "degree": 1
+    },
+    {
+      "id": "30_Entities/Units/สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+      "title": "สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+      "kind": "entity",
+      "folder": "30_Entities/Units",
+      "entity_group": "หน่วย",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Units/สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+      "degree": 2
     },
     {
       "id": "30_Entities/Units/สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ-(สภาพัฒน์)",
@@ -204115,6 +205863,1056 @@
       "source": "20_Posts/TAT-aggregator-2026-11-22-tat-loy-krathong-festival-2026-ayutthaya-1-83m-trips-6bn-baht-nov21-24",
       "target": "30_Entities/Sectors/เศรษฐกิจชุมชน",
       "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Units/กระทรวงพาณิชย์",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Topics/การค้าระหว่างประเทศ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Tags/art",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Tags/ศุภจี-สุธรรมพันธุ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Tags/ustr",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Tags/ภาษีมาตรา-301",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Tags/แรงงานบังคับ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Tags/สหรัฐอเมริกา",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Tags/structural-excess-capacity",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Sectors/การค้าระหว่างประเทศ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Sectors/ส่งออก",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Sectors/เกษตรแปรรูป",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Sectors/แรงงาน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Sectors/ภาษีมาตรา-301",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-23-moc-supachee-ustr-section-301-forced-labor-tariff-12-5-to-10-art-thailand-us-nov23",
+      "target": "30_Entities/Sectors/แรงงานบังคับ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Units/กระทรวงเกษตรและสหกรณ์",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Topics/เกษตรและสิ่งแวดล้อม",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Tags/สารหนู",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Tags/แม่น้ำกก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Tags/แม่น้ำสาย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Tags/ปิยะรัฐชย์-ติยะไพรัช",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Tags/agri-map",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Tags/ประชุม-3-ฝ่าย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Tags/ไทย-เมียนมา-จีน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Sectors/เกษตร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Sectors/สิ่งแวดล้อม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Sectors/น้ำ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-23-moac-piyaratch-trilateral-thailand-myanmar-china-arsenic-kok-sai-rice-filter-27000-rai-nov23",
+      "target": "30_Entities/Sectors/การต่างประเทศ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Units/กระทรวงการอุดมศึกษา-วิทยาศาสตร์-วิจัยและนวัตกรรม",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Topics/วิทยาศาสตร์-วิจัยและนวัตกรรม",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Tags/ยศชนัน-วงศ์สวัสดิ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Tags/nanotec",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Tags/บ่อดักตะกอนอัจฉริยะ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Tags/บ้านเหมืองแดง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Tags/แม่สาย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Tags/สารหนู",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Sectors/วิจัยและนวัตกรรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Sectors/สิ่งแวดล้อม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Sectors/น้ำ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-mhesi-yodchanan-nanotec-smart-sediment-trap-ban-muang-daeng-mae-sai-deadline-nov25",
+      "target": "30_Entities/Sectors/เกษตร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Units/สำนักโฆษก",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Topics/นโยบายรัฐบาลและการต่างประเทศ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Tags/oecd",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Tags/อนุทิน-ชาญวีรกูล",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Tags/มาธิอัส-คอร์มันน์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Tags/ปฏิรูปกฎระเบียบ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Tags/regulatory-policy-committee",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Tags/ประเทศรายได้สูง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Sectors/ภาครัฐ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Sectors/กฎหมายและกำกับดูแล",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/OPM-aggregator-2026-11-23-opm-oecd-secretary-general-cormann-thailand-accession-regulatory-policy-pass-target-2028-nov23",
+      "target": "30_Entities/Sectors/การลงทุน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Units/กระทรวงการคลัง",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Topics/อุตสาหกรรมและการลงทุน",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Tags/เอกนิติ-นิติทัณฑ์ประภาศ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Tags/ยานยนต์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Tags/ev",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Tags/สถานีชาร์จ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Tags/e20",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Tags/b20",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Tags/ภาษีสรรพสามิต",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Tags/บีวายดี",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Tags/โตโยต้า",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Sectors/ยานยนต์",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Sectors/พลังงาน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Sectors/การลงทุน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Sectors/คมนาคม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOF-aggregator-2026-11-23-mof-eknithi-japan-china-automakers-stay-thailand-export-base-ev-charging-support-nov23",
+      "target": "30_Entities/Sectors/ภาษีสรรพสามิต",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "target": "30_Entities/Units/ธนาคารแห่งประเทศไทย",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "target": "30_Entities/Topics/เศรษฐกิจการเงินและการคลัง",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "target": "30_Entities/Tags/ธปท.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "target": "30_Entities/Tags/บัตรเครดิต",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "target": "30_Entities/Tags/minimum-payment",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "target": "30_Entities/Tags/หนี้ครัวเรือน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "target": "30_Entities/Tags/วิทัย-รัตนากร",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "target": "30_Entities/Sectors/การเงินการธนาคาร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "target": "30_Entities/Sectors/ฟินเทค",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/BOT-aggregator-2026-11-23-bot-extends-credit-card-minimum-payment-8-percent-until-end-2028-nov23",
+      "target": "30_Entities/Sectors/ผู้บริโภค",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Units/สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Topics/แรงงานและสังคม",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Tags/สภาพัฒน์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Tags/ภาวะสังคมไทย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Tags/อัตราว่างงาน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Tags/หนี้ครัวเรือน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Tags/ค่าจ้างแท้จริง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Tags/ดนุชา-พิชยนันท์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Sectors/แรงงาน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Sectors/การเงินการธนาคาร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Sectors/การศึกษาและฝึกอบรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-q3-2026-social-report-unemployment-1-02-real-wage-down-household-debt-85-2-nov23",
+      "target": "30_Entities/Sectors/เกษตร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Units/กระทรวงกลาโหม",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Topics/ความมั่นคงและการป้องกันประเทศ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Tags/กลาโหม",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Tags/ยุทธภัณฑ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Tags/ชิ้นส่วนอาวุธ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Tags/ป.ป.ช.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Tags/อดุลย์-บุญธรรมเจริญ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Tags/แผนป้องกันปราบปราม-2570-2575",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Sectors/ความมั่นคง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Sectors/ธรรมาภิบาล",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOD-aggregator-2026-11-23-mod-arms-trafficking-committee-4-subcommittees-decommissioned-parts-control-plan-2027-2032-nov23",
+      "target": "30_Entities/Sectors/เทคโนโลยีติดตามทรัพย์สิน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/NACC-aggregator-2026-11-23-nacc-ekawit-chairs-meeting-despite-gold-bribery-finding-4-commissioners-postpone-cases-nov23",
+      "target": "30_Entities/Units/สำนักงาน-ป.ป.ช.",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/NACC-aggregator-2026-11-23-nacc-ekawit-chairs-meeting-despite-gold-bribery-finding-4-commissioners-postpone-cases-nov23",
+      "target": "30_Entities/Topics/ธรรมาภิบาลและปราบปรามการทุจริต",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/NACC-aggregator-2026-11-23-nacc-ekawit-chairs-meeting-despite-gold-bribery-finding-4-commissioners-postpone-cases-nov23",
+      "target": "30_Entities/Tags/ป.ป.ช.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NACC-aggregator-2026-11-23-nacc-ekawit-chairs-meeting-despite-gold-bribery-finding-4-commissioners-postpone-cases-nov23",
+      "target": "30_Entities/Tags/เอกวิทย์-วัชชวัลคุ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NACC-aggregator-2026-11-23-nacc-ekawit-chairs-meeting-despite-gold-bribery-finding-4-commissioners-postpone-cases-nov23",
+      "target": "30_Entities/Tags/สินบนทองคำ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NACC-aggregator-2026-11-23-nacc-ekawit-chairs-meeting-despite-gold-bribery-finding-4-commissioners-postpone-cases-nov23",
+      "target": "30_Entities/Tags/คณะผู้ไต่สวนอิสระ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NACC-aggregator-2026-11-23-nacc-ekawit-chairs-meeting-despite-gold-bribery-finding-4-commissioners-postpone-cases-nov23",
+      "target": "30_Entities/Tags/ศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Units/กรมประมง",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Topics/เกษตรและสิ่งแวดล้อม",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Tags/กรมประมง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Tags/กรมควบคุมมลพิษ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Tags/แม่น้ำกก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Tags/สัตว์น้ำปนเปื้อน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Tags/สารหนู",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Tags/ระบบธงเตือนภัย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Sectors/ประมง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Sectors/สาธารณสุข",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Sectors/สิ่งแวดล้อม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
+      "target": "30_Entities/Sectors/อาหาร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Units/ditp",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Topics/การค้าระหว่างประเทศ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Tags/ditp",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Tags/ผลไม้ส่งออก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Tags/ท่าเรือกวนเหล่ย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Tags/เชียงแสน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Tags/แม่น้ำโขง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Tags/ลำไย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Tags/ทุเรียน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Sectors/ส่งออก",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Sectors/เกษตร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-23-ditp-guanlei-port-thai-fruit-imports-mekong-route-16x-longan-export-target-200k-tons-nov23",
+      "target": "30_Entities/Sectors/โลจิสติกส์",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Units/กรมเจรจาการค้าระหว่างประเทศ",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Topics/การค้าระหว่างประเทศ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Tags/fta",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Tags/กรมเจรจาการค้าฯ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Tags/acfta-3.0",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Tags/defa",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Tags/ไทย-eu-fta",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Tags/ไทย-uae-cepa",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Tags/ไทย-เปรู",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Sectors/การค้าระหว่างประเทศ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Sectors/ส่งออก",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DTN-aggregator-2026-11-23-dtn-fta-roadmap-acfta-3-dec1-defa-may2027-thai-eu-uae-cepa-q1-2027-nov23",
+      "target": "30_Entities/Sectors/เศรษฐกิจดิจิทัล",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Units/สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Topics/อุตสาหกรรมและสิ่งแวดล้อม",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Tags/สภาพัฒน์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Tags/กากอุตสาหกรรม",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Tags/ขยะอันตราย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Tags/พ.ร.บ.โรงงาน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Tags/polluter-pays",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Tags/e-fully-manifest",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Sectors/อุตสาหกรรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Sectors/สิ่งแวดล้อม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Sectors/กฎหมายและกำกับดูแล",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/NESDC-aggregator-2026-11-23-nesdc-hazardous-industrial-waste-up-40-8-percent-1-5m-tons-382-dumping-cases-4-regulatory-gaps-nov23",
+      "target": "30_Entities/Sectors/กากอุตสาหกรรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Units/กรมประมง",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Topics/เกษตรและประมง",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Tags/ประมงพื้นบ้าน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Tags/กรมประมง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Tags/น้ำมันเขียว",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Tags/อวนลาก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Tags/แลนด์บริดจ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Tags/สัตว์น้ำวัยอ่อน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Sectors/ประมง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Sectors/พลังงาน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DOF-aggregator-2026-11-23-dof-small-scale-fishers-4-agendas-green-diesel-trawl-juvenile-protection-landbridge-review-nov23",
+      "target": "30_Entities/Sectors/ท้องถิ่น",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Units/กระทรวงการอุดมศึกษา-วิทยาศาสตร์-วิจัยและนวัตกรรม",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Topics/สาธารณสุขและสุขภาพดิจิทัล",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Tags/ศิริราช",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Tags/siriraj-one",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Tags/ai-การแพทย์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Tags/llm",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Tags/ai-agent",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Tags/data-integration",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Tags/มหาวิทยาลัยมหิดล",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Sectors/สาธารณสุข",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Sectors/ปัญญาประดิษฐ์",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Sectors/ดิจิทัล",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-23-siriraj-one-thai-medical-ai-platform-llm-ai-agent-3-hospitals-data-integration-nov23",
+      "target": "30_Entities/Sectors/siriraj-one",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Units/กระทรวงมหาดไทย",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Topics/ท่องเที่ยวและบริการ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Tags/แม่ฮ่องสอน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Tags/ผู้ว่าราชการจังหวัด",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Tags/แม่น้ำสาละวิน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Tags/สารหนู",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Tags/ประปาภูเขา",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Tags/บ้านรักไทย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Sectors/ท่องเที่ยว",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Sectors/น้ำ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-23-moi-mae-hong-son-governor-water-safe-arsenic-only-salween-tourists-dont-cancel-nov23",
+      "target": "30_Entities/Sectors/ท้องถิ่น",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Units/กระทรวงการท่องเที่ยวและกีฬา",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Topics/ท่องเที่ยวและบริการ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Tags/นักท่องเที่ยวต่างชาติ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Tags/สุรศักดิ์-พันธ์เจริญวรกุล",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Tags/ท่องเที่ยว",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Tags/ตลาดระยะไกล",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Tags/จีน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Tags/มาเลเซีย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Tags/อินเดีย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Sectors/ท่องเที่ยว",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Sectors/การบิน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOTS-aggregator-2026-11-23-mots-foreign-arrivals-27-44-million-revenue-1-34-trillion-long-haul-up-4-85-nov23",
+      "target": "30_Entities/Sectors/บริการ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
+      "target": "30_Entities/Units/สำนักงาน-ป.ป.ท.",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
+      "target": "30_Entities/Topics/ธรรมาภิบาลและปราบปรามการทุจริต",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
+      "target": "30_Entities/Tags/ป.ป.ท.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
+      "target": "30_Entities/Tags/ภ.บ.ท.5",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
+      "target": "30_Entities/Tags/ที่ดินรัฐ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
+      "target": "30_Entities/Tags/นครสวรรค์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
+      "target": "30_Entities/Tags/เพชรบูรณ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PACC-aggregator-2026-11-23-pacc-region6-arrest-forestry-official-fake-pbt5-land-sale-2133-rai-19m-baht-nov23",
+      "target": "30_Entities/Tags/ทุจริต-อบต.",
+      "label": "แท็ก"
     }
   ]
 }
