@@ -31,11 +31,48 @@ jobs:
         id: pages
         uses: actions/configure-pages@v6
 
+      # Do NOT upload the whole repo: News/Articles Thai paths exceed ~255 UTF-8
+      # bytes and Document/ops junk is not part of the public site.
+      - name: Stage public Pages tree
+        run: |
+          set -euo pipefail
+          mkdir -p _site
+          # Required site surface
+          for item in index.html article.html assets data docs js mcp README.md .nojekyll; do
+            if [ -e "$item" ]; then
+              cp -a "$item" "_site/"
+            fi
+          done
+          # Keep published day packs under data/ only; refuse accidental News/ copy
+          if [ -d _site/News ] || [ -d _site/Document ]; then
+            echo "ERROR: private trees leaked into _site" >&2
+            exit 1
+          fi
+          # Guard: fail build if any staged path is dangerously long for Pages
+          python3 - <<'PY'
+          import os
+          bad=[]
+          for root, dirs, files in os.walk("_site"):
+            for name in files:
+              rel=os.path.relpath(os.path.join(root,name), "_site").replace("\\","/")
+              if len(rel.encode("utf-8")) > 240:
+                bad.append((len(rel.encode("utf-8")), rel))
+          if bad:
+            bad.sort(reverse=True)
+            print("ERROR: staged path(s) too long for GitHub Pages:")
+            for b,p in bad[:20]:
+              print(f"  {b} {p}")
+            raise SystemExit(1)
+          print("staged path length check ok")
+          PY
+          du -sh _site
+          find _site -type f | wc -l
+
       - name: Upload artifact
         id: upload
         uses: actions/upload-pages-artifact@v5
         with:
-          path: '.'
+          path: '_site'
           include-hidden-files: true
 
       # deploy-pages@v5 hard-caps timeout at 10m and CANCELS the Pages
