@@ -1,8 +1,11 @@
 {
-    "base":  "https://ai-pc-dev-rag.ngrok-free.app",
-    "mcp":  "https://ai-pc-dev-rag.ngrok-free.app/8788/mcp",
-    "llm":  "https://ai-pc-dev-rag.ngrok-free.app/1234/v1/chat/completions",
-    "model":  "google/gemma-4-e2b",
-    "updated_at":  "2026-11-26T05:10:23.6609128Z",
-    "note":  "MCP=news archive tools only; LLM=LM Studio narration for GraphRAG ask panel"
+  "base": "https://ai-pc-dev-rag.ngrok-free.app",
+  "mcp": "https://ai-pc-dev-rag.ngrok-free.app/8788/mcp",
+  "mcp_alias": "https://ai-pc-dev-rag.ngrok-free.app/gov/mcp",
+  "files": "https://ai-pc-dev-rag.ngrok-free.app/files/gov/",
+  "catalog": "https://ai-pc-dev-rag.ngrok-free.app/",
+  "llm": "https://ai-pc-dev-rag.ngrok-free.app/1234/v1/chat/completions",
+  "model": "google/gemma-4-e2b",
+  "updated_at": "2026-11-26T06:43:48.000Z",
+  "note": "Shared ngrok catalog at / ; MCP=gov archive tools; files via /files/gov/ ; LLM=LM Studio for GraphRAG"
 }
