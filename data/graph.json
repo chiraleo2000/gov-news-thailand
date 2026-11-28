@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-11-27T13:00:08.477Z",
+  "generated_at": "2026-11-28T11:00:05.682Z",
   "schema_version": 2,
   "source": "github-pages/data/*_news.json",
   "stats": {
-    "nodes": 8383,
-    "edges": 14027,
+    "nodes": 8489,
+    "edges": 14295,
     "unresolved": 0,
     "by_kind": {
-      "case": 1900,
-      "entity": 6483
+      "case": 1922,
+      "entity": 6567
     },
     "by_entity_group": {
-      "ภาคส่วน": 490,
-      "แท็ก": 4209,
-      "หมวด": 1174,
-      "หน่วย": 610
+      "ภาคส่วน": 503,
+      "แท็ก": 4272,
+      "หมวด": 1176,
+      "หน่วย": 616
     },
     "by_label": {
-      "เผยแพร่โดย": 1873,
-      "อยู่ในหมวด": 1887,
-      "แท็ก": 9047,
-      "เกี่ยวข้องกับภาคส่วน": 1220
+      "เผยแพร่โดย": 1895,
+      "อยู่ในหมวด": 1909,
+      "แท็ก": 9196,
+      "เกี่ยวข้องกับภาคส่วน": 1295
     }
   },
   "unresolved_samples": [],
@@ -8419,6 +8419,30 @@
       "degree": 14
     },
     {
+      "id": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "title": "นครราชสีมาพบผู้เสียชีวิตโรคพิษสุนัขบ้ารายที่ 2 ของปี 2569 ชายวัย 36 ถูกแมวจรข่วนไม่ฉีดวัคซีน สสจ. เตือนล้างแผล-ฉีดวัคซีนทันที",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "crime_type": "สาธารณสุข",
+      "bureau": "กรมควบคุมโรค",
+      "area": "",
+      "status": "",
+      "tags": [
+        "โรคพิษสุนัขบ้า",
+        "นครราชสีมา",
+        "วัคซีน",
+        "สสจ.นครราชสีมา",
+        "แมวจร",
+        "เฝ้าระวังโรค"
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 นายแพทย์วิชาญ คิดเห็น นายแพทย์สาธารณสุขจังหวัดนครราชสีมา ได้รายงานสถานการณ์โรคพิษสุนัขบ้าในพื้นที่ผ่านช่องทางของสำนักงานสาธารณสุขจังหวัด โดยระบุว่าในปี 2569 จังหวัดนครราชสีมาพบผู้เสียชีวิตจา",
+      "path": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "degree": 11
+    },
+    {
       "id": "20_Posts/DDC-ddc.moph.go.th-2026-08-19-cholera-surveillance-yangon-outbreak",
       "title": "สธ. เฝ้าระวังเข้ม อหิวาตกโรค หลังพบการระบาดในย่างกุ้ง สั่งด่านควบคุมโรค สถานพยาบาล ห้องปฏิบัติการเตรียมพร้อม",
       "kind": "case",
@@ -9070,6 +9094,31 @@
       "excerpt": "เมื่อวันอังคารที่ 22 กันยายน 2569 เวลาประมาณ 11.26 น. เกิดเหตุเรือประมงล่มกลางทะเลบริเวณห่างจากช่องแสมสาร อำเภอสัตหีบ จังหวัดชลบุรี ออกไปทางทะเลประมาณ 4 ชั่วโมงเดินเรือ โดยเรือลำดังกล่าวมีลูกเรือประจำเรือรวมประมาณ 20 คน ",
       "path": "20_Posts/DEFENSE-nationthailand.com-2026-09-22-sattahip-fishing-boat-sinks-rescue",
       "degree": 6
+    },
+    {
+      "id": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "title": "ประชาธิปัตย์ลงพื้นที่ระนองติดตามสารพิษแม่น้ำกระบุรี เจอกองกำลังฝั่งเมียนมาถือปืนขู่ ชุดทดสอบพบสารหนูเกินเกณฑ์ 2.5 เท่า เตรียมยื่นสภา 3 ธ.ค.",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "crime_type": "สิ่งแวดล้อมและมลพิษ",
+      "bureau": "พรรคประชาธิปัตย์",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ประชาธิปัตย์",
+        "แม่น้ำกระบุรี",
+        "ระนอง",
+        "สารหนู",
+        "มลพิษข้ามพรมแดน",
+        "สาทิตย์ วงศ์หนองเตย",
+        "ชัยชนะ เดชเดโช"
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 คณะผู้บริหารพรรคประชาธิปัตย์ นำโดยนายสาทิตย์ วงศ์หนองเตย และนายชัยชนะ เดชเดโช รองหัวหน้าพรรค พร้อมด้วยนายพงศกร ขวัญเมือง โฆษกพรรค และนางสาวดวงฤทัย บัวแก้ว รองโฆษกพรรค ได้ลงพื้นที่บ้านหาดตุ่น",
+      "path": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "degree": 12
     },
     {
       "id": "20_Posts/DEMOCRAT-aggregator-2026-11-26-democrat-korn-solar-rooftop-registration-concern-nov26",
@@ -9788,6 +9837,31 @@
       "degree": 12
     },
     {
+      "id": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "title": "ปลัดพาณิชย์มอบนโยบายทูตพาณิชย์ 58 แห่งทำตลาดเชิงรุก ชี้งบส่งเสริมการตลาดต่างประเทศยังจำกัด หลังส่งออก 10 เดือนโต 20.4%",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "crime_type": "ความสัมพันธ์ระหว่างประเทศและการค้า",
+      "bureau": "กรมส่งเสริมการค้าระหว่างประเทศ",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ทูตพาณิชย์",
+        "สคต.",
+        "DITP",
+        "ส่งออก",
+        "พูนพงษ์ นัยนาภากรณ์",
+        "ห่วงโซ่อุปทาน",
+        "งบประมาณ"
+      ],
+      "excerpt": "นายพูนพงษ์ นัยนาภากรณ์ ปลัดกระทรวงพาณิชย์ เปิดเผยภายหลังมอบนโยบายและแนวทางการทำงานแก่ข้าราชการที่ประจำการ ณ สำนักงานส่งเสริมการค้าในต่างประเทศ (สคต.) หรือทูตพาณิชย์ พร้อมด้วยนายวราวุฒิ สมหวังประเสริฐ อธิบดีกรมส่งเสริมการ",
+      "path": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "degree": 12
+    },
+    {
       "id": "20_Posts/DIW-aggregator-2026-11-15-industry-committee-375-of-752-recycling-factories-violations-metal-mix-nov15",
       "title": "กมธ.อุตสาหกรรมเผยผลตรวจโรงงานรีไซเคิล 752 แห่งพบทำผิด 375 แห่ง เตรียมตรวจอีก 2,297 แห่ง เสนอคุมนำเข้าเศษโลหะผสม",
       "kind": "case",
@@ -10124,6 +10198,31 @@
       "degree": 8
     },
     {
+      "id": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "title": "กระทรวงเกษตรฯ เดินหน้า SANDBOX แก้โรคใบด่างมันสำปะหลัง กระจายท่อนพันธุ์ต้านทาน “อิทธิ 1-2-3” นำร่องกำแพงเพชร โคราช กาญจนบุรี",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "crime_type": "เกษตรและอาหาร",
+      "bureau": "กระทรวงเกษตรและสหกรณ์",
+      "area": "",
+      "status": "",
+      "tags": [
+        "มันสำปะหลัง",
+        "โรคใบด่าง",
+        "SANDBOX",
+        "อิทธิ",
+        "ธนาคารท่อนพันธุ์",
+        "Agri-Map",
+        "Traceability"
+      ],
+      "excerpt": "นายพงศ์ไท ไทโยธิน รองปลัดกระทรวงเกษตรและสหกรณ์ เปิดเผยภายหลังเป็นประธานการประชุมคณะกรรมการแก้ไขปัญหาโรคใบด่างมันสำปะหลังและขับเคลื่อน SANDBOX อย่างครบวงจร ครั้งที่ 2/2569 ว่า ที่ประชุมได้พิจารณาแผนปฏิบัติการผลิตและกระจาย",
+      "path": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "degree": 13
+    },
+    {
       "id": "20_Posts/DOF-aggregator-2026-11-23-dof-pcd-kok-river-10-aquatic-species-contaminated-avoid-benthic-offal-flag-warning-nov23",
       "title": "กรมประมง–คพ. พบสัตว์น้ำ 10 ชนิดในลุ่มน้ำกกมีสารปนเปื้อนเกินมาตรฐาน แนะงดกินสัตว์น้ำหน้าดินและเครื่องในปลา เตรียมใช้ระบบธงเตือนภัย 3 สี",
       "kind": "case",
@@ -10378,6 +10477,31 @@
       "excerpt": "น.ส.บุปผา เรืองสุด อธิบดีกรมพัฒนาฝีมือแรงงาน (กพร.) เปิดเผยวันที่ 26 พฤศจิกายน 2569 ว่ากระทรวงแรงงานภายใต้นายจุลพันธ์ อมรวิวัฒน์ รัฐมนตรีว่าการ ผลักดันนโยบาย “เรียนได้งบ จบได้งาน” โดยสอบถามตำแหน่งที่ขาดแคลนจากสถานประกอบก",
       "path": "20_Posts/DSD-aggregator-2026-11-26-dsd-learn-funded-get-job-20000-trainees-fy70-nov26",
       "degree": 10
+    },
+    {
+      "id": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "title": "DSI วิเคราะห์เส้นทางเงินบัญชีที่ใช้รับบริจาคของมูลนิธิกันจอมพลัง พบเคยใช้ในเว็บพนัน เรียกเจ้าของร้านทองชลบุรีให้ปากคำ 1 ธ.ค.",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "crime_type": "กฎหมายและกระบวนการยุติธรรม",
+      "bureau": "กรมสอบสวนคดีพิเศษ",
+      "area": "",
+      "status": "",
+      "tags": [
+        "DSI",
+        "บัญชีม้า",
+        "มูลนิธิกันจอมพลัง",
+        "เงินบริจาค",
+        "ร้านทอง",
+        "พนันออนไลน์",
+        "สืบสวน"
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 คณะพนักงานสืบสวนกรมสอบสวนคดีพิเศษ (DSI) เปิดเผยความคืบหน้าการตรวจสอบบัญชีธนาคารของบุคคลหนึ่ง ซึ่งถูกนายกัณฐัศว์ พงศ์ไพบูลย์เวชย์ หรือกันจอมพลัง ใช้เป็นช่องทางเรี่ยไรรับเงินบริจาคในปี 2567 ผ่",
+      "path": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "degree": 13
     },
     {
       "id": "20_Posts/dsi-disciplinary-complaint-senate-case-20260914",
@@ -11043,6 +11167,30 @@
       "excerpt": "ผู้สื่อข่าวรายงานเมื่อวันที่ 26 พฤศจิกายนว่า นายอัครวัฒน์ พงศ์ธนาชลิตกุล ซึ่งเป็น ส.ว.สำรอง ได้ยื่นคำร้องต่อศาลอาญาคดีทุจริตและประพฤติมิชอบภาค 1 ในวันเดียวกัน เพื่อฟ้องบุคคลรวม 19 ราย ที่มีรายชื่ออยู่ในสำนวนของคณะอนุกรรม",
       "path": "20_Posts/ECT-aggregator-2026-11-27-senate-collusion-lawsuit-19-defendants-nov27",
       "degree": 9
+    },
+    {
+      "id": "20_Posts/ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "title": "อัครวัฒน์ สว.สำรอง ยืนยันยื่นคำชี้ช่องพยานหลักฐานคดีฟ้องเลขาธิการ กกต. และพวก 19 คนได้ทันภายใน 10 ธ.ค.",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "crime_type": "การเมืองและการเลือกตั้ง",
+      "bureau": "คณะกรรมการการเลือกตั้ง",
+      "area": "",
+      "status": "",
+      "tags": [
+        "กกต.",
+        "คดีฮั้วเลือก สว.",
+        "แสวง บุญมี",
+        "ศาลอาญาคดีทุจริต",
+        "สว.สำรอง",
+        "ระบบไต่สวน"
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 นายอัครวัฒน์ พงศ์ธนาชลิตกุล สว.สำรอง ซึ่งเป็นผู้ยื่นฟ้องนายแสวง บุญมี เลขาธิการคณะกรรมการการเลือกตั้ง (กกต.) และพวกรวม 19 คน ได้ให้ความเห็นถึงความคืบหน้าของคดี หลังศาลอาญาคดีทุจริตและประพฤติ",
+      "path": "20_Posts/ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "degree": 8
     },
     {
       "id": "20_Posts/ect-bangkok-election-results-2026-07-07",
@@ -15442,6 +15590,32 @@
       "degree": 6
     },
     {
+      "id": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "title": "รัฐบาลเตรียมออกมาตรการห้ามส่งออกสารเคมีตั้งต้นถลุงแร่ราว 30 พ.ย. สกัดสารปนเปื้อนแม่น้ำกก-สาย-รวก",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "crime_type": "สิ่งแวดล้อมและมลพิษ",
+      "bureau": "ทำเนียบรัฐบาล (GovChannel)",
+      "area": "",
+      "status": "",
+      "tags": [
+        "แม่น้ำกก",
+        "แม่น้ำสาย",
+        "แม่น้ำรวก",
+        "สารหนู",
+        "เหมืองแร่เมียนมา",
+        "ห้ามส่งออก",
+        "สารเคมีตั้งต้น",
+        "ยศชนัน วงศ์สวัสดิ์"
+      ],
+      "excerpt": "นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย เปิดเผยผ่านรายการ “คุยกับนายกฯ อนุทิน” เมื่อวันที่ 28 พฤศจิกายน 2569 ว่า รัฐบาลเตรียมออกมาตรการห้ามส่งออกสารเคมีที่ใช้เป็นสารตั้งต้นในการถลุงแร่ โดยคาดว่าจะ",
+      "path": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "degree": 14
+    },
+    {
       "id": "20_Posts/gov-baht-low-2026-06-23-010",
       "title": "บาทร่วงต่ำสุดในรอบ 1 ปี แตะ 33.07 ต่อดอลลาร์ จากส่วนต่างดอกเบี้ย",
       "kind": "case",
@@ -16956,6 +17130,30 @@
       "excerpt": "กระทรวงแรงงานและกระทรวงยุติธรรมลงนามบันทึกความเข้าใจ (MOU) เพื่อส่งเสริมการจ้างงานสำหรับผู้พ้นโทษและกลุ่มเปราะบาง โดยตั้งเป้าหมายนำผู้ผ่านกระบวนการยุติธรรมอย่างน้อย 500 คนเข้าสู่ตลาดแรงงานภายในปี 2569 ความร่วมมือดังกล่าว",
       "path": "20_Posts/labour-justice-mou-exoffender-20260720",
       "degree": 9
+    },
+    {
+      "id": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "title": "กรมบังคับคดีจัดมหกรรมไกล่เกลี่ยหนี้บุรีรัมย์ เผยคดีชั้นบังคับคดีราว 1 หมื่นคดี ทุนทรัพย์ 1.7 หมื่นล้านบาท เจ้าหนี้ 13 แห่งร่วมเสนอทางออก",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "crime_type": "กฎหมายและกระบวนการยุติธรรม",
+      "bureau": "กรมบังคับคดี",
+      "area": "",
+      "status": "",
+      "tags": [
+        "กรมบังคับคดี",
+        "ไกล่เกลี่ยหนี้",
+        "บุรีรัมย์",
+        "ยุติธรรมทางเลือก",
+        "หนี้ครัวเรือน",
+        "ลดดอกเบี้ย"
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 ที่จังหวัดบุรีรัมย์ นายเอกวิทย์ มีเพียร ผู้ว่าราชการจังหวัดบุรีรัมย์ เป็นประธานเปิดโครงการมหกรรมไกล่เกลี่ยเจรจาหนี้หลังศาลมีคำพิพากษา และแก้หนี้สินก่อนฟ้องด้วยยุติธรรมทางเลือก ซึ่งจัดโดยกรมบ",
+      "path": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "degree": 11
     },
     {
       "id": "20_Posts/lekha-pm-record-tape-royal-birthday-28july2569",
@@ -20368,6 +20566,30 @@
       "degree": 14
     },
     {
+      "id": "20_Posts/MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "title": "ศาลปกครองสูงสุดพิพากษายืน เพิกถอนคำสั่ง อว. ปลดกรรมการสภามหาวิทยาลัยนครพนม 13 ราย ชี้รัฐมนตรีไม่มีอำนาจ",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "crime_type": "การศึกษาและการวิจัย",
+      "bureau": "กระทรวง อว.",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ศาลปกครองสูงสุด",
+        "มหาวิทยาลัยนครพนม",
+        "สภามหาวิทยาลัย",
+        "พ.ร.บ.การอุดมศึกษา 2562",
+        "ธรรมาภิบาล",
+        "กกอ."
+      ],
+      "excerpt": "เมื่อวันที่ 27 พฤศจิกายน 2569 ศาลปกครองสูงสุดได้อ่านคำพิพากษาคดีหมายเลขแดงที่ อ. 1383/2569 ระหว่างผู้ฟ้องคดี 13 ราย ซึ่งเป็นกรรมการสภามหาวิทยาลัยนครพนม กับผู้ถูกฟ้องคดี 3 ราย ได้แก่ กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยแ",
+      "path": "20_Posts/MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "degree": 8
+    },
+    {
       "id": "20_Posts/MHESI-gistda.or.th-2026-08-18-gistda-space-tech-flood-drought-central-region",
       "title": "GISTDA นำเทคโนโลยีอวกาศและภูมิสารสนเทศ สนับสนุนบริหารจัดการอุทกภัยและภัยแล้งภาคกลาง",
       "kind": "case",
@@ -21134,6 +21356,32 @@
       "excerpt": "ผู้ช่วยเลขานุการรัฐมนตรีว่าการกระทรวงเกษตรและสหกรณ์เปิดเผยเมื่อ 25 พฤศจิกายน 2569 ว่า ตามข้อสั่งการของรัฐมนตรีว่าการกระทรวงเกษตรฯ หน่วยงานในสังกัด ได้แก่ กรมพัฒนาที่ดิน กรมการข้าว กรมวิชาการเกษตร และกรมส่งเสริมการเกษตร ร",
       "path": "20_Posts/MOAC-aggregator-2026-11-25-moac-350-sampling-points-kok-sai-ruak-agri-map-3-color-arsenic-nov25",
       "degree": 13
+    },
+    {
+      "id": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "title": "บอร์ดมาตรฐานสินค้าเกษตรเห็นชอบ 5 มาตรฐานใหม่ อินทผลัมสด พริกไทย ไม้ล้อม ดันส่งออกจีน ออสเตรเลีย ตะวันออกกลาง",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "crime_type": "เกษตรและอาหาร",
+      "bureau": "สำนักงานมาตรฐานสินค้าเกษตรและอาหารแห่งชาติ",
+      "area": "",
+      "status": "",
+      "tags": [
+        "มกอช.",
+        "มาตรฐานสินค้าเกษตร",
+        "อินทผลัม",
+        "พริกไทย",
+        "ไม้ล้อม",
+        "GAP",
+        "ทุเรียนแช่แข็ง",
+        "Codex"
+      ],
+      "excerpt": "นางสาวปิยะรัฐชย์ ติยะไพรัช รัฐมนตรีช่วยว่าการกระทรวงเกษตรและสหกรณ์ เปิดเผยภายหลังเป็นประธานการประชุมคณะกรรมการมาตรฐานสินค้าเกษตร ครั้งที่ 4/2569 ว่า ที่ประชุมมีมติเห็นชอบร่างมาตรฐานสินค้าเกษตร 5 เรื่อง เพื่อดำเนินการประก",
+      "path": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "degree": 14
     },
     {
       "id": "20_Posts/moac-alro-land-opportunity-20260618",
@@ -22285,6 +22533,31 @@
       ],
       "excerpt": "ประชาชาติธุรกิจได้สรุปสาระสำคัญในส่วนที่เกี่ยวข้องกับประเทศไทยจากรายงานของสำนักงานผู้แทนการค้าสหรัฐ (USTR) ซึ่งเป็นผลจากการสอบสวนตามมาตรา 301 เรื่องกำลังการผลิตล้นเกินเชิงโครงสร้างในภาคการผลิต ที่เริ่มต้นเมื่อวันที่ 11 ม",
       "path": "20_Posts/MOC-aggregator-2026-11-27-ustr-section-301-thailand-18-percent-tariff-nov27",
+      "degree": 15
+    },
+    {
+      "id": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "title": "ศุภจี หารือกรรมาธิการยุโรป เซฟโควิช เร่งปิดเจรจา FTA ไทย-EU เหลือประเด็นเปิดตลาดสินค้า บริการ ลงทุน และจัดซื้อจัดจ้างภาครัฐ",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "crime_type": "ความสัมพันธ์ระหว่างประเทศและการค้า",
+      "bureau": "กระทรวงพาณิชย์",
+      "area": "",
+      "status": "",
+      "tags": [
+        "FTA ไทย-EU",
+        "สหภาพยุโรป",
+        "ศุภจี สุธรรมพันธุ์",
+        "Maroš Šefčovič",
+        "จัดซื้อจัดจ้างภาครัฐ",
+        "SMEs",
+        "สินค้าเกษตร"
+      ],
+      "excerpt": "นางศุภจี สุธรรมพันธุ์ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงพาณิชย์ เปิดเผยว่า เมื่อวันที่ 27 พฤศจิกายน 2569 ได้หารือกับนายมารอส เซฟโควิช (Maroš Šefčovič) กรรมาธิการยุโรปด้านการค้าและความมั่นคงทางเศรษฐกิจ ซึ่งเดินทางเยื",
+      "path": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
       "degree": 15
     },
     {
@@ -24262,6 +24535,30 @@
       "degree": 8
     },
     {
+      "id": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "title": "ผู้ว่าฯ นครพนมยืนยันผลตรวจน้ำโขง ปลา ดิน และน้ำประปา ไม่พบสารหนูเกินมาตรฐาน บริโภคปลาน้ำโขงได้อย่างมั่นใจ",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "crime_type": "สิ่งแวดล้อมและมลพิษ",
+      "bureau": "จังหวัดนครพนม",
+      "area": "",
+      "status": "",
+      "tags": [
+        "นครพนม",
+        "แม่น้ำโขง",
+        "สารหนู",
+        "โลหะหนัก",
+        "ปลากระชัง",
+        "การประปาส่วนภูมิภาค"
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 ที่จังหวัดนครพนม ว่าที่พันตรีอดิศักดิ์ น้อยสุวรรณ ผู้ว่าราชการจังหวัดนครพนม พร้อมหน่วยงานที่เกี่ยวข้อง ได้แก่ ประมงจังหวัด เกษตรจังหวัด การประปาส่วนภูมิภาคสาขานครพนม และอำเภอชายแดนริมแม่น้ำโ",
+      "path": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "degree": 12
+    },
+    {
       "id": "20_Posts/moi-ddpm-national-disaster-insurance-20260915",
       "title": "ครม.เห็นชอบ \"ประกันภัยพิบัติแห่งชาติ\" คุ้มครอง 30 ล้านหลังคาเรือน เริ่มวันที่ 1 ต.ค.",
       "kind": "case",
@@ -24316,6 +24613,31 @@
       "excerpt": "นายกรัฐมนตรีอนุทินเรียกประชุมฉุกเฉินหลัง ป.ป.ช. + บก.ปปป. บุกจับขบวนการทุจริตสอบท้องถิ่น 4,500 ล้านบาท สั่งยกเลิกผลสอบแม้บรรจุแล้ว ปลัดมหาดไทยเด้งอธิบดี สถ. (ธีรุตม์ ศุภวิบูลย์ผล) ประจำกระทรวง มีผล 24 มิ.ย. 2569\n\nประเด็น",
       "path": "20_Posts/moi-exam-fraud-20260624-001",
       "degree": 2
+    },
+    {
+      "id": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "title": "นายกฯ ชี้โรงงานขยะอิเล็กทรอนิกส์ปราจีนบุรีแย่กว่าที่คิด สั่งปิดโรงงานผิดกฎหมาย ดำเนินคดีผู้เกี่ยวข้อง ส่ง DSI ขยายผลทุจริต",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "crime_type": "สิ่งแวดล้อมและมลพิษ",
+      "bureau": "กระทรวงอุตสาหกรรม",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ขยะอิเล็กทรอนิกส์",
+        "ปราจีนบุรี",
+        "กากอุตสาหกรรม",
+        "DSI",
+        "อนุทิน ชาญวีรกูล",
+        "โรงงานผิดกฎหมาย",
+        "เนรเทศ"
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย กล่าวผ่านรายการ “คุยกับนายกฯ อนุทิน” ถึงผลการลงพื้นที่ตรวจสอบโรงงานกำจัดขยะอิเล็กทรอนิกส์ในจังหวัดปราจีนบุรี ร่วมกับกระทรวงอุต",
+      "path": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "degree": 15
     },
     {
       "id": "20_Posts/moi-nationality-status-extension-20260630",
@@ -26215,6 +26537,31 @@
       "excerpt": "นายพิพัฒน์ รัชกิจประการ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงคมนาคม เปิดเผยเมื่อวันที่ 25 พฤศจิกายน 2569 ว่า บริษัท ทางด่วนและรถไฟฟ้ากรุงเทพ จำกัด (มหาชน) หรือ BEM ตอบรับข้อเสนอของกระทรวงให้ชะลอการปรับขึ้นอัตราค่าผ่านท",
       "path": "20_Posts/MOT-aggregator-2026-11-26-mot-bem-delays-expressway-toll-hike-june2027-nov25",
       "degree": 8
+    },
+    {
+      "id": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "title": "รัฐขอความร่วมมือสายการบินลดค่าโดยสารช่วงปีใหม่ 2570 ลง 20% จากเพดานราคา พร้อมให้แสดงเพดานราคาบนหน้าเว็บไซต์",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "crime_type": "คมนาคมและโครงสร้างพื้นฐาน",
+      "bureau": "สำนักงานการบินพลเรือนแห่งประเทศไทย",
+      "area": "",
+      "status": "",
+      "tags": [
+        "CAAT",
+        "ค่าตั๋วเครื่องบิน",
+        "เทศกาลปีใหม่",
+        "เพดานราคา",
+        "สคบ.",
+        "ศุภมาส อิศรภักดี",
+        "OTA"
+      ],
+      "excerpt": "พลอากาศเอก มนัท ชวนะประยูร ผู้อำนวยการสำนักงานการบินพลเรือนแห่งประเทศไทย (CAAT) หรือ กพท. เปิดเผยว่า ได้ร่วมประชุมหารือแนวทางการกำกับดูแลราคาค่าโดยสารสายการบินในช่วงฤดูท่องเที่ยว โดยมีนางสาวศุภมาส อิศรภักดี รัฐมนตรีประจำ",
+      "path": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "degree": 12
     },
     {
       "id": "20_Posts/MOT-dlt.go.th-2026-08-18-dlt-traffic-ticket-tax-renewal-policy-august-2026",
@@ -31920,6 +32267,31 @@
       "degree": 2
     },
     {
+      "id": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "title": "พูนศักดิ์ พรรคประชาชน เตือนแผนย้ายกากอุตสาหกรรมปราจีนบุรี 5 หมื่นตันไประยอง-ราชบุรี จี้รัฐเปิดข้อมูล 4 ประเด็นก่อนขนย้าย",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "crime_type": "สิ่งแวดล้อมและมลพิษ",
+      "bureau": "พรรคประชาชน",
+      "area": "",
+      "status": "",
+      "tags": [
+        "พรรคประชาชน",
+        "พูนศักดิ์ จันทร์จำปี",
+        "กากอุตสาหกรรม",
+        "ปราจีนบุรี",
+        "ระยอง",
+        "ราชบุรี",
+        "ของเสียอันตราย"
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 นายพูนศักดิ์ จันทร์จำปี สส.บัญชีรายชื่อพรรคประชาชน แสดงความกังวลต่อแผนขนย้ายกากอุตสาหกรรมจากจังหวัดปราจีนบุรีกว่า 50,000 ตันไปยังจังหวัดระยอง ก่อนส่งต่อไปกำจัดที่จังหวัดราชบุรี ตามที่รัฐมนตร",
+      "path": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "degree": 13
+    },
+    {
       "id": "20_Posts/PRACHACHAT-aggregator-2026-10-11-prachachat-flood-plan-overhaul-chaophraya2-oct10",
       "title": "รื้อใหญ่แผนน้ำท่วมทั่วประเทศ ขุดเจ้าพระยา 2 เพิ่มแก้มลิงตะวันออก",
       "kind": "case",
@@ -32183,6 +32555,30 @@
       "degree": 6
     },
     {
+      "id": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "title": "พร้อมพงศ์ อดีตโฆษกเพื่อไทย จี้นายกฯ เร่งเคาะเงินช่วยชาวนาไร่ละ 1,000 บาท หลังเลื่อนประชุม นบข. ไม่มีกำหนด",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "crime_type": "การเมืองและการเลือกตั้ง",
+      "bureau": "พรรคเพื่อไทย",
+      "area": "",
+      "status": "",
+      "tags": [
+        "เพื่อไทย",
+        "พร้อมพงศ์ นพฤทธิ์",
+        "ชาวนา",
+        "นบข.",
+        "เงินช่วยเหลือไร่ละ 1,000 บาท",
+        "ข้าว 2569/70"
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 นายพร้อมพงศ์ นพฤทธิ์ อดีตโฆษกพรรคเพื่อไทย แสดงความเห็นต่อรายงานข่าวการเลื่อนการประชุมคณะกรรมการนโยบายและบริหารข้าวแห่งชาติ (นบข.) จากวันที่ 27 พฤศจิกายน ออกไปอย่างไม่มีกำหนด โดยเรียกร้องให้น",
+      "path": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "degree": 11
+    },
+    {
       "id": "20_Posts/PTT-aggregator-2026-11-19-ptt-bangchak-cut-gasohol-70-satang-second-day-nov19",
       "title": "ปตท.-บางจาก ลดราคาแก๊สโซฮอล์ E20, 91, 95 ลิตรละ 70 สตางค์ มีผล 19 พ.ย. ลดต่อเนื่องเป็นวันที่ 2",
       "kind": "case",
@@ -32267,6 +32663,30 @@
       "excerpt": "บริษัท ปตท. น้ำมันและการค้าปลีก จำกัด (มหาชน) หรือโออาร์ และบริษัท บางจาก คอร์ปอเรชั่น จำกัด (มหาชน) ประกาศราคาขายปลีกน้ำมันเชื้อเพลิงสำหรับวันที่ 1 ตุลาคม 2569 โดยไม่มีการปรับเปลี่ยนราคาจากประกาศครั้งก่อนหน้าเมื่อวันที่",
       "path": "20_Posts/PTT-thansettakij-2026-09-30-oil-price-oct1",
       "degree": 7
+    },
+    {
+      "id": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "title": "บอร์ด กยท. อนุมัติทุนวิจัยยางพาราปี 2570 รวม 15 โครงการ พัฒนาพันธุ์ยาง ระบบกรีดความถี่ต่ำ และผลิตภัณฑ์ยางเชิงพาณิชย์",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "crime_type": "เกษตรและอาหาร",
+      "bureau": "การยางแห่งประเทศไทย",
+      "area": "",
+      "status": "",
+      "tags": [
+        "การยางแห่งประเทศไทย",
+        "ยางพารา",
+        "งานวิจัย",
+        "ระบบกรีดยางความถี่ต่ำ",
+        "ผลิตภัณฑ์ยาง",
+        "รามาธิบดี"
+      ],
+      "excerpt": "นายเบญจพล นาคประเสริฐ ประธานกรรมการการยางแห่งประเทศไทย (บอร์ด กยท.) เปิดเผยภายหลังการประชุมคณะกรรมการเมื่อวันที่ 26 พฤศจิกายน 2569 ว่า ที่ประชุมมีมติอนุมัติข้อเสนอโครงการวิจัยเพื่อขอรับทุนสนับสนุนการศึกษาวิจัยเกี่ยวกับยา",
+      "path": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "degree": 12
     },
     {
       "id": "20_Posts/ratchakitcha-20260724-budget-transfer-10328m",
@@ -32715,6 +33135,31 @@
       "excerpt": "พล.ต.วินธัย สุวารี โฆษกกองทัพบก เปิดเผยเมื่อวันที่ 26 พฤศจิกายน 2569 ว่า พล.อ.พนา แคล้วปลอดทุกข์ ผู้บัญชาการทหารบก มอบหมายให้ พล.ท.ธีรนันท์ นันทขว้าง นำคณะผู้สังเกตการณ์อาเซียน (ASEAN Observer Team: AOT) พร้อมสื่อมวลชนไท",
       "path": "20_Posts/RTA-aggregator-2026-11-26-rta-asean-observers-sisaket-border-landmine-nov26",
       "degree": 8
+    },
+    {
+      "id": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "title": "ผบ.ทบ. ตรวจภารกิจกองทัพภาคที่ 4 สั่งคุมเข้มชายแดนไทย-เมียนมา และไทย-มาเลเซีย สกัดยาเสพติดและอาชญากรรมข้ามชาติ",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "crime_type": "ความมั่นคงและการป้องกันประเทศ",
+      "bureau": "กองทัพบก",
+      "area": "",
+      "status": "",
+      "tags": [
+        "กองทัพบก",
+        "กองทัพภาคที่ 4",
+        "พนา แคล้วปลอดทุกข์",
+        "ชายแดนใต้",
+        "ยาเสพติด",
+        "รั้วชายแดน",
+        "กอ.รมน."
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 พลเอกพนา แคล้วปลอดทุกข์ ผู้บัญชาการทหารบก ในฐานะผู้บัญชาการศูนย์ปฏิบัติการกองทัพบก และรองผู้อำนวยการรักษาความมั่นคงภายในราชอาณาจักร พร้อมคณะผู้บังคับบัญชากองทัพบกและ กอ.รมน. ส่วนกลาง ลงพื้นท",
+      "path": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "degree": 12
     },
     {
       "id": "20_Posts/rta-cambodia-displacement-20260804",
@@ -33230,6 +33675,31 @@
       "excerpt": "ฝ่ายวิจัยตลาดหลักทรัพย์แห่งประเทศไทย (SET Research) เผยแพร่รายงาน SET Note ฉบับที่ 16/2569 เมื่อวันที่ 19 พฤศจิกายน 2569 ว่า ณ สิ้นปี 2568 บริษัทจดทะเบียนใน SET และ mai จำนวน 861 แห่ง มีพนักงานรวม 2,014,939 คน เพิ่มขึ้น ",
       "path": "20_Posts/SET-aggregator-2026-11-19-set-note-listed-companies-employ-2-01m-compensation-1-17-trillion-nov19",
       "degree": 8
+    },
+    {
+      "id": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "title": "ตลท. นำเกณฑ์ Uptick Rule กลับมาใช้ชั่วคราวกับหุ้นที่ขายชอร์ตได้ทุกตัว 30 พ.ย.-30 ธ.ค. 2569 รับมือความผันผวนหุ้น AI",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "crime_type": "เศรษฐกิจและการคลัง",
+      "bureau": "ตลาดหลักทรัพย์แห่งประเทศไทย",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ตลาดหลักทรัพย์",
+        "ขายชอร์ต",
+        "Uptick Rule",
+        "SET Index",
+        "ก.ล.ต.",
+        "หุ้น AI",
+        "Market Maker"
+      ],
+      "excerpt": "ตลาดหลักทรัพย์แห่งประเทศไทย (ตลท.) เปิดเผยว่า ที่ประชุมคณะกรรมการตลาดหลักทรัพย์ฯ เมื่อวันที่ 28 พฤศจิกายน 2569 มีมติให้นำเกณฑ์การขายชอร์ต (Short Selling) แบบ Uptick Rule กลับมาใช้เป็นการชั่วคราวกับทุกหลักทรัพย์ที่อนุญาตใ",
+      "path": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "degree": 12
     },
     {
       "id": "20_Posts/SET-nationthailand-2026-09-28-set-trading-continues-flood-holiday",
@@ -33950,6 +34420,32 @@
       "degree": 13
     },
     {
+      "id": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "title": "นายกฯ อนุทิน เล่าเบื้องหลังดีลภาษีสหรัฐฯ เพดาน 18% เขียนจดหมายลายมือถึงทรัมป์ขอยกเว้นภาษีข้าวหอมมะลิ-ข้าวโพด",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "crime_type": "ความสัมพันธ์ระหว่างประเทศและการค้า",
+      "bureau": "สำนักโฆษกประจำสำนักนายกรัฐมนตรี",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ภาษีสหรัฐ",
+        "ART",
+        "USTR",
+        "อนุทิน ชาญวีรกูล",
+        "ศุภจี สุธรรมพันธุ์",
+        "FTA ไทย-EU",
+        "สหราชอาณาจักร",
+        "ข้าวหอมมะลิ"
+      ],
+      "excerpt": "เมื่อวันที่ 28 พฤศจิกายน 2569 นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย ได้เปิดเผยผ่านรายการ “คุยกับนายกฯ อนุทิน” ถึงเบื้องหลังการเจรจาการค้ากับสหรัฐอเมริกา ภายหลังจากที่ไทยได้รับข้อเสนออัตราภาษีศุล",
+      "path": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "degree": 15
+    },
+    {
       "id": "20_Posts/spm-award-lertrat-20260912",
       "title": "สลน. คว้ารางวัลเลิศรัฐ เป็นปีแรก",
       "kind": "case",
@@ -34062,6 +34558,30 @@
       "excerpt": "การรถไฟแห่งประเทศไทย (รฟท.) เผยความคืบหน้าโครงการรถไฟทางคู่สายใหม่เด่นชัย–เชียงราย–เชียงของ ซึ่งใช้งบก่อสร้างและเวนคืนที่ดินกว่า 85,345 ล้านบาท ระยะทางประมาณ 323.1 กิโลเมตร ผ่าน 59 ตำบล 17 อำเภอ ใน 4 จังหวัด คือ แพร่ ลำป",
       "path": "20_Posts/SRT-aggregator-2026-11-22-srt-denchai-chiangrai-chiangkhong-double-track-74pct-open-2028-nov21",
       "degree": 12
+    },
+    {
+      "id": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "title": "รฟท. เตรียมสร้างชานชาลาสูง 18 แห่งสายตะวันออก รองรับรถ KIHA 40/48 “SRT BANGKOK CONNEX” เปิดระยะแรก 10 แห่งกลางปี 2570",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "crime_type": "คมนาคมและโครงสร้างพื้นฐาน",
+      "bureau": "การรถไฟแห่งประเทศไทย",
+      "area": "",
+      "status": "",
+      "tags": [
+        "การรถไฟแห่งประเทศไทย",
+        "ชานชาลาสูง",
+        "KIHA 40/48",
+        "SRT BANGKOK CONNEX",
+        "สายตะวันออก",
+        "ฉะเชิงเทรา"
+      ],
+      "excerpt": "นายอนันต์ โพธิ์นิ่มแดง ผู้ว่าการรถไฟแห่งประเทศไทย (ร.ฟ.ท.) เปิดเผยว่า เมื่อวันที่ 27 พฤศจิกายน 2569 ได้ลงพื้นที่ตรวจความพร้อมก่อนการก่อสร้างชานชาลาสูงชั่วคราวบนเส้นทางรถไฟสายตะวันออก ช่วงสถานีกรุงเทพ (หัวลำโพง) ถึงสถานีช",
+      "path": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "degree": 11
     },
     {
       "id": "20_Posts/srt-bnex-ayutthaya-20260801",
@@ -34467,6 +34987,31 @@
       "excerpt": "ในเวทีเสวนา THAILAND SMART CITY 27 LIFE IN THE CITY หัวข้อ ‘มหานครแห่งอนาคต’ ที่จัดโดยโพสต์ทูเดย์ร่วมกับกรุงเทพมหานคร ซึ่งฐานเศรษฐกิจรายงานเมื่อ 26 พฤศจิกายน 2569 นายจารุเชษฐ์ เรืองสุวรรณ ผู้อำนวยการฝ่ายวิจัยและพัฒนาด้าน",
       "path": "20_Posts/TAT-aggregator-2026-11-26-tat-egat-bangkok-smart-city-sustainable-tourism-nov26",
       "degree": 10
+    },
+    {
+      "id": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "title": "ททท. ประชุมด่วนรับมือ Norse Atlantic หยุดบิน กระทบที่นั่งเข้าไทยฤดูหนาว 2569/70 กว่า 1.59 แสนที่นั่ง วางแผนรักษาตลาด UK-นอร์ดิก",
+      "kind": "case",
+      "folder": "20_Posts",
+      "entity_group": null,
+      "date": "2026-11-28",
+      "case_id": "TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "crime_type": "การท่องเที่ยว",
+      "bureau": "การท่องเที่ยวแห่งประเทศไทย",
+      "area": "",
+      "status": "",
+      "tags": [
+        "ททท.",
+        "Norse Atlantic",
+        "สายการบินล้มละลาย",
+        "ตลาดนอร์ดิก",
+        "สหราชอาณาจักร",
+        "CAAT",
+        "ฤดูหนาว 2569/70"
+      ],
+      "excerpt": "นางจิระวดี คุณทรัพย์ รองผู้ว่าการการท่องเที่ยวแห่งประเทศไทย (ททท.) ด้านตลาดยุโรป อเมริกา ตะวันออกกลาง และแอฟริกา เปิดเผยว่า ททท. ได้เร่งประสานความร่วมมือกับหน่วยงานภาครัฐ ภาคเอกชน และพันธมิตรในอุตสาหกรรมท่องเที่ยว เพื่อป",
+      "path": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "degree": 12
     },
     {
       "id": "20_Posts/tat-nationth-40067960-20260627",
@@ -43424,7 +43969,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/dsi",
-      "degree": 21
+      "degree": 23
     },
     {
       "id": "30_Entities/Sectors/dsi-connect-2026",
@@ -44342,7 +44887,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/smes",
-      "degree": 9
+      "degree": 11
     },
     {
       "id": "30_Entities/Sectors/smes'-gateway",
@@ -45005,7 +45550,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/กระบวนการยุติธรรม",
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "30_Entities/Sectors/กลไกทางการเงิน",
@@ -45107,7 +45652,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ก่อสร้าง",
-      "degree": 5
+      "degree": 7
     },
     {
       "id": "30_Entities/Sectors/ก่อสร้าง-ซ่อมแซม",
@@ -45175,7 +45720,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/กากอุตสาหกรรม",
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "30_Entities/Sectors/การกำกับดูแลดิจิทัล",
@@ -45244,6 +45789,23 @@
       "excerpt": "",
       "path": "30_Entities/Sectors/การคลัง",
       "degree": 2
+    },
+    {
+      "id": "30_Entities/Sectors/การคลังและงบประมาณ",
+      "title": "การคลังและงบประมาณ",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/การคลังและงบประมาณ",
+      "degree": 1
     },
     {
       "id": "30_Entities/Sectors/การคลังและภาษี",
@@ -45345,7 +45907,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/การค้าระหว่างประเทศ",
-      "degree": 15
+      "degree": 19
     },
     {
       "id": "30_Entities/Sectors/การเงิน",
@@ -45430,7 +45992,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/การจัดการของเสีย",
-      "degree": 2
+      "degree": 4
     },
     {
       "id": "30_Entities/Sectors/การจัดการน้ำ",
@@ -45549,7 +46111,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/การบิน",
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "30_Entities/Sectors/การแบ่งปันข้อมูลดิจิทัล",
@@ -45566,6 +46128,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/การแบ่งปันข้อมูลดิจิทัล",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Sectors/การปกครองส่วนท้องถิ่น",
+      "title": "การปกครองส่วนท้องถิ่น",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/การปกครองส่วนท้องถิ่น",
       "degree": 1
     },
     {
@@ -45736,7 +46315,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/การส่งออก",
-      "degree": 1
+      "degree": 4
     },
     {
       "id": "30_Entities/Sectors/กำกับดูแลการเงิน",
@@ -46025,7 +46604,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/เกษตรแม่นยำ",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Sectors/เกษตรและอาหาร",
@@ -46042,7 +46621,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/เกษตรและอาหาร",
-      "degree": 3
+      "degree": 9
     },
     {
       "id": "30_Entities/Sectors/เกษตรและอาหารแปรรูป",
@@ -46195,7 +46774,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ข้าว",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Sectors/เขตสุขภาพที่-12",
@@ -46297,7 +46876,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/คมนาคม",
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "30_Entities/Sectors/คมนาคม-จราจร",
@@ -46433,7 +47012,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ความมั่นคง",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Sectors/ความมั่นคงไซเบอร์",
@@ -46586,7 +47165,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/คุ้มครองผู้บริโภค",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Sectors/คุ้มครองผู้บริโภคทางการเงิน",
@@ -46620,7 +47199,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/เคมีภัณฑ์",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Sectors/เครดิตเทอม-sme",
@@ -46807,7 +47386,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/จัดซื้อจัดจ้างภาครัฐ",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "30_Entities/Sectors/จ้างเหมาบริการ",
@@ -47164,7 +47743,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ตลาดทุน",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Sectors/ตลาดแรงงาน",
@@ -47283,7 +47862,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ทรัพยากรน้ำ",
-      "degree": 2
+      "degree": 5
     },
     {
       "id": "30_Entities/Sectors/ท้องถิ่น",
@@ -47317,7 +47896,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ท่องเที่ยว",
-      "degree": 12
+      "degree": 15
     },
     {
       "id": "30_Entities/Sectors/ท่องเที่ยวชุมชน",
@@ -47490,6 +48069,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/เทคโนโลยีการเงิน",
+      "title": "เทคโนโลยีการเงิน",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/เทคโนโลยีการเงิน",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Sectors/เทคโนโลยีตรวจวัด",
       "title": "เทคโนโลยีตรวจวัด",
       "kind": "entity",
@@ -47521,6 +48117,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/เทคโนโลยีติดตามทรัพย์สิน",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Sectors/เทคโนโลยีเฝ้าระวัง",
+      "title": "เทคโนโลยีเฝ้าระวัง",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/เทคโนโลยีเฝ้าระวัง",
       "degree": 1
     },
     {
@@ -47830,6 +48443,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/บริการทางการเงิน",
+      "title": "บริการทางการเงิน",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/บริการทางการเงิน",
+      "degree": 3
+    },
+    {
       "id": "30_Entities/Sectors/บริการภาครัฐดิจิทัล",
       "title": "บริการภาครัฐดิจิทัล",
       "kind": "entity",
@@ -48116,7 +48746,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ประมง",
-      "degree": 2
+      "degree": 4
     },
     {
       "id": "30_Entities/Sectors/ปลัดกระทรวงเกษตร",
@@ -48167,7 +48797,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ปศุสัตว์",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Sectors/ป้องกันประเทศ",
@@ -48490,7 +49120,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/พลังงานชีวภาพ",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Sectors/พลังงานทดแทน",
@@ -49102,7 +49732,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ภาษีสหรัฐ",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "30_Entities/Sectors/ภาษีสหรัฐฯ",
@@ -49136,6 +49766,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ภาษีหัก-ณ-ที่จ่าย",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Sectors/มันสำปะหลัง",
+      "title": "มันสำปะหลัง",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/มันสำปะหลัง",
       "degree": 1
     },
     {
@@ -49173,6 +49820,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/มาตรฐานและการรับรอง",
+      "title": "มาตรฐานและการรับรอง",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/มาตรฐานและการรับรอง",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Sectors/มาตรฐานสินค้าเกษตร",
       "title": "มาตรฐานสินค้าเกษตร",
       "kind": "entity",
@@ -49187,7 +49851,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/มาตรฐานสินค้าเกษตร",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Sectors/มูลค่าเพิ่มสินค้าเกษตร",
@@ -49239,6 +49903,23 @@
       "excerpt": "",
       "path": "30_Entities/Sectors/ยกเว้นภาษี",
       "degree": 4
+    },
+    {
+      "id": "30_Entities/Sectors/ยางพารา",
+      "title": "ยางพารา",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/ยางพารา",
+      "degree": 1
     },
     {
       "id": "30_Entities/Sectors/ยานยนต์",
@@ -49442,7 +50123,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/ระบบราง",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Sectors/ระบบสุขภาพ",
@@ -49833,7 +50514,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/โรงแรม",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Sectors/ลดหย่อนภาษี",
@@ -49867,7 +50548,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/โลจิสติกส์",
-      "degree": 16
+      "degree": 18
     },
     {
       "id": "30_Entities/Sectors/โลจิสติกส์ทางการแพทย์",
@@ -50054,7 +50735,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/วิจัยและนวัตกรรม",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Sectors/วิจัยและวิทยาศาสตร์",
@@ -50530,7 +51211,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/สาธารณสุข",
-      "degree": 10
+      "degree": 13
     },
     {
       "id": "30_Entities/Sectors/สาธารณสุขดิจิทัล",
@@ -50581,7 +51262,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/สิ่งแวดล้อม",
-      "degree": 26
+      "degree": 30
     },
     {
       "id": "30_Entities/Sectors/สิ่งแวดล้อมและการจัดการกากของเสีย",
@@ -50633,6 +51314,23 @@
       "excerpt": "",
       "path": "30_Entities/Sectors/สิทธิแรงงาน",
       "degree": 2
+    },
+    {
+      "id": "30_Entities/Sectors/สินค้าเกษตร",
+      "title": "สินค้าเกษตร",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/สินค้าเกษตร",
+      "degree": 1
     },
     {
       "id": "30_Entities/Sectors/สินค้าเกษตรมูลค่าสูง",
@@ -50700,6 +51398,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/สินเชื่อ-smes",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Sectors/สินเชื่อครัวเรือน",
+      "title": "สินเชื่อครัวเรือน",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/สินเชื่อครัวเรือน",
       "degree": 1
     },
     {
@@ -50992,6 +51707,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Sectors/องค์กรไม่แสวงหากำไร",
+      "title": "องค์กรไม่แสวงหากำไร",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/องค์กรไม่แสวงหากำไร",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Sectors/อนุสัญญาภาษีซ้อน",
       "title": "อนุสัญญาภาษีซ้อน",
       "kind": "entity",
@@ -51176,7 +51908,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/อุตสาหกรรม",
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "30_Entities/Sectors/อุตสาหกรรมกลาโหม",
@@ -51349,6 +52081,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Sectors/อุตสาหกรรมรีไซเคิล",
+      "title": "อุตสาหกรรมรีไซเคิล",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/อุตสาหกรรมรีไซเคิล",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Sectors/อุตสาหกรรมสร้างสรรค์",
       "title": "อุตสาหกรรมสร้างสรรค์",
       "kind": "entity",
@@ -51431,6 +52180,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Sectors/อุตุนิยมวิทยา",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Sectors/อุปกรณ์การแพทย์",
+      "title": "อุปกรณ์การแพทย์",
+      "kind": "entity",
+      "folder": "30_Entities/Sectors",
+      "entity_group": "ภาคส่วน",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Sectors/อุปกรณ์การแพทย์",
       "degree": 1
     },
     {
@@ -52723,7 +53489,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/agri-map",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/agri-wellness",
@@ -54083,7 +54849,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/art",
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "30_Entities/Tags/art-ไทย-สหรัฐ",
@@ -55919,7 +56685,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/caat",
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/cabinet",
@@ -57007,7 +57773,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/codex",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/coding",
@@ -58996,7 +59762,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ditp",
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "30_Entities/Tags/dji",
@@ -59319,7 +60085,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/dsi",
-      "degree": 21
+      "degree": 23
     },
     {
       "id": "30_Entities/Tags/dsi-connect-2026",
@@ -61852,7 +62618,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/fta-ไทย-eu",
-      "degree": 2
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/fta-ไทย-uk",
@@ -62107,7 +62873,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/gap",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/gasohol",
@@ -65272,6 +66038,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/kiha-40-48",
+      "title": "KIHA 40/48",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/kiha-40-48",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/koh-kret",
       "title": "Koh Kret",
       "kind": "entity",
@@ -66479,6 +67262,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/market-maker",
+      "title": "Market Maker",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/market-maker",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/market-sounding",
       "title": "Market Sounding",
       "kind": "entity",
@@ -66493,6 +67293,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/market-sounding",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/maroš-šefčovič",
+      "title": "Maroš Šefčovič",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/maroš-šefčovič",
       "degree": 1
     },
     {
@@ -68128,6 +68945,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/norse-atlantic",
+      "title": "Norse Atlantic",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/norse-atlantic",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/north-thailand",
       "title": "North Thailand",
       "kind": "entity",
@@ -68805,7 +69639,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ota",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/otop",
@@ -71134,7 +71968,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/sandbox",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/sao",
@@ -71543,6 +72377,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/set",
       "degree": 4
+    },
+    {
+      "id": "30_Entities/Tags/set-index",
+      "title": "SET Index",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/set-index",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/set-note",
@@ -72154,7 +73005,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/smes",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "30_Entities/Tags/smes'-gateway",
@@ -72580,6 +73431,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/srt",
       "degree": 3
+    },
+    {
+      "id": "30_Entities/Tags/srt-bangkok-connex",
+      "title": "SRT BANGKOK CONNEX",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/srt-bangkok-connex",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/ssl-certificate",
@@ -74673,6 +75541,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Tags/traceability",
+      "title": "Traceability",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/traceability",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/track-1.5",
       "title": "Track 1.5",
       "kind": "entity",
@@ -75540,6 +76425,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/uptick-rule",
+      "title": "Uptick Rule",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/uptick-rule",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/url",
       "title": "URL",
       "kind": "entity",
@@ -75707,7 +76609,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ustr",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "30_Entities/Tags/usv",
@@ -76863,7 +77765,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ก.ล.ต.",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Tags/กกต",
@@ -76897,7 +77799,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กกต.",
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "30_Entities/Tags/กกต.ประกันสังคม",
@@ -76983,6 +77885,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/กกร.",
       "degree": 7
+    },
+    {
+      "id": "30_Entities/Tags/กกอ.",
+      "title": "กกอ.",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/กกอ.",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/กขค.",
@@ -78342,7 +79261,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กรมบังคับคดี",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/กรมบัญชีกลาง",
@@ -80161,7 +81080,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กอ.รมน.",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/กองกฎหมาย",
@@ -80263,7 +81182,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กองทัพบก",
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "30_Entities/Tags/กองทัพภาคที่-4",
@@ -80280,7 +81199,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กองทัพภาคที่-4",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/กองทัพเรือ",
@@ -80790,7 +81709,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/กากอุตสาหกรรม",
-      "degree": 11
+      "degree": 13
     },
     {
       "id": "30_Entities/Tags/ก๊าซชีวภาพ",
@@ -81813,6 +82732,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/การประปาส่วนภูมิภาค",
+      "title": "การประปาส่วนภูมิภาค",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/การประปาส่วนภูมิภาค",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/การประเมิน",
       "title": "การประเมิน",
       "kind": "entity",
@@ -82065,7 +83001,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/การยางแห่งประเทศไทย",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/การโยกย้ายข้าราชการ",
@@ -82099,7 +83035,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/การรถไฟแห่งประเทศไทย",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/การระบายน้ำ",
@@ -83289,7 +84225,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ไกล่เกลี่ยหนี้",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/ขนยาเสพติด",
@@ -83425,7 +84361,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ขยะอิเล็กทรอนิกส์",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "30_Entities/Tags/ขสมก.",
@@ -83476,6 +84412,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ของผิดกฎหมาย",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ของเสียอันตราย",
+      "title": "ของเสียอันตราย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ของเสียอันตราย",
       "degree": 1
     },
     {
@@ -83700,6 +84653,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ขายชอร์ต",
+      "title": "ขายชอร์ต",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ขายชอร์ต",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ข้าราชการ",
       "title": "ข้าราชการ",
       "kind": "entity",
@@ -83851,6 +84821,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/ข้าว",
       "degree": 7
+    },
+    {
+      "id": "30_Entities/Tags/ข้าว-2569-70",
+      "title": "ข้าว 2569/70",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ข้าว-2569-70",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/ข่าว-ธปท.-45-2569",
@@ -84054,7 +85041,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ข้าวหอมมะลิ",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/ข้าวหอมมะลิทุ่งกุลาร้องไห้",
@@ -84921,7 +85908,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/คดีฮั้วเลือก-สว.",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/คดีฮั้วสว.",
@@ -86808,7 +87795,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ค่าตั๋วเครื่องบิน",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/ค่าทางด่วน",
@@ -88236,7 +89223,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/งบประมาณ",
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "30_Entities/Tags/งบประมาณ-2027",
@@ -88457,7 +89444,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/งานวิจัย",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/งานวิจัยสาธารณสุข",
@@ -88545,6 +89532,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Tags/เงินช่วยเหลือไร่ละ-1,000-บาท",
+      "title": "เงินช่วยเหลือไร่ละ 1,000 บาท",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/เงินช่วยเหลือไร่ละ-1,000-บาท",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/เงินช่วยเหลือไร่ละ1000",
       "title": "เงินช่วยเหลือไร่ละ1000",
       "kind": "entity",
@@ -88628,6 +89632,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/เงินเทา",
       "degree": 3
+    },
+    {
+      "id": "30_Entities/Tags/เงินบริจาค",
+      "title": "เงินบริจาค",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/เงินบริจาค",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/เงินบำนาญ",
@@ -89001,7 +90022,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/จัดซื้อจัดจ้างภาครัฐ",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "30_Entities/Tags/จัดหางาน",
@@ -89460,7 +90481,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ฉะเชิงเทรา",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "30_Entities/Tags/ฉางเอ๋อ-7",
@@ -89786,6 +90807,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Tags/ชัยชนะ-เดชเดโช",
+      "title": "ชัยชนะ เดชเดโช",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ชัยชนะ-เดชเดโช",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ชัยนาท",
       "title": "ชัยนาท",
       "kind": "entity",
@@ -89854,6 +90892,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ชานชาลาสูง",
+      "title": "ชานชาลาสูง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ชานชาลาสูง",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ชายแดน",
       "title": "ชายแดน",
       "kind": "entity",
@@ -89885,7 +90940,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ชายแดนใต้",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "30_Entities/Tags/ชายแดนไทย-กัมพูชา",
@@ -89937,6 +90992,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/ชายแดนภาคใต้",
       "degree": 3
+    },
+    {
+      "id": "30_Entities/Tags/ชาวนา",
+      "title": "ชาวนา",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ชาวนา",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/ชาวประมง",
@@ -92115,6 +93187,23 @@
       "degree": 3
     },
     {
+      "id": "30_Entities/Tags/ตลาดนอร์ดิก",
+      "title": "ตลาดนอร์ดิก",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ตลาดนอร์ดิก",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ตลาดนัด",
       "title": "ตลาดนัด",
       "kind": "entity",
@@ -92333,7 +93422,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ตลาดหลักทรัพย์",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "30_Entities/Tags/ตลาดอินเดีย",
@@ -92996,7 +94085,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ททท.",
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "30_Entities/Tags/ทบทวนมติ",
@@ -94376,6 +95465,23 @@
       "degree": 3
     },
     {
+      "id": "30_Entities/Tags/ทุเรียนแช่แข็ง",
+      "title": "ทุเรียนแช่แข็ง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ทุเรียนแช่แข็ง",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ทุเรียนแช่เยือกแข็ง",
       "title": "ทุเรียนแช่เยือกแข็ง",
       "kind": "entity",
@@ -94390,6 +95496,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ทุเรียนแช่เยือกแข็ง",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ทูตพาณิชย์",
+      "title": "ทูตพาณิชย์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ทูตพาณิชย์",
       "degree": 1
     },
     {
@@ -94526,6 +95649,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/เทศกาลดนตรี",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/เทศกาลปีใหม่",
+      "title": "เทศกาลปีใหม่",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/เทศกาลปีใหม่",
       "degree": 1
     },
     {
@@ -95209,6 +96349,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Tags/ธนาคารท่อนพันธุ์",
+      "title": "ธนาคารท่อนพันธุ์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ธนาคารท่อนพันธุ์",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ธนาคารพาณิชย์",
       "title": "ธนาคารพาณิชย์",
       "kind": "entity",
@@ -95376,7 +96533,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ธรรมาภิบาล",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Tags/ธรรมาภิบาลดิจิทัล",
@@ -95631,7 +96788,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/นครพนม",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/นครราชสีมา",
@@ -95648,7 +96805,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/นครราชสีมา",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/นครศรีธรรมราช",
@@ -95733,7 +96890,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/นบข.",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/นบขพ.",
@@ -97416,7 +98573,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/เนรเทศ",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/เนวิน-ชิดชอบ",
@@ -98062,7 +99219,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/บัญชีม้า",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "30_Entities/Tags/บัตรคนจน",
@@ -98640,6 +99797,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/บุคลากรภาครัฐ",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/บุรีรัมย์",
+      "title": "บุรีรัมย์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/บุรีรัมย์",
       "degree": 1
     },
     {
@@ -99609,7 +100783,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ประชาธิปัตย์",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "30_Entities/Tags/ประชาพิจารณ์",
@@ -100153,7 +101327,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ปราจีนบุรี",
-      "degree": 8
+      "degree": 10
     },
     {
       "id": "30_Entities/Tags/ปราบโกงสอบ",
@@ -100391,6 +101565,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ปลัดสำนักนายกรัฐมนตรี",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ปลากระชัง",
+      "title": "ปลากระชัง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ปลากระชัง",
       "degree": 1
     },
     {
@@ -101207,6 +102398,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ผลิตภัณฑ์ชุมชน",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ผลิตภัณฑ์ยาง",
+      "title": "ผลิตภัณฑ์ยาง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ผลิตภัณฑ์ยาง",
       "degree": 1
     },
     {
@@ -102261,7 +103469,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/เฝ้าระวังโรค",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/เฝ้าระวังสุขภาพ",
@@ -102380,6 +103588,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/พ.ร.บ.การปฏิบัติราชการทางอิเล็กทรอนิกส์-2565",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/พ.ร.บ.การอุดมศึกษา-2562",
+      "title": "พ.ร.บ.การอุดมศึกษา 2562",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/พ.ร.บ.การอุดมศึกษา-2562",
       "degree": 1
     },
     {
@@ -102686,7 +103911,24 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/พนันออนไลน์",
-      "degree": 3
+      "degree": 4
+    },
+    {
+      "id": "30_Entities/Tags/พนา-แคล้วปลอดทุกข์",
+      "title": "พนา แคล้วปลอดทุกข์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/พนา-แคล้วปลอดทุกข์",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/พม",
@@ -102924,7 +104166,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/พรรคประชาชน",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "30_Entities/Tags/พรรคประชาธิปัตย์",
@@ -102959,6 +104201,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/พรรคภูมิใจไทย",
       "degree": 2
+    },
+    {
+      "id": "30_Entities/Tags/พร้อมพงศ์-นพฤทธิ์",
+      "title": "พร้อมพงศ์ นพฤทธิ์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/พร้อมพงศ์-นพฤทธิ์",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/พระนครศรีอยุธยา",
@@ -103128,6 +104387,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/พระศพ",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/พริกไทย",
+      "title": "พริกไทย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/พริกไทย",
       "degree": 1
     },
     {
@@ -103998,6 +105274,40 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/พูนพงษ์-นัยนาภากรณ์",
+      "title": "พูนพงษ์ นัยนาภากรณ์",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/พูนพงษ์-นัยนาภากรณ์",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/พูนศักดิ์-จันทร์จำปี",
+      "title": "พูนศักดิ์ จันทร์จำปี",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/พูนศักดิ์-จันทร์จำปี",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/พูลพัฒน์-ลีสมบัติไพบูลย์",
       "title": "พูลพัฒน์ ลีสมบัติไพบูลย์",
       "kind": "entity",
@@ -104083,6 +105393,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/เพดานราคา",
+      "title": "เพดานราคา",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/เพดานราคา",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/เพลิงไหม้",
       "title": "เพลิงไหม้",
       "kind": "entity",
@@ -104148,7 +105475,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/เพื่อไทย",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/แพตริเซีย",
@@ -105440,7 +106767,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ภาษีสหรัฐ",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "30_Entities/Tags/ภาษีสหรัฐฯ",
@@ -105610,7 +106937,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/มกอช.",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/มจพ.",
@@ -105882,7 +107209,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/มลพิษข้ามพรมแดน",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/มลพิษทางน้ำข้ามพรมแดน",
@@ -106001,6 +107328,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/มหาวิทยาลัย",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/มหาวิทยาลัยนครพนม",
+      "title": "มหาวิทยาลัยนครพนม",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/มหาวิทยาลัยนครพนม",
       "degree": 1
     },
     {
@@ -106256,7 +107600,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/มันสำปะหลัง",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/มัลแวร์",
@@ -106562,7 +107906,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/มาตรฐานสินค้าเกษตร",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/มาตรฐานสีทอง",
@@ -106973,6 +108317,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/มูลนิธิกันจอมพลัง",
+      "title": "มูลนิธิกันจอมพลัง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/มูลนิธิกันจอมพลัง",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/เมทัลมิกซ์",
       "title": "เมทัลมิกซ์",
       "kind": "entity",
@@ -107106,7 +108467,24 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แม่น้ำกก",
-      "degree": 14
+      "degree": 15
+    },
+    {
+      "id": "30_Entities/Tags/แม่น้ำกระบุรี",
+      "title": "แม่น้ำกระบุรี",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/แม่น้ำกระบุรี",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/แม่น้ำโขง",
@@ -107123,7 +108501,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แม่น้ำโขง",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/แม่น้ำเจ้าพระยา",
@@ -107191,7 +108569,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แม่น้ำรวก",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/แม่น้ำสาย",
@@ -107208,7 +108586,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แม่น้ำสาย",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "30_Entities/Tags/แม่น้ำสาละวิน",
@@ -107242,6 +108620,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แม่มนต์",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/แมวจร",
+      "title": "แมวจร",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/แมวจร",
       "degree": 1
     },
     {
@@ -107364,6 +108759,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ไม้ล้อม",
+      "title": "ไม้ล้อม",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ไม้ล้อม",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ยกเว้นค่าธรรมเนียม",
       "title": "ยกเว้นค่าธรรมเนียม",
       "kind": "entity",
@@ -107446,7 +108858,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ยศชนัน-วงศ์สวัสดิ์",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Tags/ยะลา",
@@ -107514,7 +108926,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ยางพารา",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/ยาฉีดเถื่อน",
@@ -107684,7 +109096,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ยาเสพติด",
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "30_Entities/Tags/ยึดทรัพย์",
@@ -107736,6 +109148,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/ยุติธรรม",
       "degree": 4
+    },
+    {
+      "id": "30_Entities/Tags/ยุติธรรมทางเลือก",
+      "title": "ยุติธรรมทางเลือก",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ยุติธรรมทางเลือก",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/ยุทธภัณฑ์",
@@ -108721,7 +110150,24 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ระนอง",
-      "degree": 2
+      "degree": 3
+    },
+    {
+      "id": "30_Entities/Tags/ระบบกรีดยางความถี่ต่ำ",
+      "title": "ระบบกรีดยางความถี่ต่ำ",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ระบบกรีดยางความถี่ต่ำ",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/ระบบการเงินโปร่งใส",
@@ -108789,6 +110235,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ระบบชำระเงิน",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ระบบไต่สวน",
+      "title": "ระบบไต่สวน",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ระบบไต่สวน",
       "degree": 1
     },
     {
@@ -109010,7 +110473,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ระยอง",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Tags/รักชนก",
@@ -109249,6 +110712,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/รับฟังความเห็น",
       "degree": 2
+    },
+    {
+      "id": "30_Entities/Tags/รั้วชายแดน",
+      "title": "รั้วชายแดน",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/รั้วชายแดน",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/รัสเซีย",
@@ -109690,7 +111170,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ราชบุรี",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/ราชวงศ์",
@@ -109724,6 +111204,40 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ร้านกัญชา",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ร้านทอง",
+      "title": "ร้านทอง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ร้านทอง",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/รามาธิบดี",
+      "title": "รามาธิบดี",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/รามาธิบดี",
       "degree": 1
     },
     {
@@ -110339,6 +111853,40 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/โรคใบด่าง",
+      "title": "โรคใบด่าง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/โรคใบด่าง",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/โรคพิษสุนัขบ้า",
+      "title": "โรคพิษสุนัขบ้า",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/โรคพิษสุนัขบ้า",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/โรงกลั่น",
       "title": "โรงกลั่น",
       "kind": "entity",
@@ -110438,7 +111986,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/โรงงานผิดกฎหมาย",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/โรงงานรีไซเคิล",
@@ -110849,6 +112397,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/ฤดูหนาว-2569-70",
+      "title": "ฤดูหนาว 2569/70",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ฤดูหนาว-2569-70",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ล้งชุมชน",
       "title": "ล้งชุมชน",
       "kind": "entity",
@@ -110982,6 +112547,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ลดค่าธรรมเนียม",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/ลดดอกเบี้ย",
+      "title": "ลดดอกเบี้ย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ลดดอกเบี้ย",
       "degree": 1
     },
     {
@@ -111645,7 +113227,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/โลหะหนัก",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/ไลน์แมน",
@@ -111798,6 +113380,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/วว.",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/วัคซีน",
+      "title": "วัคซีน",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/วัคซีน",
       "degree": 1
     },
     {
@@ -113175,7 +114774,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ศาลปกครองสูงสุด",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/ศาลยุติธรรม",
@@ -113226,7 +114825,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ศาลอาญาคดีทุจริต",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/ศาลอาญาคดีทุจริตและประพฤติมิชอบภาค-1",
@@ -113345,7 +114944,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ศุภจี-สุธรรมพันธุ์",
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "30_Entities/Tags/ศุภมาส",
@@ -113379,7 +114978,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ศุภมาส-อิศรภักดี",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/ศุลกากร",
@@ -114011,6 +115610,23 @@
       "degree": 10
     },
     {
+      "id": "30_Entities/Tags/สคต.",
+      "title": "สคต.",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สคต.",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/สคบ",
       "title": "สคบ",
       "kind": "entity",
@@ -114042,7 +115658,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สคบ.",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/สคร.",
@@ -114178,7 +115794,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ส่งออก",
-      "degree": 35
+      "degree": 36
     },
     {
       "id": "30_Entities/Tags/ส่งออกข้าว",
@@ -115354,6 +116970,23 @@
       "degree": 7
     },
     {
+      "id": "30_Entities/Tags/สภามหาวิทยาลัย",
+      "title": "สภามหาวิทยาลัย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สภามหาวิทยาลัย",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/สภาวิชาชีพบัญชี",
       "title": "สภาวิชาชีพบัญชี",
       "kind": "entity",
@@ -115983,6 +117616,23 @@
       "degree": 3
     },
     {
+      "id": "30_Entities/Tags/สว.สำรอง",
+      "title": "สว.สำรอง",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สว.สำรอง",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/สวทช",
       "title": "สวทช",
       "kind": "entity",
@@ -116255,6 +117905,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/สสจ.นครราชสีมา",
+      "title": "สสจ.นครราชสีมา",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สสจ.นครราชสีมา",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/สสว.",
       "title": "สสว.",
       "kind": "entity",
@@ -116371,7 +118038,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สหภาพยุโรป",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "30_Entities/Tags/สหภาพแรงงาน",
@@ -116490,7 +118157,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สหราชอาณาจักร",
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/สอน.",
@@ -116969,6 +118636,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/สาทิตย์-วงศ์หนองเตย",
+      "title": "สาทิตย์ วงศ์หนองเตย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สาทิตย์-วงศ์หนองเตย",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/สาธารณสุข",
       "title": "สาธารณสุข",
       "kind": "entity",
@@ -117105,6 +118789,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Tags/สายการบินล้มละลาย",
+      "title": "สายการบินล้มละลาย",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สายการบินล้มละลาย",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/สายด่วน-1197",
       "title": "สายด่วน 1197",
       "kind": "entity",
@@ -117170,6 +118871,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สายด่วน-1880",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/สายตะวันออก",
+      "title": "สายตะวันออก",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สายตะวันออก",
       "degree": 1
     },
     {
@@ -117326,6 +119044,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Tags/สารเคมีตั้งต้น",
+      "title": "สารเคมีตั้งต้น",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สารเคมีตั้งต้น",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/สารเคมีผิดประเภท",
       "title": "สารเคมีผิดประเภท",
       "kind": "entity",
@@ -117425,7 +119160,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สารหนู",
-      "degree": 20
+      "degree": 23
     },
     {
       "id": "30_Entities/Tags/สารหนูปนเปื้อน",
@@ -118057,6 +119792,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Tags/สินค้าเกษตร",
+      "title": "สินค้าเกษตร",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สินค้าเกษตร",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/สินค้าเกษตรมูลค่าสูง",
       "title": "สินค้าเกษตรมูลค่าสูง",
       "kind": "entity",
@@ -118530,6 +120282,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/สีหศักดิ์-พวงเกตุแก้ว",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/สืบสวน",
+      "title": "สืบสวน",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/สืบสวน",
       "degree": 1
     },
     {
@@ -119108,7 +120877,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/แสวง-บุญมี",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Tags/โสมทัต-นิธิตรีรัตน์",
@@ -119227,7 +120996,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/หนี้ครัวเรือน",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "30_Entities/Tags/หนี้สาธารณะ",
@@ -119516,7 +121285,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/ห่วงโซ่อุปทาน",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Tags/ห่วงโซ่อุปทานอาหาร",
@@ -119672,6 +121441,23 @@
       "degree": 5
     },
     {
+      "id": "30_Entities/Tags/ห้ามส่งออก",
+      "title": "ห้ามส่งออก",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/ห้ามส่งออก",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/ห้ามส่งออกสารเคมี",
       "title": "ห้ามส่งออกสารเคมี",
       "kind": "entity",
@@ -119720,6 +121506,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/หุ้น",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Tags/หุ้น-ai",
+      "title": "หุ้น AI",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/หุ้น-ai",
       "degree": 1
     },
     {
@@ -119873,7 +121676,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/เหมืองแร่เมียนมา",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Tags/เหยื่อ",
@@ -120213,7 +122016,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Tags/อนุทิน-ชาญวีรกูล",
-      "degree": 18
+      "degree": 20
     },
     {
       "id": "30_Entities/Tags/อนุภูมิภาคแม่โขง",
@@ -121627,6 +123430,23 @@
       "degree": 2
     },
     {
+      "id": "30_Entities/Tags/อิทธิ",
+      "title": "อิทธิ",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/อิทธิ",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Tags/อินเดีย",
       "title": "อินเดีย",
       "kind": "entity",
@@ -121659,6 +123479,23 @@
       "excerpt": "",
       "path": "30_Entities/Tags/อินโดนีเซีย",
       "degree": 5
+    },
+    {
+      "id": "30_Entities/Tags/อินทผลัม",
+      "title": "อินทผลัม",
+      "kind": "entity",
+      "folder": "30_Entities/Tags",
+      "entity_group": "แท็ก",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Tags/อินทผลัม",
+      "degree": 1
     },
     {
       "id": "30_Entities/Tags/อินฟลูเอนเซอร์",
@@ -123460,7 +125297,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/กฎหมายและกระบวนการยุติธรรม",
-      "degree": 1
+      "degree": 3
     },
     {
       "id": "30_Entities/Topics/กฎหมายและการกำกับดูแลดิจิทัล",
@@ -126455,6 +128292,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Topics/การท่องเที่ยว",
+      "title": "การท่องเที่ยว",
+      "kind": "entity",
+      "folder": "30_Entities/Topics",
+      "entity_group": "หมวด",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Topics/การท่องเที่ยว",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Topics/การท่องเที่ยว-กิจกรรม",
       "title": "การท่องเที่ยว/กิจกรรม",
       "kind": "entity",
@@ -127931,7 +129785,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/การเมืองและการเลือกตั้ง",
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "30_Entities/Topics/การเมืองและความคิดเห็นสาธารณะ",
@@ -128611,6 +130465,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/การศึกษาและการมีงานทำ",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Topics/การศึกษาและการวิจัย",
+      "title": "การศึกษาและการวิจัย",
+      "kind": "entity",
+      "folder": "30_Entities/Topics",
+      "entity_group": "หมวด",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Topics/การศึกษาและการวิจัย",
       "degree": 1
     },
     {
@@ -129699,7 +131570,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/เกษตรและอาหาร",
-      "degree": 3
+      "degree": 6
     },
     {
       "id": "30_Entities/Topics/ขยายเวลาบังคับใช้-พ.ร.บ.ความมั่นคงภายในราชอาณาจักรชายแดนใต้",
@@ -130226,7 +132097,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/คมนาคมและโครงสร้างพื้นฐาน",
-      "degree": 19
+      "degree": 21
     },
     {
       "id": "30_Entities/Topics/คมนาคมและท่าอากาศยาน",
@@ -131331,7 +133202,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/ความมั่นคงและการป้องกันประเทศ",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Topics/ความมั่นคงและชายแดน",
@@ -131620,7 +133491,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/ความสัมพันธ์ระหว่างประเทศและการค้า",
-      "degree": 13
+      "degree": 16
     },
     {
       "id": "30_Entities/Topics/ความสัมพันธ์ระหว่างประเทศและการค้าชายแดน",
@@ -140545,7 +142416,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/เศรษฐกิจและการคลัง",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "30_Entities/Topics/เศรษฐกิจและการค้า",
@@ -141548,7 +143419,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/สาธารณสุข",
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "30_Entities/Topics/สาธารณสุข-กฎหมาย",
@@ -142160,7 +144031,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Topics/สิ่งแวดล้อมและมลพิษ",
-      "degree": 5
+      "degree": 10
     },
     {
       "id": "30_Entities/Topics/สิ่งแวดล้อมและสาธารณสุข",
@@ -145118,7 +146989,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กรมควบคุมโรค",
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "30_Entities/Units/กรมควบคุมโรค-(ddc.moph.go.th)",
@@ -145408,6 +147279,23 @@
       "excerpt": "",
       "path": "30_Entities/Units/กรมธุรกิจพลังงาน",
       "degree": 2
+    },
+    {
+      "id": "30_Entities/Units/กรมบังคับคดี",
+      "title": "กรมบังคับคดี",
+      "kind": "entity",
+      "folder": "30_Entities/Units",
+      "entity_group": "หน่วย",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Units/กรมบังคับคดี",
+      "degree": 1
     },
     {
       "id": "30_Entities/Units/กรมบัญชีกลาง",
@@ -145832,7 +147720,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กรมส่งเสริมการค้าระหว่างประเทศ",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Units/กรมส่งเสริมการค้าระหว่างประเทศ-(ditp)",
@@ -146053,7 +147941,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กรมสอบสวนคดีพิเศษ",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Units/กรมสอบสวนคดีพิเศษ-(dsi)",
@@ -146257,7 +148145,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวง-อว.",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Units/กระทรวง-อว.-(รองนายกฯ-ยศชนัน-วงศ์สวัสดิ์)",
@@ -146682,7 +148570,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวงเกษตรและสหกรณ์",
-      "degree": 47
+      "degree": 48
     },
     {
       "id": "30_Entities/Units/กระทรวงเกษตรและสหกรณ์-(กรมชลประทาน)",
@@ -147073,7 +148961,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวงพาณิชย์",
-      "degree": 59
+      "degree": 60
     },
     {
       "id": "30_Entities/Units/กระทรวงพาณิชย์-(กรมการค้าต่างประเทศ)",
@@ -147549,7 +149437,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กระทรวงอุตสาหกรรม",
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "30_Entities/Units/กระทรวงอุตสาหกรรม-(mind)",
@@ -147838,7 +149726,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/กองทัพบก",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "30_Entities/Units/กองทัพบกไทย",
@@ -148178,7 +150066,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/การท่องเที่ยวแห่งประเทศไทย",
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "30_Entities/Units/การท่องเที่ยวแห่งประเทศไทย-(ททท.)",
@@ -148419,6 +150307,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Units/การยางแห่งประเทศไทย",
+      "title": "การยางแห่งประเทศไทย",
+      "kind": "entity",
+      "folder": "30_Entities/Units",
+      "entity_group": "หน่วย",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Units/การยางแห่งประเทศไทย",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Units/การรถไฟฟ้าขนส่งมวลชนแห่งประเทศไทย-(ผ่าน-the-nation)",
       "title": "การรถไฟฟ้าขนส่งมวลชนแห่งประเทศไทย (ผ่าน The Nation)",
       "kind": "entity",
@@ -148484,7 +150389,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/การรถไฟแห่งประเทศไทย",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Units/การรถไฟแห่งประเทศไทย-(srt)",
@@ -148637,7 +150542,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/คณะกรรมการการเลือกตั้ง",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Units/คณะกรรมการการเลือกตั้ง-(กกต.)",
@@ -149031,6 +150936,23 @@
       "degree": 1
     },
     {
+      "id": "30_Entities/Units/จังหวัดนครพนม",
+      "title": "จังหวัดนครพนม",
+      "kind": "entity",
+      "folder": "30_Entities/Units",
+      "entity_group": "หน่วย",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Units/จังหวัดนครพนม",
+      "degree": 1
+    },
+    {
       "id": "30_Entities/Units/ชลประทาน",
       "title": "ชลประทาน",
       "kind": "entity",
@@ -149181,7 +151103,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/ตลาดหลักทรัพย์แห่งประเทศไทย",
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "30_Entities/Units/ตลาดหลักทรัพย์แห่งประเทศไทย-(set-research)",
@@ -149300,6 +151222,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/ท่องเที่ยว",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Units/ทำเนียบรัฐบาล-(govchannel)",
+      "title": "ทำเนียบรัฐบาล (GovChannel)",
+      "kind": "entity",
+      "folder": "30_Entities/Units",
+      "entity_group": "หน่วย",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Units/ทำเนียบรัฐบาล-(govchannel)",
       "degree": 1
     },
     {
@@ -150014,7 +151953,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/พรรคประชาชน",
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "30_Entities/Units/พรรคประชาธิปัตย์",
@@ -150031,7 +151970,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/พรรคประชาธิปัตย์",
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "30_Entities/Units/พรรคเพื่อไทย",
@@ -150048,7 +151987,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/พรรคเพื่อไทย",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "30_Entities/Units/พรรคภูมิใจไทย",
@@ -151221,7 +153160,7 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/สำนักโฆษกประจำสำนักนายกรัฐมนตรี",
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "30_Entities/Units/สำนักโฆษกรัฐบาล",
@@ -151477,6 +153416,23 @@
       "excerpt": "",
       "path": "30_Entities/Units/สำนักงานการตรวจเงินแผ่นดิน",
       "degree": 3
+    },
+    {
+      "id": "30_Entities/Units/สำนักงานการบินพลเรือนแห่งประเทศไทย",
+      "title": "สำนักงานการบินพลเรือนแห่งประเทศไทย",
+      "kind": "entity",
+      "folder": "30_Entities/Units",
+      "entity_group": "หน่วย",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Units/สำนักงานการบินพลเรือนแห่งประเทศไทย",
+      "degree": 1
     },
     {
       "id": "30_Entities/Units/สำนักงานการบินพลเรือนแห่งประเทศไทย-(กพท.)",
@@ -152547,6 +154503,23 @@
       "tags": [],
       "excerpt": "",
       "path": "30_Entities/Units/สำนักงานมาตรฐานผลิตภัณฑ์อุตสาหกรรม-(tisi)",
+      "degree": 1
+    },
+    {
+      "id": "30_Entities/Units/สำนักงานมาตรฐานสินค้าเกษตรและอาหารแห่งชาติ",
+      "title": "สำนักงานมาตรฐานสินค้าเกษตรและอาหารแห่งชาติ",
+      "kind": "entity",
+      "folder": "30_Entities/Units",
+      "entity_group": "หน่วย",
+      "date": "",
+      "case_id": null,
+      "crime_type": "",
+      "bureau": "",
+      "area": "",
+      "status": "",
+      "tags": [],
+      "excerpt": "",
+      "path": "30_Entities/Units/สำนักงานมาตรฐานสินค้าเกษตรและอาหารแห่งชาติ",
       "degree": 1
     },
     {
@@ -223466,6 +225439,1346 @@
     {
       "source": "20_Posts/MOC-aggregator-2026-11-27-moc-feed-corn-import-measures-2027-nov27",
       "target": "30_Entities/Sectors/ปศุสัตว์",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Units/สำนักโฆษกประจำสำนักนายกรัฐมนตรี",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Topics/ความสัมพันธ์ระหว่างประเทศและการค้า",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Tags/ภาษีสหรัฐ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Tags/art",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Tags/ustr",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Tags/อนุทิน-ชาญวีรกูล",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Tags/ศุภจี-สุธรรมพันธุ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Tags/fta-ไทย-eu",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Tags/สหราชอาณาจักร",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Tags/ข้าวหอมมะลิ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Sectors/การส่งออก",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Sectors/เกษตรและอาหาร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Sectors/การค้าระหว่างประเทศ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Sectors/โลจิสติกส์",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SPM-aggregator-2026-11-28-anutin-us-tariff-18-percent-handwritten-letter-trump-nov28",
+      "target": "30_Entities/Sectors/ภาษีสหรัฐ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Units/กระทรวงอุตสาหกรรม",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Topics/สิ่งแวดล้อมและมลพิษ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Tags/ขยะอิเล็กทรอนิกส์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Tags/ปราจีนบุรี",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Tags/กากอุตสาหกรรม",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Tags/dsi",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Tags/อนุทิน-ชาญวีรกูล",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Tags/โรงงานผิดกฎหมาย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Tags/เนรเทศ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Sectors/การจัดการของเสีย",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Sectors/อุตสาหกรรมรีไซเคิล",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Sectors/สิ่งแวดล้อม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Sectors/อุตสาหกรรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Sectors/กากอุตสาหกรรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-IND-aggregator-2026-11-28-anutin-prachinburi-ewaste-factories-closed-dsi-nov28",
+      "target": "30_Entities/Sectors/dsi",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Units/ทำเนียบรัฐบาล-(govchannel)",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Topics/สิ่งแวดล้อมและมลพิษ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Tags/แม่น้ำกก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Tags/แม่น้ำสาย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Tags/แม่น้ำรวก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Tags/สารหนู",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Tags/เหมืองแร่เมียนมา",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Tags/ห้ามส่งออก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Tags/สารเคมีตั้งต้น",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Tags/ยศชนัน-วงศ์สวัสดิ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Sectors/สิ่งแวดล้อม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Sectors/เคมีภัณฑ์",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Sectors/ทรัพยากรน้ำ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/GOV-aggregator-2026-11-28-govt-ban-export-mining-precursor-chemicals-nov30-nov28",
+      "target": "30_Entities/Sectors/การค้าระหว่างประเทศ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Units/ตลาดหลักทรัพย์แห่งประเทศไทย",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Topics/เศรษฐกิจและการคลัง",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Tags/ตลาดหลักทรัพย์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Tags/ขายชอร์ต",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Tags/uptick-rule",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Tags/set-index",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Tags/ก.ล.ต.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Tags/หุ้น-ai",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Tags/market-maker",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Sectors/ตลาดทุน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Sectors/บริการทางการเงิน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SET-aggregator-2026-11-28-set-temporary-uptick-rule-short-selling-nov30-dec30-nov28",
+      "target": "30_Entities/Sectors/เทคโนโลยีการเงิน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Units/กระทรวงพาณิชย์",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Topics/ความสัมพันธ์ระหว่างประเทศและการค้า",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Tags/fta-ไทย-eu",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Tags/สหภาพยุโรป",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Tags/ศุภจี-สุธรรมพันธุ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Tags/maroš-šefčovič",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Tags/จัดซื้อจัดจ้างภาครัฐ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Tags/smes",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Tags/สินค้าเกษตร",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Sectors/การค้าระหว่างประเทศ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Sectors/เกษตรและอาหาร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Sectors/ประมง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Sectors/จัดซื้อจัดจ้างภาครัฐ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Sectors/smes",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOC-aggregator-2026-11-28-supachee-sefcovic-thai-eu-fta-final-stretch-nov28",
+      "target": "30_Entities/Sectors/สินค้าเกษตร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Units/สำนักงานการบินพลเรือนแห่งประเทศไทย",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Topics/คมนาคมและโครงสร้างพื้นฐาน",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Tags/caat",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Tags/ค่าตั๋วเครื่องบิน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Tags/เทศกาลปีใหม่",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Tags/เพดานราคา",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Tags/สคบ.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Tags/ศุภมาส-อิศรภักดี",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Tags/ota",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Sectors/การบิน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Sectors/ท่องเที่ยว",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOT-aggregator-2026-11-28-caat-new-year-airfare-20-percent-below-ceiling-nov28",
+      "target": "30_Entities/Sectors/คุ้มครองผู้บริโภค",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "target": "30_Entities/Units/กระทรวง-อว.",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "target": "30_Entities/Topics/การศึกษาและการวิจัย",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "target": "30_Entities/Tags/ศาลปกครองสูงสุด",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "target": "30_Entities/Tags/มหาวิทยาลัยนครพนม",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "target": "30_Entities/Tags/สภามหาวิทยาลัย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "target": "30_Entities/Tags/พ.ร.บ.การอุดมศึกษา-2562",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "target": "30_Entities/Tags/ธรรมาภิบาล",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MHESI-aggregator-2026-11-28-supreme-admin-court-revokes-mhesi-order-nakhon-phanom-univ-council-nov28",
+      "target": "30_Entities/Tags/กกอ.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "target": "30_Entities/Units/คณะกรรมการการเลือกตั้ง",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "target": "30_Entities/Topics/การเมืองและการเลือกตั้ง",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "target": "30_Entities/Tags/กกต.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "target": "30_Entities/Tags/คดีฮั้วเลือก-สว.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "target": "30_Entities/Tags/แสวง-บุญมี",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "target": "30_Entities/Tags/ศาลอาญาคดีทุจริต",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "target": "30_Entities/Tags/สว.สำรอง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/ECT-aggregator-2026-11-28-akarawat-senate-collusion-case-evidence-filing-dec10-nov28",
+      "target": "30_Entities/Tags/ระบบไต่สวน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Units/กรมควบคุมโรค",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Topics/สาธารณสุข",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Tags/โรคพิษสุนัขบ้า",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Tags/นครราชสีมา",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Tags/วัคซีน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Tags/สสจ.นครราชสีมา",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Tags/แมวจร",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Tags/เฝ้าระวังโรค",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Sectors/สาธารณสุข",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Sectors/ปศุสัตว์",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DDC-aggregator-2026-11-28-korat-rabies-two-deaths-2569-stray-cat-scratch-nov28",
+      "target": "30_Entities/Sectors/การปกครองส่วนท้องถิ่น",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Units/สำนักงานมาตรฐานสินค้าเกษตรและอาหารแห่งชาติ",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Topics/เกษตรและอาหาร",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Tags/มกอช.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Tags/มาตรฐานสินค้าเกษตร",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Tags/อินทผลัม",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Tags/พริกไทย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Tags/ไม้ล้อม",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Tags/gap",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Tags/ทุเรียนแช่แข็ง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Tags/codex",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Sectors/เกษตรและอาหาร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Sectors/การส่งออก",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Sectors/มาตรฐานและการรับรอง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOAC-aggregator-2026-11-28-acfs-board-approves-5-new-agri-standards-dates-pepper-nov28",
+      "target": "30_Entities/Sectors/มาตรฐานสินค้าเกษตร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Units/การยางแห่งประเทศไทย",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Topics/เกษตรและอาหาร",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Tags/การยางแห่งประเทศไทย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Tags/ยางพารา",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Tags/งานวิจัย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Tags/ระบบกรีดยางความถี่ต่ำ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Tags/ผลิตภัณฑ์ยาง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Tags/รามาธิบดี",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Sectors/ยางพารา",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Sectors/เกษตรและอาหาร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Sectors/วิจัยและนวัตกรรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/RAOT-aggregator-2026-11-28-raot-board-approves-15-rubber-research-projects-2570-nov28",
+      "target": "30_Entities/Sectors/อุปกรณ์การแพทย์",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Units/กระทรวงเกษตรและสหกรณ์",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Topics/เกษตรและอาหาร",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Tags/มันสำปะหลัง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Tags/โรคใบด่าง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Tags/sandbox",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Tags/อิทธิ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Tags/ธนาคารท่อนพันธุ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Tags/agri-map",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Tags/traceability",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Sectors/เกษตรและอาหาร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Sectors/มันสำปะหลัง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Sectors/เกษตรแม่นยำ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DOAE-aggregator-2026-11-28-moac-cassava-mosaic-sandbox-resistant-varieties-3-provinces-nov28",
+      "target": "30_Entities/Sectors/พลังงานชีวภาพ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Units/การรถไฟแห่งประเทศไทย",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Topics/คมนาคมและโครงสร้างพื้นฐาน",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Tags/การรถไฟแห่งประเทศไทย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Tags/ชานชาลาสูง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Tags/kiha-40-48",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Tags/srt-bangkok-connex",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Tags/สายตะวันออก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Tags/ฉะเชิงเทรา",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Sectors/ระบบราง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Sectors/ก่อสร้าง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/SRT-aggregator-2026-11-28-srt-18-high-platforms-eastern-line-bangkok-connex-kiha-nov28",
+      "target": "30_Entities/Sectors/คมนาคม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Units/กรมส่งเสริมการค้าระหว่างประเทศ",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Topics/ความสัมพันธ์ระหว่างประเทศและการค้า",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Tags/ทูตพาณิชย์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Tags/สคต.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Tags/ditp",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Tags/ส่งออก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Tags/พูนพงษ์-นัยนาภากรณ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Tags/ห่วงโซ่อุปทาน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Tags/งบประมาณ",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Sectors/การส่งออก",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Sectors/การค้าระหว่างประเทศ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DITP-aggregator-2026-11-28-moc-permanent-secretary-58-trade-offices-proactive-export-budget-nov28",
+      "target": "30_Entities/Sectors/smes",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Units/กองทัพบก",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Topics/ความมั่นคงและการป้องกันประเทศ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Tags/กองทัพบก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Tags/กองทัพภาคที่-4",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Tags/พนา-แคล้วปลอดทุกข์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Tags/ชายแดนใต้",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Tags/ยาเสพติด",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Tags/รั้วชายแดน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Tags/กอ.รมน.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Sectors/ความมั่นคง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Sectors/ก่อสร้าง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/RTA-aggregator-2026-11-28-army-chief-4th-region-border-control-drugs-transnational-crime-nov28",
+      "target": "30_Entities/Sectors/เทคโนโลยีเฝ้าระวัง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Units/กรมสอบสวนคดีพิเศษ",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Topics/กฎหมายและกระบวนการยุติธรรม",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Tags/dsi",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Tags/บัญชีม้า",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Tags/มูลนิธิกันจอมพลัง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Tags/เงินบริจาค",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Tags/ร้านทอง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Tags/พนันออนไลน์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Tags/สืบสวน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Sectors/กระบวนการยุติธรรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Sectors/บริการทางการเงิน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Sectors/องค์กรไม่แสวงหากำไร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DSI-aggregator-2026-11-28-dsi-traces-mule-account-foundation-donations-gold-shop-nov28",
+      "target": "30_Entities/Sectors/dsi",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Units/กรมบังคับคดี",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Topics/กฎหมายและกระบวนการยุติธรรม",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Tags/กรมบังคับคดี",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Tags/ไกล่เกลี่ยหนี้",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Tags/บุรีรัมย์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Tags/ยุติธรรมทางเลือก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Tags/หนี้ครัวเรือน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Tags/ลดดอกเบี้ย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Sectors/กระบวนการยุติธรรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Sectors/บริการทางการเงิน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/LED-aggregator-2026-11-28-led-buriram-debt-mediation-fair-10000-cases-17bn-baht-nov28",
+      "target": "30_Entities/Sectors/สินเชื่อครัวเรือน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Units/จังหวัดนครพนม",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Topics/สิ่งแวดล้อมและมลพิษ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Tags/นครพนม",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Tags/แม่น้ำโขง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Tags/สารหนู",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Tags/โลหะหนัก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Tags/ปลากระชัง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Tags/การประปาส่วนภูมิภาค",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Sectors/ประมง",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Sectors/ท่องเที่ยว",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Sectors/ทรัพยากรน้ำ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/MOI-aggregator-2026-11-28-nakhon-phanom-governor-mekong-arsenic-tests-safe-nov28",
+      "target": "30_Entities/Sectors/สาธารณสุข",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Units/พรรคเพื่อไทย",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Topics/การเมืองและการเลือกตั้ง",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Tags/เพื่อไทย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Tags/พร้อมพงศ์-นพฤทธิ์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Tags/ชาวนา",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Tags/นบข.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Tags/เงินช่วยเหลือไร่ละ-1,000-บาท",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Tags/ข้าว-2569-70",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Sectors/เกษตรและอาหาร",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Sectors/ข้าว",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/PTP-aggregator-2026-11-28-phromphong-urges-pm-1000-baht-per-rai-rice-aid-nbk-nov28",
+      "target": "30_Entities/Sectors/การคลังและงบประมาณ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Units/พรรคประชาชน",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Topics/สิ่งแวดล้อมและมลพิษ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Tags/พรรคประชาชน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Tags/พูนศักดิ์-จันทร์จำปี",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Tags/กากอุตสาหกรรม",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Tags/ปราจีนบุรี",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Tags/ระยอง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Tags/ราชบุรี",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Tags/ของเสียอันตราย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Sectors/การจัดการของเสีย",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Sectors/สิ่งแวดล้อม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Sectors/โลจิสติกส์",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/PPLE-aggregator-2026-11-28-poonsak-warns-50000-ton-toxic-waste-transfer-rayong-ratchaburi-nov28",
+      "target": "30_Entities/Sectors/กากอุตสาหกรรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Units/การท่องเที่ยวแห่งประเทศไทย",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Topics/การท่องเที่ยว",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Tags/ททท.",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Tags/norse-atlantic",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Tags/สายการบินล้มละลาย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Tags/ตลาดนอร์ดิก",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Tags/สหราชอาณาจักร",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Tags/caat",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Tags/ฤดูหนาว-2569-70",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Sectors/ท่องเที่ยว",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Sectors/การบิน",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/TAT-aggregator-2026-11-28-tat-norse-atlantic-collapse-159536-seats-uk-nordic-plan-nov28",
+      "target": "30_Entities/Sectors/โรงแรม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Units/พรรคประชาธิปัตย์",
+      "label": "เผยแพร่โดย"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Topics/สิ่งแวดล้อมและมลพิษ",
+      "label": "อยู่ในหมวด"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Tags/ประชาธิปัตย์",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Tags/แม่น้ำกระบุรี",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Tags/ระนอง",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Tags/สารหนู",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Tags/มลพิษข้ามพรมแดน",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Tags/สาทิตย์-วงศ์หนองเตย",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Tags/ชัยชนะ-เดชเดโช",
+      "label": "แท็ก"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Sectors/สิ่งแวดล้อม",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Sectors/ทรัพยากรน้ำ",
+      "label": "เกี่ยวข้องกับภาคส่วน"
+    },
+    {
+      "source": "20_Posts/DEM-aggregator-2026-11-28-democrat-ranong-kraburi-river-arsenic-armed-group-nov28",
+      "target": "30_Entities/Sectors/สาธารณสุข",
       "label": "เกี่ยวข้องกับภาคส่วน"
     }
   ]
