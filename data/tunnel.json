@@ -6,6 +6,6 @@
     "catalog":  "https://ai-pc-dev-rag.ngrok-free.app/",
     "llm":  "https://ai-pc-dev-rag.ngrok-free.app/1234/v1/chat/completions",
     "model":  "google/gemma-4-e2b",
-    "updated_at":  "2026-11-28T11:10:04.7556202Z",
+    "updated_at":  "2026-11-28T13:00:19.3066865Z",
     "note":  "Shared ngrok catalog at / ; MCP=gov archive tools; files via /files/gov/ ; LLM=LM Studio for GraphRAG"
 }
